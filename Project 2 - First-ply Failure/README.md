@@ -4,13 +4,10 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
 ## Contents
 - Geometry setup
-  - Length = 300 mm
-
-Width = 25 mm
-
-Thickness = 2 mm
-
-Shell model (S4R elements)
+  - Plate dimensions: 300 mm × 300 mm
+  - Shell modelling (S8R5 elements)
+  - Number of ply: 24
+  - Ply thickness: 0.1397 mm 
 - Material properties
 - Layup definitions
 - Mesh strategy

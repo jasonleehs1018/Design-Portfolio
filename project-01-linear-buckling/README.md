@@ -5,7 +5,8 @@ This project studies the linear (eigenvalue) buckling behaviour of composite lam
 ## Contents
 - Geometry setup
 - Material properties
-- Layup definitions
+- Layup
+  - [-45/90/0/45/0/45/90/45/-45/0/-45/90/-45/90/45/90/0/-45/0/45/0/45/-45/90]<sub>T</sub>
 - Mesh strategy
 - Boundary conditions
 - Buckling load results

@@ -108,7 +108,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
 	</div>
 
-  6. Tsai-Wu
+  6. Tsai-Wu  
   Compared to the independent and partially-interactive criteria, the Tsai-Wu criterion gives a more comprehensive prediction by considering the interaction between the compressive and tensile strengths. However, the criterion does not indicate whether the laminate failure occurs in the fibre or matrix material. Like the previously mentioned criteria, the Tsai-Wu criterion is predicted using a single expression. Moreover, assumptions are made to generalise the von Mises criterion, giving the A\textsubscript{12} term.  
   
   <div align="center">
@@ -119,7 +119,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   </div>
 
-  7. Tsai-Hill
+  7. Tsai-Hill  
   Similar to the Tsai-Wu criterion, the Tsai-Hill criterion determines the strength with one single expression, without indicating whether the failure occurs in the fibre or matrix material. The Tsai-Hill criteria is applicable to the case of a single homogeneous orthotropic layer.  
   
   <div align="center">

@@ -31,7 +31,7 @@ This project studies the linear (eigenvalue) buckling behaviour of composite lam
   ![ComBuckling-mode](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Compressive-Buckling-Plot.JPG?raw=true)
   * Shear buckling
   
-  ![ShearBuckling-mode](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Project_1-Linear-Buckling/Shear-Buckling-Plot.JPG?raw=true)
+  ![ShearBuckling-mode](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Shear-Buckling-Plot.JPG?raw=true)
 
 2. Closed-form buckling solution
 - Equation: $N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]$

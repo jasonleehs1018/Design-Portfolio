@@ -55,12 +55,12 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   $$
   \begin{align}
-			\frac{\varepsilon_1}{\varepsilon_{X_t}} \; \text{or} \; \frac{\varepsilon_1}{\varepsilon_{X_c}} &= 1 \\
-			\text{or}	\\
-			\frac{\varepsilon_2}{\varepsilon_{Y_t}} \; \text{or} \; \frac{\varepsilon_2}{\varepsilon_{Y_c}} &= 1	\\
-			\text{or}	 \\
-			\frac{|\varepsilon_6|}{\varepsilon_Q} &= 1	
-		\end{align}
+		\frac{\varepsilon_1}{\varepsilon_{X_t}} \; \text{or} \; \frac{\varepsilon_1}{\varepsilon_{X_c}} &= 1 \\
+		\text{or}	\\
+		\frac{\varepsilon_2}{\varepsilon_{Y_t}} \; \text{or} \; \frac{\varepsilon_2}{\varepsilon_{Y_c}} &= 1	\\
+		\text{or}	 \\
+		\frac{|\varepsilon_6|}{\varepsilon_Q} &= 1	
+	\end{align}
   $$
 
   </div>
@@ -72,10 +72,10 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   $$
   \begin{align}
-			\frac{\sigma_1}{X_t} \; \text{or} \; \frac{\sigma_1}{X_c}	&= 1 \\
-			\text{or} \\
-			\frac{\sigma_2^2}{Y_tY_c}+\sigma_2(\frac{1}{Y_t}-\frac{1}{Y_c})+(\frac{\sigma_6}{Q})^2 &= 1
-		\end{align}
+		\frac{\sigma_1}{X_t} \; \text{or} \; \frac{\sigma_1}{X_c}	&= 1 \\
+		\text{or} \\
+		\frac{\sigma_2^2}{Y_tY_c}+\sigma_2(\frac{1}{Y_t}-\frac{1}{Y_c})+(\frac{\sigma_6}{Q})^2 &= 1
+	\end{align}
   $$
 
   </div>
@@ -89,7 +89,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   \begin{align}
 		\text{Fibre failure:} \; \frac{\sigma_1}{X} &= 1	\\	
 		\text{Matrix failure:} \; (\frac{\sigma_2}{Y})^2+(\frac{\sigma_6}{Q})^2 &= 1	
-		\end{align}
+	\end{align}
   $$
 
   </div>
@@ -99,9 +99,11 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   <div align="center">
 
   $$
-  \text{Fibre failure in tension:} \; (\frac{\sigma_1}{X_t})^2+(\frac{\sigma_6}{Q})^2 &= 1	\\	
-	\text{Fibre failure in compression:} \; \frac{\sigma_1}{X_t} &= 1	\\
-	\text{Matrix failure:} \; (\frac{\sigma_2}{Y_t})^2+(\frac{\sigma_6}{Q})^2 &= 1
+  \begin{align}
+    \text{Fibre failure in tension:} \; (\frac{\sigma_1}{X_t})^2+(\frac{\sigma_6}{Q})^2 &= 1	\\	
+	  \text{Fibre failure in compression:} \; \frac{\sigma_1}{X_t} &= 1	\\
+	  \text{Matrix failure:} \; (\frac{\sigma_2}{Y_t})^2+(\frac{\sigma_6}{Q})^2 &= 1
+  \end{align}
   $$
 
 	</div>

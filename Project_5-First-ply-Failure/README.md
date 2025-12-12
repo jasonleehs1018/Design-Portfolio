@@ -147,5 +147,5 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   </div>
 
 - Results  
-  * Failure Index Plots  
+  * Failure Index Plots    
   ![FPFcompare](https://github.com/jasonleehs1018/Design-Portfolio/Project_5-First-ply-Failure/FPFComparison.png?raw=true)

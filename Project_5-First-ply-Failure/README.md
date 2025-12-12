@@ -9,7 +9,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   - Number of ply: 24
   - Ply thickness: 0.1397 mm 
 - Material properties
-  **Graphite/epoxy T300/5208**
+  **Graphite/epoxy T300/5208**  
   | Property | Value | Strength type | Value |  
   |:---:|:---:|:---:|:---:|  
   | $E_1$ (GPa) | 181.0 | $\sigma_1^T$ | 1500 |  

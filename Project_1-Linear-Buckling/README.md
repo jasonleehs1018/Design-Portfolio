@@ -26,9 +26,11 @@ This project studies the linear (eigenvalue) buckling behaviour of composite lam
     - Eigenvalue from Abaqus: 24,351
     - Converted buckling load: $N_{xy}$ = 244.541 N/mm
 - Mode shape visualisation
-  * Compressive buckling
+  * Compressive buckling 
+
   ![ComBuckling-mode](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Compressive-Buckling-Plot.JPG?raw=true)
   * Shear buckling
+  
   ![ShearBuckling-mode](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Project_1-Linear-Buckling/Shear-Buckling-Plot.JPG?raw=true)
 
 2. Closed-form buckling solution

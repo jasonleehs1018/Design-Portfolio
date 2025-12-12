@@ -31,7 +31,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   - Axial compression 
   - Simply supported
 - Failure Criteria
-  1. Max stress
+  1. Max stress  
   The maximum stress criterion predicts the failure of a laminate by looking into the stresses individually, interactions between the tension and compressive stresses are ignored. 
 
   <div align="center">
@@ -40,15 +40,15 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 	\begin{aligned}
 	  \frac{\sigma_1}{\sigma_{X_t}} \text{or} \frac{\sigma_1}{\sigma_{X_c}} &= 1 \\ 
 	  \text{or} \\  
-	  $\frac{\sigma_2}{\sigma_{Y_t}} or \frac{\sigma_2}{\sigma_{Y_c}} &= 1  \\
+	  \frac{\sigma_2}{\sigma_{Y_t}} or \frac{\sigma_2}{\sigma_{Y_c}} &= 1  \\
 	  \text{or} \\  
-  	$\frac{|\sigma_6|}{\sigma_Q} &= 1
+  	\frac{|\sigma_6|}{\sigma_Q} &= 1
 	\end{aligned}
 	$$
 
   </div>
 
-  2. Max Strain
+  2. Max Strain  
   The maximum strain criterion function is similar to the maximum stress criterion, but instead of stresses, this approach uses strains to predict the failure strength of a laminate.
 
   <div align="center">
@@ -65,7 +65,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   </div>
 
-  3. Puck-Modified
+  3. Puck-Modified  
   The Puck-modified criterion is an updated version of the simple Puck criterion. The modified version considers interactions between the stress in compression and in tension, normal to the fibre direction.
 
   <div align="center">
@@ -79,9 +79,9 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   $$
 
   </div>
-  4. Tsai-Hill
-  5. Tsai-Wu
-  6. Hashin
+  4. Tsai-Hill  
+  5. Tsai-Wu  
+  6. Hashin  
 
 
 

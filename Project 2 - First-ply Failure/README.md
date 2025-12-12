@@ -9,7 +9,24 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   - Number of ply: 24
   - Ply thickness: 0.1397 mm 
 - Material properties
-- Layup definitions
+  Graphite/epoxy T300/5208
+  | Property | Value | Strength type | Value |
+  | :---: | :---: | :---: | :---: |
+  | $E_1$ (GPa) | 181.0 | $\sigma_1^T$ | 1500 | 
+  | $E_2$ (GPa) | 10.3 | $\sigma_1^C$ | -1500 | 
+  | $G_{12}$ (GPa) | 7,17 | $\sigma_2^T$ | 40 | 
+  | $\nu_{12}$ | 0.28 | $\sigma_2^C$ | -246 | 
+  | | | $\tau_{12}$ | 68 | 
+- Layup
+  | Design | Stacking Sequence | $\psi^\circ$, $\phi^\circ$ |
+  | :---: | :---: | :---: | 
+  | a | [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} | 63.78, 17.44 |
+  | b |  [$\psi$/-$\psi$/-$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} | 65.08, 19.58 |
+  | c | [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} | 68.08, 23.04 |
+  | d |[$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} | 74.28, 27.06 |
+  | e | [$\psi$/-$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\psi$/-$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} | 70.46, 24.95 |
+  | f | [$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} | 78.64, 28.59 |
+  
 - Mesh strategy
 - Boundary conditions
 - Buckling load results

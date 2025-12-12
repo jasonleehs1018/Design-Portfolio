@@ -66,7 +66,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   </div>
 
   3. Puck-Modified  
-  The Puck-modified criterion is an updated version of the simple Puck criterion. The modified version considers interactions between the stress in compression and in tension, normal to the fibre direction.
+  The Puck-modified criterion is an updated version of the simple Puck criterion. The modified version considers interactions between the stress in compression and in tension, normal to the fibre direction.  
 
   <div align="center">
 
@@ -79,9 +79,21 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   $$
 
   </div>
-  4. Tsai-Hill  
-  5. Tsai-Wu  
-  6. Hashin  
+  
+  4. Hashin-Rotem
+  The Hashin-Rotem failure criterion considers the matrix and fibre failure modes separately. Interactions between the various stress components are also considered.  
+
+  <div align="center">
+
+  $$
+  \begin{align}
+		\text{Fibre failure:} \; \frac{\sigma_1}{X} &= 1	\\	
+		\text{Matrix failure:} \; (\frac{\sigma_2}{Y})^2+(\frac{\sigma_6}{Q})^2 &= 1	
+		\end{align}
+  $$
+
+  </div>
+  5. Hashin  
 
 
 

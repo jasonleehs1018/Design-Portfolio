@@ -93,10 +93,37 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   $$
 
   </div>
+
   5. Hashin  
+  The Hashin failure criterion is a modification of Hashin-Rotem criterion, which involves the interactions between the stresses for both fibre and matrix failure.  
+  <div align="center">
 
-
+  $$
+  \text{Fibre failure in tension:} \; (\frac{\sigma_1}{X_t})^2+(\frac{\sigma_6}{Q})^2 &= 1	\\	
+	\text{Fibre failure in compression:} \; \frac{\sigma_1}{X_t} &= 1	\\
+	\text{Matrix failure:} \; (\frac{\sigma_2}{Y_t})^2+(\frac{\sigma_6}{Q})^2 &= 1
+  $$
 
 	</div>
 
+  6. Tsai-Wu
+  Compared to the independent and partially-interactive criteria, the Tsai-Wu criterion gives a more comprehensive prediction by considering the interaction between the compressive and tensile strengths. However, the criterion does not indicate whether the laminate failure occurs in the fibre or matrix material. Like the previously mentioned criteria, the Tsai-Wu criterion is predicted using a single expression. Moreover, assumptions are made to generalise the von Mises criterion, giving the A\textsubscript{12} term.  
+  
+  <div align="center">
 
+  $$
+  F_{1}\sigma_1+2F_{2}\sigma_2+F_{11}\sigma_1^2+F_{22}\sigma_2^2+F_{66}\tau_{12}^2-\sqrt{F_{11}F_{22}}\sigma_1\sigma_2 = 1
+  $$
+
+  </div>
+
+  7. Tsai-Hill
+  Similar to the Tsai-Wu criterion, the Tsai-Hill criterion determines the strength with one single expression, without indicating whether the failure occurs in the fibre or matrix material. The Tsai-Hill criteria is applicable to the case of a single homogeneous orthotropic layer.  
+  
+  <div align="center">
+
+  $$
+  (\frac{\sigma_1}{X})^2-\frac{\sigma_1\sigma_2}{X^2}+(\frac{\sigma_2}{Y})^2+(\frac{\sigma_6}{Q})^2 = 1
+  $$
+
+  </div>

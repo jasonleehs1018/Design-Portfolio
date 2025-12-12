@@ -139,8 +139,8 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   <div align="center">
 
   $$
-  (\frac{\sigma_1}{X})^2-\phi\frac{X\sigma_1\sigma_2}{X^2Y}+\phi(\frac{\sigma_2}{Y})^2+(\frac{\sigma_6}{Q})^2 = 1 \\
-  \text{where} \\
+  (\frac{\sigma_1}{X})^2-\phi\frac{X\sigma_1\sigma_2}{X^2Y}+\phi(\frac{\sigma_2}{Y})^2+(\frac{\sigma_6}{Q})^2 = 1 \\  
+  \text{where} \\  
   \phi = \frac{3Q^2}{X_tY_t}
   $$
 

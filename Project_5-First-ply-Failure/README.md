@@ -129,3 +129,14 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   $$
 
   </div>
+
+  8. Puppo-Evensen Criterion  
+  The Puppo-Evensen criterion is proposed to carry out strength assessment for an entire laminate, although it can also be utilized for a single layer. The criterion considers a more thorough interaction between the tensile and compressive stress than the Tsai-Hill criterion and requires simpler testing requirements than the Tsai-Wu criterion. However, adjustments are needed according to the sign of the stresses, which makes it more cumbersome to use than the Tsai-Wu failure criterion.
+  
+  <div align="center">
+
+  $$
+  (\frac{\sigma_1}{X})^2-\frac{\sigma_1\sigma_2}{X^2}+(\frac{\sigma_2}{Y})^2+(\frac{\sigma_6}{Q})^2 = 1
+  $$
+
+  </div>

@@ -11,7 +11,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 - Material properties
   **Graphite/epoxy T300/5208**
   | Property | Value | Strength type | Value |  
-  | :---: | :---: | :---: | :---: |  
+  |:---:|:---:|:---:|:---:|  
   | $E_1$ (GPa) | 181.0 | $\sigma_1^T$ | 1500 |  
   | $E_2$ (GPa) | 10.3 | $\sigma_1^C$ | -1500 |  
   | $G_{12}$ (GPa) | 7,17 | $\sigma_2^T$ | 40 |  
@@ -19,7 +19,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   | | | $\tau_{12}$ | 68 |  
 - Layup
   | Design | Stacking Sequence |  $\psi^\circ$,  $\phi^\circ$ |  
-  | :---: | :---: | :---: |  
+  |:---:|:---:|:---:|  
   | a | [  $\psi$/  $\psi$/ $-\phi$/  $\phi$/  $\phi$/ $-\phi$/  $\phi$/ $-\phi$/ $-\phi$/  $\phi$/ $-\psi$/  $\psi$/ $-\psi$/  $\psi$/  $\phi$/ $-\phi$/ $-\phi$/  $\phi$/ $-\phi$/  $\phi$/  $\phi$/ $-\phi$/  $\psi$/ $-\psi$]<sub>T</sub> | 63.78, 17.44 |  
   | b |  [ $\psi$/- $\psi$/- $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 65.08, 19.58 |  
   | c | [ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 68.08, 23.04 |  

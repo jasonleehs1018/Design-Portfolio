@@ -1,4 +1,4 @@
-# Project 2 — First-ply Failure of a Composite Plate
+# Project 5 — First-ply Failure of a Composite Plate
 
 This project evaluates failure initiation in a composite laminate under uniaxial loading using classical failure theories.
 

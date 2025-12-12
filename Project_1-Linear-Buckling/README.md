@@ -12,7 +12,7 @@ This project studies the linear (eigenvalue) buckling behaviour of composite lam
 - Layup
   - [-45/90/0/45/0/45/90/45/-45/0/-45/90/-45/90/45/90/0/-45/0/45/0/45/-45/90]<sub>T</sub>
 - Mesh strategy
-  - ![Mesh](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/project-01-linear-buckling/mesh.JPG?raw=true)
+  - ![Mesh](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Mesh.JPG?raw=true)
 - Boundary conditions
   - Simply supported on both ends
 - Load

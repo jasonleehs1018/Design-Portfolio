@@ -33,6 +33,8 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 - Failure Criteria
   1. Max stress
   The maximum stress criterion predicts the failure of a laminate by looking into the stresses individually, interactions between the tension and compressive stresses are ignored. 
+  <div align="center">
+
 	$$
 	\begin{aligned}
 	\frac{\sigma_1}{\sigma_{X_t}} \text{or} \frac{\sigma_1}{\sigma_{X_c}} &= 1 \\ 
@@ -42,6 +44,8 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   	$\frac{|\sigma_6|}{\sigma_Q} &= 1
 	\end{aligned}
 	$$
+  
+  </div>
   2. Tsai-Hill
   3. Tsai-Wu
   4. Hashin

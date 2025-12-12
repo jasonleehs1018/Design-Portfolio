@@ -4,3 +4,5 @@ kramdown:
   
 include:
   - _includes/head-custom.html
+
+markdown: GFM

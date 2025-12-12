@@ -1,8 +1,4 @@
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  
+markdown: GFM
+
 include:
   - _includes/head-custom.html
-
-markdown: GFM

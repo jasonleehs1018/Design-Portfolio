@@ -80,6 +80,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   </div>
   
+  <!--
   4. Hashin-Rotem
   The Hashin-Rotem failure criterion considers the matrix and fibre failure modes separately. Interactions between the various stress components are also considered.  
 
@@ -107,8 +108,9 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   $$
 
 	</div>
-
-  6. Tsai-Wu  
+  -->
+  
+  4. Tsai-Wu  
   Compared to the independent and partially-interactive criteria, the Tsai-Wu criterion gives a more comprehensive prediction by considering the interaction between the compressive and tensile strengths. However, the criterion does not indicate whether the laminate failure occurs in the fibre or matrix material. Like the previously mentioned criteria, the Tsai-Wu criterion is predicted using a single expression. Moreover, assumptions are made to generalise the von Mises criterion, giving the A\textsubscript{12} term.  
   
   <div align="center">
@@ -119,7 +121,8 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   </div>
 
-  7. Tsai-Hill  
+
+  5. Tsai-Hill  
   Similar to the Tsai-Wu criterion, the Tsai-Hill criterion determines the strength with one single expression, without indicating whether the failure occurs in the fibre or matrix material. The Tsai-Hill criteria is applicable to the case of a single homogeneous orthotropic layer.  
   
   <div align="center">
@@ -130,7 +133,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 
   </div>
 
-  8. Puppo-Evensen Criterion  
+  6. Puppo-Evensen Criterion  
   The Puppo-Evensen criterion is proposed to carry out strength assessment for an entire laminate, although it can also be utilized for a single layer. The criterion considers a more thorough interaction between the tensile and compressive stress than the Tsai-Hill criterion and requires simpler testing requirements than the Tsai-Wu criterion. However, adjustments are needed according to the sign of the stresses, which makes it more cumbersome to use than the Tsai-Wu failure criterion.
   
   <div align="center">
@@ -142,3 +145,6 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   $$
 
   </div>
+
+- Results  
+  * Failure Index Plots  

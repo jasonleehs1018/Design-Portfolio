@@ -40,7 +40,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
   <div align="center">
 
 	$$
-	\begin{aligned}
+	\begin{aligned}  
 	  \frac{\sigma_1}{\sigma_{X_t}} \text{or} \frac{\sigma_1}{\sigma_{X_c}} &= 1  
     \text{or}  
 	  \frac{\sigma_2}{\sigma_{Y_t}} or \frac{\sigma_2}{\sigma_{Y_c}} &= 1  

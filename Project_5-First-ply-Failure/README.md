@@ -45,7 +45,7 @@ This project evaluates failure initiation in a composite laminate under uniaxial
     \text{or}  
 	  \frac{\sigma_2}{\sigma_{Y_t}} or \frac{\sigma_2}{\sigma_{Y_c}} &= 1  
 	  \text{or}  
-  	\frac{|\sigma_6|}{\sigma_Q} &= 1
+  	\frac{|\sigma_6|}{\sigma_Q} &= 1  
 	\end{aligned}
 	$$
 

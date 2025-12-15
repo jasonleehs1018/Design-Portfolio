@@ -12,7 +12,7 @@ This project studies the lamination parameter design space of standard quad fini
 	N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]
     $$
 
-  </div>
+    </div>
 
 from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width, $b$, and the buckling half-wave parameter, $m$ (= 1, 2, 3, ...), which produces the lowest critical force resultant N\textsubscript{x}. 
 
@@ -22,10 +22,9 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
     <div align="center">
 
     $$
-    \begin{align}
-	k_x &= c_{1} +c_{2}\xi_{9} +c_{3}\xi_{10} +c_{4}\xi_{9}^2 +c_{5}\xi_{10}^2 +c_{6}\xi_{9}\xi_{10} +c_{7}\xi_{9}^{3} +c_{8}\xi _{10}^{3} +c_{9}\xi_{9}\xi_{10}^{2} \\
-	& +c_{10}\xi_{9}^{2}\xi_{10} +c_{11}\xi_{9}^{4} +c_{12} \xi_{10}^{4} +c_{13}\xi_{9}\xi_{10}^{3} +c_{14}\xi_{9}^{2}\xi_{10}^{2} +c_{15}\xi_{9}^{3}\xi_{10} \\
-    \end{align} \\
+    % \begin{align}
+	k_x = c_{1} +c_{2}\xi_{9} +c_{3}\xi_{10} +c_{4}\xi_{9}^2 +c_{5}\xi_{10}^2 +c_{6}\xi_{9}\xi_{10} +c_{7}\xi_{9}^{3} +c_{8}\xi _{10}^{3} +c_{9}\xi_{9}\xi_{10}^{2} +c_{10}\xi_{9}^{2}\xi_{10} +c_{11}\xi_{9}^{4} +c_{12} \xi_{10}^{4} +c_{13}\xi_{9}\xi_{10}^{3} +c_{14}\xi_{9}^{2}\xi_{10}^{2} +c_{15}\xi_{9}^{3}\xi_{10} \\
+    % \end{align}  
     \text{where} \text{k_x is defined by:} \\  
 	k_x=\frac{N_xb^2}{\pi^2D_{Iso}}
     $$

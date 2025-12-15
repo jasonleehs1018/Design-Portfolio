@@ -34,5 +34,7 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
     <div align="center">
     $k_x=\frac{N_xb^2}{\pi^2D_{Iso}}$  
     </div>
-    
+
     This normalization ensures that buckling factor results are comparable across the design space, since the relative change in buckling factor, $k_x$, is the same as the relative change in the critical force resultant, $N_x$.  In this study, IM7/8552 carbon-fibre/epoxy material is used, with Young’s moduli $E_1$ = 161.0 GPa and $E_2$ = 11.38 GPa, shear modulus $G_{12}$ = 5.17 GPa and Poisson ratio $\nu_{12}$ = 0.38.  
+
+    ![ComressionContour+ModeShape](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_3-Lamination-parameter-design-space/CompressionContour+ModeShape.PNG?raw=true)

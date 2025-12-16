@@ -8,7 +8,7 @@ This project studies the lamination parameter design space of standard quad fini
 
     <div id="fig-setup">
 
-    <img src="GarlandCurvePt1-5.png" width="600">
+    <img src="PlyPercentageExplaination.png" width="600">
 
     <br>
     <em>(a)</em>
@@ -18,11 +18,11 @@ This project studies the lamination parameter design space of standard quad fini
     <table>
     <tr>
     <td align="center">
-      <img src="GarlandCurvePt6-10.png" width="280"><br>
+      <img src="3DDesignSpaceExplaination.PNG" width="280"><br>
       <em>(b)</em>
     </td>
     <td align="center">
-      <img src="GarlandCurvePt11-15.png" width="280"><br>
+      <img src="New3DSpace_NoPts.png" width="280"><br>
       <em>(c)</em>
     </td>
     </tr>

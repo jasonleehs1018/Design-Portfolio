@@ -39,8 +39,8 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
 
     <div id="fig-dd-strength">
 
-    <img src="CompressionContour+ModeShape.PNG?>
-    
+    <img src="CompressionContour+ModeShape.PNG">
+
     </div>
 
 

@@ -1,6 +1,6 @@
 # Project 01 — Linear Buckling of a Composite Plate
 
-This project studies the linear (eigenvalue) buckling behaviour of composite laminates with FEA and closed-form buckling solution.
+This project studies the linear (eigenvalue) buckling behaviour of composite laminates for both uncoupled and coupled laminates with FEA and closed-form buckling solution.
 
 ## Contents
 1. FEA
@@ -33,6 +33,8 @@ This project studies the linear (eigenvalue) buckling behaviour of composite lam
   
   ![ShearBuckling-mode](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_1-Linear-Buckling/Shear-Buckling-Plot.JPG?raw=true)
 
+
+
 2. Closed-form buckling solution
 - Equation: $N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]$
   - a: length of the laminate
@@ -41,3 +43,5 @@ This project studies the linear (eigenvalue) buckling behaviour of composite lam
   - $D_{11}$ and $D_{22}$ are the elements from the ABD matrix 
 - Buckling load results
   - $N_x$ = 105.214 N/mm
+
+  However, the closed form solution is only applicable to compressive buckling, therefore FEA must be used for shear buckling analysis.

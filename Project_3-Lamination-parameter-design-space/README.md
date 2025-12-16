@@ -6,27 +6,28 @@ This project studies the lamination parameter design space of standard quad fini
 - DESIGN SPACE INTERROGATION
     The database for Bend-Twist coupled designs with up to 21 plies is presented graphically in Figs. \ref{figure:PlyPercent&LPDesignSpace} and \ref{figure:21PlyPointClouds}.  Figure \ref{figure:PlypercentageExplanation} represents the lamination parameter design space for extensional stiffness ($\xi_{1}$,$\xi_{2}$) with ply percentage mapping of straight fibre ply orientation. As mentioned in Chapter \ref{Ch5-Intro}, $\xi_{1-4}$ represent the extensional stiffness, $\xi_{5-8}$ represent the coupling (in \& out of plane) stiffness and $\xi_{9-12}$ represent the bending stiffness, each set has its own feasible design region. The lamination parameter point cloud for extensional stiffness is illustrated by 112 points (grey circles) in Fig. \ref{figure:PlypercentageExplanation}. Here $\xi_{3}$ = $\xi_{4}$ = 0, the coupling stiffness $\xi_{5-8}$ = 0, and the bending stiffness $\xi_{12}$ = 0, while $\xi_{9}$, $\xi_{10}$ and $\xi_{11}$ are all non-zero. Each of the 112 unique points represents many individual laminate designs sharing the same proportion of standard ply orientations, i.e. 0\textdegree, 90\textdegree and \textpm45\textdegree plies, but with different stacking sequences that result in different bending stiffnesses (i.e. different values of $\xi_{9}$, $\xi_{10}$ and $\xi_{11}$). The contents of the database are also summarized in Table \ref{Table:PlyContiguity}. The larger black triangle in Fig. \ref{figure:PlypercentageExplanation} represents the feasible region of the design space when the extensional stiffness is uncoupled (i.e. $A_{16}$ and $A_{26}$ are zero). Note that the 10\% rule has been applied, which means that each design consists of at least 10\% of each of the standard ply orientations, this defines a smaller triangle (a sub-region) within the uncoupled design space corresponding to this constraint. Ply contiguity further constrains the available design space, which is set to a maximum of 3 adjacent plies with the same orientation, as is now common design practice. Ply contiguity is used to prevent ‘ply blocking’, which refers to a large numbers of consecutive repeating plies with the same fibre angle, that would increase the likelihood of delamination occurring \cite{Bailie1997}. This condition further shrinks the available design space. The smaller black triangle in Fig 1a is defined by the application of both these two types of constraint. The green grid lines represent constant ply percentage values for 0°, 90° and ±45° plies, ranging from 0 to 100\% in intervals of 10\%, where the top, left and right lines of the triangular design space represent purely 0\textdegree, 90\textdegree and \textpm45\textdegree plies respectively. To give an example of how to read this graph, the blue point in Fig. \ref{figure:PlypercentageExplanation} at ($\xi_{1}$, $\xi_{2}$) = (-0.7, 0.8) contains (0/$\pm$45/90) ply percentages of (10/10/80), as indicated by the green grid lines. Typical locations of aircraft wing skins, spars and stiffeners in this design space are indicated by the red points in Fig 1a. The results in Table 1 reveal that applying the contiguity constraint alone creates results that closely match predictions when applying the 10\% rule constraint alone, across all ply number groupings. Figure \ref{figure:3DDesignSpaceExplaination} shows 20 points in a three-dimensional design space for bending stiffness defined by $\xi_{9}$, $\xi_{10}$ and $\xi_{11}$. The points are randomly selected from all available designs correspond to the points shown in Fig. \ref{figure:PlypercentageExplanation}. 
 
-    <div id="fig-setup">
+    <div id="fig-composite">
 
-    <img src="PlyPercentageExplaination.png" width="400">
-
-    <br>
-    <em>(a)</em>
-
-    <br><br>
-
-    <table>
+    <table style="border:1px solid black; border-collapse:collapse;">
     <tr>
-    <td align="center">
+    <td colspan="2" align="center" style="border:1px solid black; padding:8px;">
+    <img src="PlyPercentageExplaination.png" width="400">
+      <em>(a)</em>
+        </td>
+     </tr>
+    <tr>
+    <td align="center" style="border:1px solid black; padding:8px;">
       <img src="3DDesignSpaceExplaination.PNG" width="280"><br>
       <em>(b)</em>
     </td>
-    <td align="center">
+       <td align="center" style="border:1px solid black; padding:8px;">
       <img src="New3DSpace_NoPts.png" width="280"><br>
-      <em>(c)</em>
+        <em>(c)</em>
     </td>
     </tr>
     </table>
+
+    <em><strong>Figure X.</strong> Lamination design space and corresponding geometric mappings.</em>
 
     </div>
 

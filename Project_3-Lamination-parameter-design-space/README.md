@@ -72,7 +72,8 @@ This project studies the lamination parameter design space of standard quad fini
     <div align="center" id="eq-bucklingfactor">
 
     $$
-	  k_x = c_{1} +c_{2}\xi_{9} +c_{3}\xi_{10} +c_{4}\xi_{9}^2 +c_{5}\xi_{10}^2 +c_{6}\xi_{9}\xi_{10} +c_{7}\xi_{9}^{3} +c_{8}\xi_{10}^{3} +c_{9}\xi_{9}\xi_{10}^{2} +c_{10}\xi_{9}^{2}\xi_{10} +c_{11}\xi_{9}^{4} +c_{12} \xi_{10}^{4} +c_{13}\xi_{9}\xi_{10}^{3} +c_{14}\xi_{9}^{2}\xi_{10}^{2} +c_{15}\xi_{9}^{3}\xi_{10}    
+	  k_x = c_{1} +c_{2}\xi_{9} +c_{3}\xi_{10} +c_{4}\xi_{9}^2 +c_{5}\xi_{10}^2 +c_{6}\xi_{9}\xi_{10} +c_{7}\xi_{9}^{3} +c_{8}\xi_{10}^{3} +c_{9}\xi_{9}\xi_{10}^{2} +c_{10}\xi_{9}^{2}\xi_{10} +c_{11}\xi_{9}^{4} +c_{12} \xi_{10}^{4} +c_{13}\xi_{9}\xi_{10}^{3} +c_{14}\xi_{9}^{2}\xi_{10}^{2} +c_{15}\xi_{9}^{3}\xi_{10} 
+    \tag{Eqn. 3}   
     $$
 
     </div>
@@ -160,17 +161,17 @@ This project studies the lamination parameter design space of standard quad fini
 
     Individual points on the boundary lines between mode regions are found from the buckling factor equaton by generating two equations using the coefficients from adjacent mode regions, $m$ and ($m + 1$) and then equating for a fixed lamination parameter $\xi_{10}$, to solve for the variable lamination parameter $\xi_{9}$. Points on the boundary lines were also verified by individually calculating $k_{x, m}$, corresponding to the mode numbers, $m$, of interest, at 5 sample points along edges of the feasible region, from which two simpler polynomial equations of the following general form:
 
-    <div align="center">
+    <div align="center" id="eq-kx5Points">
 
     $$ 
     
     k_1=c_{1} +c_{2}\xi_{9} +c_{3}\xi_{9}^2 +c_{4}\xi_{9}^3 +c_{5}\xi_{9}^4 
-    
+    \tag{Eqn. 4}
     $$
 
     </div>
 
-    Points can be generated and equated to reveal the location, $\xi_{9}$, of coincident buckling modes, $k_{x,m}=k_{x,(m + 1)}$. This equation has also been used to generate the lines of each mode boundary in [Fig. 3(c)](#CompressionContour+ModeShape).
+    Points can be generated and equated to reveal the location, $\xi_{9}$, of coincident buckling modes, $k_{x,m}=k_{x,(m + 1)}$. [Equaton 4]{#eq-kx5Points} equation has also been used to generate the lines of each mode boundary in [Fig. 3(c)](#CompressionContour+ModeShape).
 
     [Figure](#fig-garland) reveals that the mode changes occur at lower aspect ratios for <em>Bend-Twist</em> coupled laminates in comparison to their uncoupled counterparts.  The buckling curves (dotted lines) for <em>Bend-Twist</em> coupled laminates are also seen to descend with increasing aspect ratio and, uniquely for curve 3 with lamination parameter coordinates ($\xi_{9}$, $\xi_{10}$, $\xi_{11}$) = (-0.5, 0, 0.5), ascending curves are also revealed.  This is in stark contrast to the curves for uncoupled laminates (solid lines), for which the lowest point between cusps is always coincident with the asymptotic value, corresponding to the buckling load factor of the infinitely long plate.   
 

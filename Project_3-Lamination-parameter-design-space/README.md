@@ -40,6 +40,7 @@ This project studies the lamination parameter design space of standard quad fini
     </div>
 
 - BUCKLING PERFORMANCE OF FINITE LENGTH PLATES
+
     To assess the vast number of designs contained in the laminate database, a closed form solution of compression buckling is necessary. [Equation](#eqn-bucklingCFS) gives:
 
     <div align="center" id="eqn-bucklingCFS">
@@ -65,6 +66,7 @@ This project studies the lamination parameter design space of standard quad fini
     </div> 
 
 - CONTOUR MAPPING FOR COMPRESSION BUCKLING
+
     For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4<sup>th</sup> order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in [Fig. 1(c)](#New3DSpace_NoPts), when $\xi_{11}$ = 0:
 
     <div align="center" id="eq-bucklingfactor">
@@ -116,7 +118,7 @@ This project studies the lamination parameter design space of standard quad fini
 
     [Figure 3](#CompressionContour+ModeShape) illustrates contour maps with different aspect ratios ($a/b$ = 1, 1.5 and 2), where distinct different styles of parallel-line in-fill patterns, represent different buckling mode regions (indicated by the inset images above [Fig. 3](#CompressionContour+ModeShape).  The value of the buckling load for the contours is indicated by the numbers in the figure. Boundaries between these regions correspond to the cusps in [Fig. 2](#fig-garland). The 'mode change line’ (highlighted in one instance in Fig. \ref{figure:compressioncurve} and also in [Fig. 3](#CompressionContour+ModeShape) by a green line) separates two regions representing modes with one and two longitudinal half-waves, i.e. wavelength parameters m = 1 (red lines) and m = 2 (blue lines). Such boundary lines are readily determined whenever the closed-form buckling solution is applicable, by fixing one lamination parameter coordinate and solving for the other by simply equating $N_{x,m=1}$ and $N_{x,m=2}$.  The locations of the mode change at the boundaries correspond to ($\xi_{9}$, $\xi_{10}$) = (-0.567, 0.134) and (-0.691, 1), with buckling factor $k_x$ = 3.86 and 2.95, respectively.  The same procedure can be used to confirm the shape of the mode change line. 
 
-     [Figure 2(a)](#fig-garland-a) represents the buckling factor contour map for constant aspect ratio (a/b = 1.0) plates with uncoupled orthotropic bending stiffness.  Similarly, labels on the Garland curves of  [Figs. 2(b)](#fig-garland-b) and  [2(c)](#fig-garland-b) correspond to those on the contour maps of [Fig. 3(b)](#CompressionContour+ModeShape) and [3(c)](#CompressionContour+ModeShape) for aspect ratios, $a/b$ = 1.5 and 2.0, respectively.  Hence, for a fixed aspect ratio, the isolines of constant buckling factor, $k_x$, are seen to vary with respect to the lamination parameter coordinates, or bending stiffness, as defined by Eqn. \ref{eq:BucklingFactor}.  
+    [Figure 2(a)](#fig-garland-a) represents the buckling factor contour map for constant aspect ratio (a/b = 1.0) plates with uncoupled orthotropic bending stiffness.  Similarly, labels on the Garland curves of [Figs. 2(b)](#fig-garland-b) and [2(c)](#fig-garland-b) correspond to those on the contour maps of [Fig. 3(b)](#CompressionContour+ModeShape) and [3(c)](#CompressionContour+ModeShape) for aspect ratios, $a/b$ = 1.5 and 2.0, respectively.  Hence, for a fixed aspect ratio, the isolines of constant buckling factor, $k_x$, are seen to vary with respect to the lamination parameter coordinates, or bending stiffness, as defined by Eqn. \ref{eq:BucklingFactor}.  
     
     The centre of the contour map represents a fully isotropic laminate, with ($\xi_{9}$, $\xi_{10}$) = (0, 0), and corresponds to curve 8 on [Figs. 2(b)](#fig-garland-b) where $k_x$ = 4.0 for aspect ratio $a/b$ = 1, 2, 3, $\cdots$, $\infty$. The cusps that arise from changes in buckling mode also occur at $a/b$ = $\sqrt{2}$, $\sqrt{6}$, $\cdots$ as in metallic plates.  However, for composite materials, the cusp locations are now strongly influenced by orthotropic bending stiffness properties; and further still by the introduction of <em>Bend-Twist</em> coupling. 
 

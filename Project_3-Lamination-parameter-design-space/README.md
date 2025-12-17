@@ -53,7 +53,7 @@ This project studies the lamination parameter design space of standard quad fini
 from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width, $b$, and the buckling half-wave parameter, $m$ (= 1, 2, 3, ...), which produces the lowest critical force resultant N\textsubscript{x}. 
 
 - CONTOUR MAPPING FOR COMPRESSION BUCKLING
-    - For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4\textsuperscript{th} order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in Fig. \ref{figure:New3DSpace_NoPts}, when $\xi_{11}$ = 0:
+    - For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4\textsuperscript{th} order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in [Fig. 1(c)](#New3DSpace_NoPts.png), when $\xi_{11}$ = 0:
 
     <div align="center">
 
@@ -72,6 +72,36 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
     </div>
 
     This normalization ensures that buckling factor results are comparable across the design space, since the relative change in buckling factor, $k_x$, is the same as the relative change in the critical force resultant, $N_x$.  In this study, IM7/8552 carbon-fibre/epoxy material is used, with Young’s moduli $E_1$ = 161.0 GPa and $E_2$ = 11.38 GPa, shear modulus $G_{12}$ = 5.17 GPa and Poisson ratio $\nu_{12}$ = 0.38.  
+
+    Mode changes complicate the contour maps for finite length plates. Hence the closed form buckling soluton is no longer a continuous function across the design space. The mode change boundaries must therefore first be determined, and separate equations must be derived for each mode region. To help further understand the buckling mode changes across the lamination parameter design space, classical Garland curves are first presented across a range of aspect ratios ($a/b$) in Fig. \ref{figure:compressioncurve}  Garland curves show the relationship between buckling factor and the aspect ratios of laminates. These correspond to simply supported plates subject to uniaxial compression.  Here, the solid black lines represent the buckling load factor of uncoupled laminate designs, whilst the broken black lines represent the buckling load factor when $\xi_{11}$ = 0.5 (corresponding to the limit for practical designs), comparison of the two sets of lines illustrates the effect of introducing a \textit{Bend-Twist} coupling. The individual curves of Fig. \ref{figure:compressioncurve}, with circled labels 1 – 5, and 11 - 15 represent discrete coordinate points along the boundary of the $\xi_{9}$, $\xi_{10}$ lamination parameter design space, while curves 6-10 represent points along the middle line of the $\xi_{9}$, $\xi_{10}$ design space, as indicated by the corresponding label locations in Fig. \ref{figure:CompressionContour+ModeShape}. Points on the same curve also represent points with the same location on design spaces across a range of aspect ratios ($a/b$) from 0.5 to 2.5, the coordinates of the points on the design spaces are indicated by the coordinates under each curve. For example, the lowest curve, curve 1, in Fig. \ref{figure:CompressiveCurvePt1-5} represents the buckling factor of laminates with lamination parameters ($\xi_{9}$, $\xi_{10}$) = (-1, 1), in which the $a/b$ = 1.0 case is shown on Fig. \ref{figure:CompressionContour+ModeShapeA}. The curves are split into 3 separate graphs in Fig. \ref{figure:compressioncurve} to avoid confusion that might be caused by crowding overlapping curves.  Fine dotted black lines connect the cusps on the uncoupled ($\xi_{11}$ = 0) and coupled ($\xi_{11}$ = 0.5) curves demonstrate the effect of coupling on the location of mode change in terms of aspect ratio. Only 3 coupled curves with $\xi_{11}$ = 0.5 are presented in Fig. \ref{figure:CompressionContour+ModeShapeA} - \ref{figure:CompressionContour+ModeShapeC} because the design space shrinks as the value of $\xi_{11}$ increases, therefore no feasible data points are available for points located with $\xi_{10}$ > 0 for $\xi_{11}$ = 0.5.
+
+    <div id="fig-garland">
+
+    <table style="border:1px solid black; border-collapse:collapse;">
+    <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-garland-a"></a>
+      <img src="GarlandCurvePt1-5.png" width="220"><br>
+      <em>(a)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-garland-b"></a>
+      <img src="GarlandCurvePt6-10.png" width="220"><br>
+      <em>(b)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-garland-c"></a>
+      <img src="GarlandCurvePt11-15.png" width="220"><br>
+      <em>(c)</em>
+    </td>
+    </tr>
+    </table>
+
+<em><strong>Figure 3.4.</strong> Compression buckling Garland curves for $\xi_1=-0.5$ (solid lines) and $\xi_1=0.5$ (broken lines). The corresponding lamination parameter coordinates $(\xi_1,\xi_2)$ are shown alongside each curve.</em>
+
+</div>
+
+
 
     As coupling is introduced, the design space expands. The design space becomes a 3D design space when one type of coupling is involved (e.g Bending-Twistiing) and 4D if 2 types (bending-Twisting-Extenson-Shearing). 
 

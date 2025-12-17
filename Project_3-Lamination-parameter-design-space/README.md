@@ -77,7 +77,7 @@ This project studies the lamination parameter design space of standard quad fini
     $$
 
     </div>
-    where $k_x$ is the buckling factor.
+    where $k_x$ is the buckling factor defined by [Eqn. 2](#eq-kx5Points).
 
     This normalization ensures that buckling factor results are comparable across the design space, since the relative change in buckling factor, $k_x$, is the same as the relative change in the critical force resultant, $N_x$.  In this study, IM7/8552 carbon-fibre/epoxy material is used, with Young’s moduli $E_1$ = 161.0 GPa and $E_2$ = 11.38 GPa, shear modulus $G_{12}$ = 5.17 GPa and Poisson ratio $\nu_{12}$ = 0.38.  
 

@@ -97,7 +97,7 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
     </tr>
     </table>
 
-    <em><strong>Figure 2.</strong> Compression buckling Garland curves for $\xi_1=-0.5$ (solid lines) and $\xi_1=0.5$ (broken lines). The corresponding lamination parameter coordinates $(\xi_1,\xi_2)$ are shown alongside each curve.</em>
+    <em><strong>Figure 2.</strong> Compression buckling Garland curves for $\xi_1 = -0.5$ (solid lines) and $\xi_1=0.5$ (broken lines). The corresponding lamination parameter coordinates $(\xi_1,\xi_2)$ are shown alongside each curve.</em>
 
     </div>
 

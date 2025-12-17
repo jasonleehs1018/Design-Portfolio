@@ -58,7 +58,7 @@ This project studies the lamination parameter design space of standard quad fini
     <div align="center" id="eqn-kx">
 
     $$
-	  k_x &= \frac{N_xb^2}{\pi^2D_{Iso}}
+	  k_x = \frac{N_xb^2}{\pi^2D_{Iso}}
     \tag{Eqn. 2}
     $$
 

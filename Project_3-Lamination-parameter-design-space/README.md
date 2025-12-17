@@ -40,33 +40,39 @@ This project studies the lamination parameter design space of standard quad fini
     </div>
 
 - BUCKLING PERFORMANCE OF FINITE LENGTH PLATES
-    - To assess the vast number of designs contained in the laminate database, a closed form solution of compression buckling is necessary. 
+    To assess the vast number of designs contained in the laminate database, a closed form solution of compression buckling is necessary. 
 
     <div align="center">
 
     $$
-	N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]
+	  N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]
     $$
 
     </div>
 
-from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width, $b$, and the buckling half-wave parameter, $m$ (= 1, 2, 3, ...), which produces the lowest critical force resultant N\textsubscript{x}. 
+    from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width, $b$, and the buckling half-wave parameter, $m$ (= 1, 2, 3, ...), which produces the lowest critical force resultant N\textsubscript{x}. 
+
+    And the buckling factor $k_x$ is defined by:
+
+    <div align="center">
+
+    $$
+	  k_x &= \frac{N_xb^2}{\pi^2D_{Iso}}
+    $$
+
+    </div> 
 
 - CONTOUR MAPPING FOR COMPRESSION BUCKLING
-    - For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4\textsuperscript{th} order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in [Fig. 1(c)](#New3DSpace_NoPts), when $\xi_{11}$ = 0:
+    For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4\textsuperscript{th} order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in [Fig. 1(c)](#New3DSpace_NoPts), when $\xi_{11}$ = 0:
 
-    <div align="center">
+    <div align="center" id="eq-bucklingfactor">
 
     $$
-	k_x = c_{1} +c_{2}\xi_{9} +c_{3}\xi_{10} +c_{4}\xi_{9}^2 +c_{5}\xi_{10}^2 +c_{6}\xi_{9}\xi_{10} +c_{7}\xi_{9}^{3} +c_{8}\xi_{10}^{3} +c_{9}\xi_{9}\xi_{10}^{2} +c_{10}\xi_{9}^{2}\xi_{10} +c_{11}\xi_{9}^{4} +c_{12} \xi_{10}^{4} +c_{13}\xi_{9}\xi_{10}^{3} +c_{14}\xi_{9}^{2}\xi_{10}^{2} +c_{15}\xi_{9}^{3}\xi_{10}    
+	  k_x = c_{1} +c_{2}\xi_{9} +c_{3}\xi_{10} +c_{4}\xi_{9}^2 +c_{5}\xi_{10}^2 +c_{6}\xi_{9}\xi_{10} +c_{7}\xi_{9}^{3} +c_{8}\xi_{10}^{3} +c_{9}\xi_{9}\xi_{10}^{2} +c_{10}\xi_{9}^{2}\xi_{10} +c_{11}\xi_{9}^{4} +c_{12} \xi_{10}^{4} +c_{13}\xi_{9}\xi_{10}^{3} +c_{14}\xi_{9}^{2}\xi_{10}^{2} +c_{15}\xi_{9}^{3}\xi_{10}    
     $$
 
     </div>
-    where $k_x$ is defined by:  
-
-    <div align="center">
-    $k_x=\frac{N_xb^2}{\pi^2D_{Iso}}$  
-    </div>
+    where $k_x$ is the buckling factor.
 
     This normalization ensures that buckling factor results are comparable across the design space, since the relative change in buckling factor, $k_x$, is the same as the relative change in the critical force resultant, $N_x$.  In this study, IM7/8552 carbon-fibre/epoxy material is used, with Young’s moduli $E_1$ = 161.0 GPa and $E_2$ = 11.38 GPa, shear modulus $G_{12}$ = 5.17 GPa and Poisson ratio $\nu_{12}$ = 0.38.  
 
@@ -108,7 +114,7 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
 
     [Figure 3](#CompressionContour+ModeShape) illustrates contour maps with different aspect ratios ($a/b$ = 1, 1.5 and 2), where distinct different styles of parallel-line in-fill patterns, represent different buckling mode regions (indicated by the inset images above [Fig. 3](#CompressionContour+ModeShape).  The value of the buckling load for the contours is indicated by the numbers in the figure. Boundaries between these regions correspond to the cusps in [Fig. 2](#fig-garland). The 'mode change line’ (highlighted in one instance in Fig. \ref{figure:compressioncurve} and also in [Fig. 3](#CompressionContour+ModeShape) by a green line) separates two regions representing modes with one and two longitudinal half-waves, i.e. wavelength parameters m = 1 (red lines) and m = 2 (blue lines). Such boundary lines are readily determined whenever the closed-form buckling solution is applicable, by fixing one lamination parameter coordinate and solving for the other by simply equating $N_{x,m=1}$ and $N_{x,m=2}$.  The locations of the mode change at the boundaries correspond to ($\xi_{9}$, $\xi_{10}$) = (-0.567, 0.134) and (-0.691, 1), with buckling factor $k_x$ = 3.86 and 2.95, respectively.  The same procedure can be used to confirm the shape of the mode change line. 
 
-     [Figure 2(a)](#fig-garland-a) represents the buckling factor contour map for constant aspect ratio (a/b = 1.0) plates with uncoupled orthotropic bending stiffness.  Similarly, labels on the Garland curves of  [Figs. 2(b)](#fig-garland-b) and  [2(c)](#fig-garland-b) correspond to those on the contour maps of [Fig. 3(b)](#CompressionContour+ModeShape) and [3(c)](#CompressionContour+ModeShape) for aspect ratios, $a/b$ = 1.5 and 2.0, respectively.  Hence, for a fixed aspect ratio, the isolines of constant buckling factor, $k_x$, are seen to vary with respect to the lamination parameter coordinates, or bending stiffness, as defined by Eqn. \ref{eq:BucklingFactor}.  \\
+     [Figure 2(a)](#fig-garland-a) represents the buckling factor contour map for constant aspect ratio (a/b = 1.0) plates with uncoupled orthotropic bending stiffness.  Similarly, labels on the Garland curves of  [Figs. 2(b)](#fig-garland-b) and  [2(c)](#fig-garland-b) correspond to those on the contour maps of [Fig. 3(b)](#CompressionContour+ModeShape) and [3(c)](#CompressionContour+ModeShape) for aspect ratios, $a/b$ = 1.5 and 2.0, respectively.  Hence, for a fixed aspect ratio, the isolines of constant buckling factor, $k_x$, are seen to vary with respect to the lamination parameter coordinates, or bending stiffness, as defined by Eqn. \ref{eq:BucklingFactor}.  
     
     The centre of the contour map represents a fully isotropic laminate, with ($\xi_{9}$, $\xi_{10}$) = (0, 0), and corresponds to curve 8 on [Figs. 2(b)](#fig-garland-b) where $k_x$ = 4.0 for aspect ratio $a/b$ = 1, 2, 3, $\cdots$, $\infty$. The cusps that arise from changes in buckling mode also occur at $a/b$ = $\sqrt{2}$, $\sqrt{6}$, $\cdots$ as in metallic plates.  However, for composite materials, the cusp locations are now strongly influenced by orthotropic bending stiffness properties; and further still by the introduction of \textit{Bend-Twist} coupling. 
 
@@ -144,12 +150,12 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
     </tr>
     </table>
 
-    <em><strong>Figure X.</strong> Strength distributions in the lamination parameter design space for mode numbers
+    <em><strong>Figure 4.</strong> Strength distributions in the lamination parameter design space for mode numbers
     $m = 1$–$4$.</em>
 
     </div>
 
-    Individual points on the boundary lines between mode regions are found from Eqn. \ref{eq:BucklingFactor} by generating two equations using the coefficients from adjacent mode regions, $m$ and ($m + 1$) and then equating for a fixed lamination parameter $\xi_{10}$, to solve for the variable lamination parameter $\xi_{9}$. Points on the boundary lines were also verified by individually calculating $k_{x, m}$, corresponding to the mode numbers, $m$, of interest, at 5 sample points along edges of the feasible region, from which two simpler polynomial equations of the following general form:
+    Individual points on the boundary lines between mode regions are found from the buckling factor equaton by generating two equations using the coefficients from adjacent mode regions, $m$ and ($m + 1$) and then equating for a fixed lamination parameter $\xi_{10}$, to solve for the variable lamination parameter $\xi_{9}$. Points on the boundary lines were also verified by individually calculating $k_{x, m}$, corresponding to the mode numbers, $m$, of interest, at 5 sample points along edges of the feasible region, from which two simpler polynomial equations of the following general form:
 
     <div align="center">
 
@@ -161,17 +167,17 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
 
     </div>
 
-    Points can be generated and equated to reveal the location, $\xi_{9}$, of coincident buckling modes, $k_{x,m}=k_{x,(m + 1)}$. Equation \ref{eq:kx5Points} has also been used to generate the lines of each mode boundary in Fig. \ref{figure:CompressionContour+ModeShapeC}.
+    Points can be generated and equated to reveal the location, $\xi_{9}$, of coincident buckling modes, $k_{x,m}=k_{x,(m + 1)}$. This equation has also been used to generate the lines of each mode boundary in [Fig. 3(c)](#CompressionContour+ModeShape).
 
-    Figure \ref{figure:compressioncurve} reveals that the mode changes occur at lower aspect ratios for Bend-Twist coupled laminates in comparison to their uncoupled counterparts.  The buckling curves (dotted lines) for \textit{Bend-Twist} coupled laminates are also seen to descend with increasing aspect ratio and, uniquely for curve 3 with lamination parameter coordinates ($\xi_{9}$, $\xi_{10}$, $\xi_{11}$) = (-0.5, 0, 0.5), ascending curves are also revealed.  This is in stark contrast to the curves for uncoupled laminates (solid lines), for which the lowest point between cusps is always coincident with the asymptotic value, corresponding to the buckling load factor of the infinitely long plate.   
+    [Figure](#fig-garland) reveals that the mode changes occur at lower aspect ratios for Bend-Twist coupled laminates in comparison to their uncoupled counterparts.  The buckling curves (dotted lines) for \textit{Bend-Twist} coupled laminates are also seen to descend with increasing aspect ratio and, uniquely for curve 3 with lamination parameter coordinates ($\xi_{9}$, $\xi_{10}$, $\xi_{11}$) = (-0.5, 0, 0.5), ascending curves are also revealed.  This is in stark contrast to the curves for uncoupled laminates (solid lines), for which the lowest point between cusps is always coincident with the asymptotic value, corresponding to the buckling load factor of the infinitely long plate.   
 
-    Figure \ref{figure:CompressionContour+ModeShapeA} contains a special comparison between triangular bounds for the standard ply laminates considered in this study and parabolic bounds obtained from the literature \cite{Fukunaga1995}, corresponding to free form angles, where fibre angles are arbitrary.  For non-standard or free form fibre directions with arbitrary values, the design space changes from a 3-dimensional to a 4-dimensional relationship, which significantly complicates the mapping procedure. There is also a further reduction in the buckling factor when the fibre orientations are changed from standard to non-standard angles, since $\xi_{12}$ becomes non-zero.  This can be demonstrated through a pseudo quasi-homogeneous quasi-isotropic \textit{Bend-Twist} coupled design: [45/0/90/45/90/-45\textsubscript{2}/0]\textsubscript{S} for which all lamination parameters are zero, except $\xi_{11}$ = 0.4.  For finite length plates, with aspect ratios $a/b$ = 1.0, 1.5 and 2.0, when the fibre directions are changed from standard \textpm45\textdegree plies to non-standard \textpm30\textdegree (\textpm60\textdegree) plies, the buckling factors are reduced by a further 5.2\% (5.2\%), 4.2\% (12.1\%) and 3.8\% (6.0\%).  However, this is primarily because the lamination parameters representing orthotropic stiffnesses become non-zero, i.e.  ($\xi_{9}$, $\xi_{10}$) = (\textpm0.25, 0.25).  The coupling stiffnesses remain at similar magnitudes: for \textpm30\textdegree, $\xi_{11}$ = $\xi_{12}$ = -0.34 and; for \textpm60\textdegree,\textdegree $\xi_{11}$ = -$\xi_{12}$ = -0.34.  This comparison does not therefore reveal the true influence of $\xi_{12}$.  However, if $\xi_{12}$ is introduced artificially, to give ($\xi_{9}$, $\xi_{10}$, $\xi_{11}$, $\xi_{12}$)= (0, 0, 0.4, \textpm0.4), the resulting buckling factor is reduced by a further 0.6\% (0.5\%), -0.1\% (1.1\%) and -1.9\% (3.5\%) at aspect ratios a/b = 1.0, 1.5 and 2.0, respectively.  
+    [Figure 3(a)](#CompressionContour+ModeShape) contains a special comparison between triangular bounds for the standard ply laminates considered in this study and parabolic bounds, corresponding to free form angles, where fibre angles are arbitrary.  For non-standard or free form fibre directions with arbitrary values, the design space changes from a 3-dimensional to a 4-dimensional relationship, which significantly complicates the mapping procedure. There is also a further reduction in the buckling factor when the fibre orientations are changed from standard to non-standard angles, since $\xi_{12}$ becomes non-zero.  This can be demonstrated through a pseudo quasi-homogeneous quasi-isotropic Bend-Twist coupled design: [45/0/90/45/90/-45\textsubscript{2}/0]\textsubscript{S} for which all lamination parameters are zero, except $\xi_{11}$ = 0.4.  For finite length plates, with aspect ratios $a/b$ = 1.0, 1.5 and 2.0, when the fibre directions are changed from standard \textpm45\textdegree plies to non-standard \textpm30\textdegree (\textpm60\textdegree) plies, the buckling factors are reduced by a further 5.2\% (5.2\%), 4.2\% (12.1\%) and 3.8\% (6.0\%).  However, this is primarily because the lamination parameters representing orthotropic stiffnesses become non-zero, i.e.  ($\xi_{9}$, $\xi_{10}$) = (\textpm0.25, 0.25).  The coupling stiffnesses remain at similar magnitudes: for \textpm30\textdegree, $\xi_{11}$ = $\xi_{12}$ = -0.34 and; for \textpm60\textdegree,\textdegree $\xi_{11}$ = -$\xi_{12}$ = -0.34.  This comparison does not therefore reveal the true influence of $\xi_{12}$.  However, if $\xi_{12}$ is introduced artificially, to give ($\xi_{9}$, $\xi_{10}$, $\xi_{11}$, $\xi_{12}$)= (0, 0, 0.4, \textpm0.4), the resulting buckling factor is reduced by a further 0.6\% (0.5\%), -0.1\% (1.1\%) and -1.9\% (3.5\%) at aspect ratios a/b = 1.0, 1.5 and 2.0, respectively.  
 
-    The choice of aspect ratios presented here was strongly influenced by the plethora of results reported in the literature for isotropic plates which represent only a single point in the centre of the lamination parameter design space.  The square and rectangular plate, with $a/b$ = 2, give identical compression buckling results only when the design is representative of the (equivalent) isotropic laminate, i.e., curve 8 of \ref{figure:CompressiveCurvePt6-10}, or indeed for square symmetric properties, i.e., curves 6–10 of Fig. \ref{figure:CompressiveCurvePt6-10}. The results are also identical to the lower-bound solution corresponding to the infinitely long plate. For \textit{Bend-Twist} coupled designs, there is a very large difference in the degradation in buckling load between these two aspect-ratios, as shown by curve 13 of Fig. \ref{figure:CompressiveCurvePt11-15}.  \\
+    The choice of aspect ratios presented here was strongly influenced by the plethora of results reported in the literature for isotropic plates which represent only a single point in the centre of the lamination parameter design space.  The square and rectangular plate, with $a/b$ = 2, give identical compression buckling results only when the design is representative of the (equivalent) isotropic laminate, i.e., curve 8 of [Fig. 2(b)](#fig-garland-b), or indeed for square symmetric properties, i.e., curves 6–10 of [Fig. 2(b)](#fig-garland-b). The results are also identical to the lower-bound solution corresponding to the infinitely long plate. For \textit{Bend-Twist} coupled designs, there is a very large difference in the degradation in buckling load between these two aspect-ratios, as shown by curve 13 of [Fig. 2(c)](#fig-garland-c).  
   
-    The rectangular plate configuration with $a/b$ = 1.5 is also commonly presented in this chapter. However, this aspect ratio has special significance in composite materials testing because of the requirement for compression strength after impact assessment in the ASTM standard \cite{ASTMStandard2012}, with an anti-buckling requirement and for which the boundary conditions of the test are simple supports. The ASTM guidelines recommend a stacking sequence of: [45/0/-45/90]\textsubscript{rS}, , but the variable number of repeats, $r$ = 1, 2, 3, $\cdots$, can be seen to possess significantly varying magnitude of \textit{Bend-Twist} coupling, i.e., ($\xi_9$, $\xi_{10}$, $\xi_{11}$) = (0.28, -0.38, 0.47), (0.16, -0.19, 0.21) and (0.12, -0.13, 0.14), respectively. 
+    The rectangular plate configuration with $a/b$ = 1.5 is also commonly presented in this chapter. However, this aspect ratio has special significance in composite materials testing because of the requirement for compression strength after impact assessment in the ASTM standard, with an anti-buckling requirement and for which the boundary conditions of the test are simple supports. The ASTM guidelines recommend a stacking sequence of: [45/0/-45/90]\textsubscript{rS}, , but the variable number of repeats, $r$ = 1, 2, 3, $\cdots$, can be seen to possess significantly varying magnitude of \textit{Bend-Twist} coupling, i.e., ($\xi_9$, $\xi_{10}$, $\xi_{11}$) = (0.28, -0.38, 0.47), (0.16, -0.19, 0.21) and (0.12, -0.13, 0.14), respectively. 
 
-    Finally, Fig. \ref{figure:CompressionBucklingContourXi11=0_5} represents the buckling factor contour map for constant aspect ratio ($a/b$ = 1.0, 1.5 and 2.0) plates with \textit{Bend-Twist} coupled orthotropic bending stiffness where $\xi_{11}$ = 0.5. The buckling performances of \textit{Bend-Twist} coupled laminates across different aspect ratios is illustrated in Fig. \ref{figure:compressioncurve}. The Garland curves for the coupled plates are related to the curves with the same $\xi_9$, $\xi_{10}$ design space cross section coordinates but uncoupled ($\xi_{11}$ = 0) with dotted lines. Figure \ref{figure:CompressionBucklingContourXi11=0_5} also reveals that the \textit{Bend-Twist} coupled laminates have reduced buckling performances compared to uncoupled laminates with the same location in the design space.  
+    Finally, [Fig. 5(b)](#fig-CompressionBucklingContourXi11=0_5) represents the buckling factor contour map for constant aspect ratio ($a/b$ = 1.0, 1.5 and 2.0) plates with \textit{Bend-Twist} coupled orthotropic bending stiffness where $\xi_{11}$ = 0.5. The buckling performances of \textit{Bend-Twist} coupled laminates across different aspect ratios is illustrated in [Fig. 2](#fig-garland). The Garland curves for the coupled plates are related to the curves with the same $\xi_9$, $\xi_{10}$ design space cross section coordinates but uncoupled ($\xi_{11}$ = 0) with dotted lines. [Figure 5(b)](#fig-CompressionBucklingContourXi11=0_5) also reveals that the \textit{Bend-Twist} coupled laminates have reduced buckling performances compared to uncoupled laminates with the same location in the design space.  
 
     <div id="fig-CompressionBucklingContourXi11=0_5">
 
@@ -195,4 +201,9 @@ from knowledge of the bending stiffness, $D_{ij}$, plate length, $a$, and width,
     </tr>
     </table>
 
-    As coupling is introduced, the design space expands. The design space becomes a 3D design space when one type of coupling is involved (e.g Bending-Twistiing) and 4D if 2 types (bending-Twisting-Extenson-Shearing). 
+    <em><strong>Figure 5.</strong> Strength distributions in the lamination parameter design space for mode numbers
+    $m = 1$–$4$.</em>
+
+    </div>
+
+    

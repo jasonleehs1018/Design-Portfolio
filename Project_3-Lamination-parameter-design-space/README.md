@@ -139,17 +139,17 @@ This project studies the lamination parameter design space of standard quad fini
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-m2"></a>
-      <img src="CompressionBucklingContourM=2.jpg" width="180"><br>
+      <img src="CompressionBucklingContourM=2.jpg" width="200"><br>
       <em>(b) m = 2</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-m3"></a>
-      <img src="CompressionBucklingContourM=3.jpg" width="180"><br>
+      <img src="CompressionBucklingContourM=3.jpg" width="200"><br>
       <em>(c) m = 3</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-m4"></a>
-      <img src="CompressionBucklingContourM=4.jpg" width="180"><br>
+      <img src="CompressionBucklingContourM=4.jpg" width="200"><br>
       <em>(d) m = 4</em>
     </td>
     </tr>

@@ -78,7 +78,9 @@ This project studies the lamination parameter design space of standard quad fini
     \end{aligned}
     \tag{Eqn. 3}   
     $$
+    </div>
 
+    <div align="center" id="eq-bucklingfactor2">
     $$
     \begin{aligned}
     k_x &=

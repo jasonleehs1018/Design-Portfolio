@@ -79,6 +79,29 @@ This project studies the lamination parameter design space of standard quad fini
     \tag{Eqn. 3}   
     $$
 
+    $$
+    \begin{aligned}
+    k_x &=
+    c_1
+    + c_2 \xi_9
+    + c_3 \xi_{10}
+    + c_4 \xi_9^2
+    + c_5 \xi_{10}^2
+    + c_6 \xi_9 \xi_{10}
+    + c_7 \xi_9^3
+    + c_8 \xi_{10}^3
+    + c_9 \xi_9^2 \xi_{10}
+    + c_{10} \xi_9 \xi_{10}^2
+    + c_{11} \xi_9^4
+    + c_{12} \xi_{10}^4 \\
+    &\quad
+    + c_{13} \xi_9^3 \xi_{10}
+    + c_{14} \xi_9^2 \xi_{10}^2
+    + c_{15} \xi_9 \xi_{10}^3
+    \end{aligned}
+    \tag{3}
+    $$
+
     </div>
     where $k_x$ is the buckling factor defined by [Eqn. 2](#eq-kx).
 

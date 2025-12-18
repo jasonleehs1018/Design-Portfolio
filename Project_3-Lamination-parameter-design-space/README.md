@@ -134,7 +134,7 @@ This project studies the lamination parameter design space of standard quad fini
     <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-m1"></a>
-      <img src="CompressionBucklingContourM=1.jpg" width="180"><br>
+      <img src="CompressionBucklingContourM=1.jpg" width="200"><br>
       <em>(a) m = 1</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
@@ -189,17 +189,17 @@ This project studies the lamination parameter design space of standard quad fini
     <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-CompressionBucklingContourXi11=0_5-AR1_0"></a>
-      <img src="CompressionBucklingContourXi11=0_5-AR1_0.png" width="220"><br>
+      <img src="CompressionBucklingContourXi11=0_5-AR1_0.png" width="250"><br>
       <em>(a)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-CompressionBucklingContourXi11=0_5-AR1_5"></a>
-      <img src="CompressionBucklingContourXi11=0_5-AR1_5.png" width="220"><br>
+      <img src="CompressionBucklingContourXi11=0_5-AR1_5.png" width="250"><br>
       <em>(b)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="fig-CompressionBucklingContourXi11=0_5-AR2_0"></a>
-      <img src="CompressionBucklingContourXi11=0_5-AR2_0.png" width="220"><br>
+      <img src="CompressionBucklingContourXi11=0_5-AR2_0.png" width="250"><br>
       <em>(c)</em>
     </td>
     </tr>

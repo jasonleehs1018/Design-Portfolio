@@ -12,7 +12,7 @@ Analysis of plate buckling using Abaqus.
 ### 🔹 [Project 2 – Lamination Parameter Design Space of finite length plate for compression buckling](Project_2-Lamination-parameter-design-space/README.md)
 Visualisation of lamination design space for optimization.
 
-### 🔹 [Project 3 – Lamination Parameter Design Space of finite length plate for shear buckling]Project_3-Shear-Bucklng-Desgn-Space/README.md)
+### 🔹 [Project 3 – Lamination Parameter Design Space of finite length plate for shear buckling](Project_3-Shear-Bucklng-Desgn-Space/README.md)
 Visualisation of lamination design space for optimization.
 
 ### 🔹 [Project 4 – Double-Double Laminate](Project_4-Double-double-laminate/README.md)

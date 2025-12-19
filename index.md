@@ -10,10 +10,10 @@ Composite Design Portfolio – FEA, buckling, first-ply failure, structural anal
 Analysis of plate buckling using Abaqus.
 
 ### 🔹 [Project 2 – Lamination Parameter Design Space of finite length plate for compression buckling](Project_2-Lamination-parameter-design-space/README.md)
-Visualisation of lamination design space for optimization.
+Visualisation of lamination design space of finite length plate for compression buckling.
 
 ### 🔹 [Project 3 – Lamination Parameter Design Space of finite length plate for shear buckling](Project_3-Shear-Bucklng-Desgn-Space/README.md)
-Visualisation of lamination design space for optimization.
+Visualisation of lamination design space of finite length plate for shear buckling.
 
 ### 🔹 [Project 4 – Double-Double Laminate](Project_4-Double-double-laminate/README.md)
 Comparison of stiffness and buckling of DD laminates.

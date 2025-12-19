@@ -19,7 +19,7 @@ This project studies the lamination parameter design space of standard quad fini
     <a id="PlyPercentageExplaination"></a>
     <img src="PlyPercentageExplaination.png" width="350"><br>
       <em>(a)</em>
-        </td>
+        </td>w
      </tr>
     <tr>
     <td align="center" style="border:1px solid black; padding:8px;">

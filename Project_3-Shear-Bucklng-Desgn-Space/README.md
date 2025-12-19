@@ -36,7 +36,7 @@ $$
 
 <div id="Fig-NegativeShearContoursXi0_5AR1_0">
 
-    <table style="border:1px solid black; border-collapse:collapse;">
+<table style="border:1px solid black; border-collapse:collapse;">
     <tr>
     <td colspan="2" align="center" style="border:1px solid black; padding:8px;">
     <a id="NegativeShearContoursXi0_5AR1_0"></a>
@@ -56,14 +56,11 @@ $$
         <em>(c)</em>
     </td>
     </tr>
-    </table>
-
+</table>
     <em><strong>Figure 2.</strong> Negative Shear buckling contours $k_{xy}(=N_{xy}b^2/\pi^2D_{Iso})$ for $\xi_{11}$ = 0.0, with: $a/b$ = 1.0 (left); $a/b$ = 1.5 (middle) and; $a/b$ = 2.0 (right).</em>
+</div>
 
-    </div>
-
-    <div id="Fig-PosShearContoursXi0_5AR1_0">
-
+<div id="Fig-PosShearContoursXi0_5AR1_0">
     <table style="border:1px solid black; border-collapse:collapse;">
     <tr>
     <td colspan="2" align="center" style="border:1px solid black; padding:8px;">
@@ -85,7 +82,6 @@ $$
     </td>
     </tr>
     </table>
-
     <em><strong>Figure 2.</strong> Positive Shear buckling contours $k_{xy}(=N_{xy}b^2/\pi^2D_{Iso})$ for $\xi_{11}$ = 0.0, with: $a/b$ = 1.0 (left); $a/b$ = 1.5 (middle) and; $a/b$ = 2.0 (right).</em>
 
-    </div>
+</div>

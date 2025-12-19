@@ -35,25 +35,22 @@ $$
 </div>
 
 <div id="Fig-NegativeShearContoursXi0_5AR1_0">
-
 <table style="border:1px solid black; border-collapse:collapse;">
     <tr>
-    <td colspan="2" align="center" style="border:1px solid black; padding:8px;">
-    <a id="NegativeShearContoursXi0_5AR1_0"></a>
-    <img src="NegativeShearContoursXi0_5AR1_0.png" width="350"><br>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-NegativeShearContoursXi0_5AR1_0"></a>
+      <img src="NegativeShearContoursXi0_5AR1_0.png" width="220"><br>
       <em>(a)</em>
-        </td>
-     </tr>
-    <tr>
-    <td align="center" style="border:1px solid black; padding:8px;">
-     <a id="NegativeShearContoursXi0_5AR1_5"></a>
-      <img src="NegativeShearContoursXi0_5AR1_5.PNG" width="280"><br>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="NegativeShearContoursXi0_5AR1_0"></a>
+      <img src="NegativeShearContoursXi0_5AR1_5.png" width="220"><br>
       <em>(b)</em>
     </td>
-       <td align="center" style="border:1px solid black; padding:8px;">
-        <a id="NegativeShearContoursXi0_5AR1_0"></a>
-      <img src="NegativeShearContoursXi0_5AR2_0.png" width="280"><br>
-        <em>(c)</em>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-NegativeShearContoursXi0_5AR2_0"></a>
+      <img src="NegativeShearContoursXi0_5AR2_0.png" width="220"><br>
+      <em>(c)</em>
     </td>
     </tr>
 </table>
@@ -63,25 +60,23 @@ $$
 <div id="Fig-PosShearContoursXi0_5AR1_0">
     <table style="border:1px solid black; border-collapse:collapse;">
     <tr>
-    <td colspan="2" align="center" style="border:1px solid black; padding:8px;">
-    <a id="PositiveShearContoursXi0_5AR1_0"></a>
-    <img src="PositiveShearContoursXi0_5AR1_0.png" width="350"><br>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-PositiveShearContoursXi0_5AR1_0"></a>
+      <img src="PositiveShearContoursXi0_5AR1_0.png" width="220"><br>
       <em>(a)</em>
-        </td>
-     </tr>
-    <tr>
-    <td align="center" style="border:1px solid black; padding:8px;">
-     <a id="PositiveShearContoursXi0_5AR1_5"></a>
-      <img src="PositiveShearContoursXi0_5AR1_5.PNG" width="280"><br>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="PositiveShearContoursXi0_5AR1_0"></a>
+      <img src="PositiveShearContoursXi0_5AR1_5.png" width="220"><br>
       <em>(b)</em>
     </td>
-       <td align="center" style="border:1px solid black; padding:8px;">
-        <a id="PositiveShearContoursXi0_5AR1_0"></a>
-      <img src="PositiveShearContoursXi0_5AR2_0.png" width="280"><br>
-        <em>(c)</em>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="fig-PositiveShearContoursXi0_5AR2_0"></a>
+      <img src="PositiveShearContoursXi0_5AR2_0.png" width="220"><br>
+      <em>(c)</em>
     </td>
     </tr>
-    </table>
+</table>
     <em><strong>Figure 2.</strong> Positive Shear buckling contours $k_{xy}(=N_{xy}b^2/\pi^2D_{Iso})$ for $\xi_{11}$ = 0.0, with: $a/b$ = 1.0 (left); $a/b$ = 1.5 (middle) and; $a/b$ = 2.0 (right).</em>
 
 </div>

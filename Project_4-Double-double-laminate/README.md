@@ -71,7 +71,7 @@ For the DD designs, a new design methodology is adopted \cite{York2018dd}. A tec
 
 <div id="eq:zetaphi">
 $$
-	\zeta_{\pm\phi} = (\xi_{9}-\beta)(\alpha-\beta) \tag{Eqn. 1} \\
+	\zeta_{\pm\phi} = (\xi_{9}-\beta)(\alpha-\beta) \tag{Eqn. 1} 
 $$
 </div>
 

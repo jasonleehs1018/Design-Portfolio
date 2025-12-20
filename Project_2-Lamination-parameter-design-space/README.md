@@ -1,4 +1,4 @@
-# Project 03 — Lamination Parameter Design Space for compresson bucklng
+# Project 02 — Lamination Parameter Design Space for compresson bucklng
 
 This project studies the lamination parameter design space of standard quad finite length plates for compresson bucklng.
 

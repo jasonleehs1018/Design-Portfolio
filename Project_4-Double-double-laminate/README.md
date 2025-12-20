@@ -73,10 +73,9 @@ For the DD designs, a new design methodology is adopted \cite{York2018dd}. A tec
 
 $$
 \begin{align}
-	\zeta_{\pm\phi} &= (\xi_{9}-\beta)(\alpha-\beta)
-	\tag{Eqn. 1} \\
-	\alpha &= \cos2\phi  \beta=\cos2\psi
-	\tag{Eqn. 2}
+	\zeta_{\pm\phi} &= (\xi_{9}-\beta)(\alpha-\beta) \tag{Eqn. 1} \\
+	\alpha &= \cos2\phi, \qquad 
+	\beta=\cos2\psi \tag{Eqn. 2}
 \end{align}
 $$
 

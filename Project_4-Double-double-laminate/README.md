@@ -55,15 +55,7 @@ The development of a passive adaptive <em>Bend-Twist</em> coupled wing requires 
 
 A non-symmetric isotropic laminate configuration with standard ply orientations is also used as a datum to compare against the coupled designs, as this laminate is fully isotropic, i.e. $\xi_{1-12}$ = 0 and has a classic compressive buckling factor of 4.0. 
 
-<div>
-
-$$
-
-[ 45/90/0/-45/0/-45/90/-45/45/0/45/90/45/90/-45/90/0/45/0/-45/0/-45/45/90 ]<sub>T</sub>
-
-$$
-
-</div>
+[45/90/0/-45/0/-45/90/-45/45/0/45/90/45/90/-45/90/0/45/0/-45/0/-45/45/90]<sub>T</sub>
 
 where the subscript T represents a complete laminate stacking sequence.
 

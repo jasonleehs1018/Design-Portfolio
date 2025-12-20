@@ -82,12 +82,10 @@ $$
 
 where $\alpha$ and $\beta$ can be expressed in the form of a quadratic equation:
 
-<div>
+<div id="eq:BetaFinal">
 $$
-\begin{equation}
-	\label{eq:BetaFinal}
 	\beta=-\frac{\xi_{10}+1-2\alpha^2}{4(\alpha-\xi_9)}+\sqrt{(\frac{\xi_{10}+1-2\alpha^2}{4(\alpha-\xi_9)})^3-\frac{2\alpha^2\xi_9-\alpha-\xi_{10}\alpha}{2(\alpha-\xi_9)}}
-\end{equation}
+	\tag{Eqn. 3}
 $$
 </div>
 

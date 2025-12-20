@@ -58,7 +58,9 @@ A non-symmetric isotropic laminate configuration with standard ply orientations 
 <div>
 
 $$
+
 [45/90/0/\text{-}45/0/\text{-}45/90/\text{-}45/45/0/45/90/45/90/\text{-}45/90/0/45/0/\text{-}45/0/\text{-}45/45/90]<sub>T</sub>
+
 $$
 
 </div>

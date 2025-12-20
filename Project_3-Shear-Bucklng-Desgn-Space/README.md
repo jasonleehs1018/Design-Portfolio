@@ -2,9 +2,7 @@
 
 This project studies the lamination parameter design space of standard quad finite length plates for shear bucklng.
 
-## Contents
-
-- Cross section Contour
+- ## Cross section Contour
 
 Equations for shear loaded plates are obtained using the same procedure adopted for compression buckling.  However, the finite element analysis software ABAQUS must now be used for uncoupled as well as coupled designs to generate buckling factors. The plate axis system, positive shear load, positive fibre orientation with respect to the x-axis, and aspect ratio ($a/b$) are also defined in the thumbnail sketch in [Fig. 1](#Plate_axis_system).
 
@@ -89,9 +87,9 @@ Shear buckling results from the literature \cite{Fukunaga1995} represent optimis
 
 Note that the optimized lamination parameters for shear buckling, with $a/b$ = 1 and 2, were virtually the same for both simply supported and clamped conditions. The degrading influence of a <em>Bend-Twist</em> coupling on compression buckling load was also found to be similar for both simply supported and clamped boundary conditions \cite{York2017bt}.
 
-- SURFACE CONTOUR MAPPING FOR SHEAR BUCKLING
+- ## SURFACE CONTOUR MAPPING FOR SHEAR BUCKLING
 
-Contour mapping is applied to external surfaces of the feasible domain of lamination parameters for each of the aspect ratios $a/b$ = 1.0, 1.5 and 2.0 as
+Contour mapping is applied to external surfaces of the feasible domain of lamination parameters for each of the aspect ratios $a/b$ = 1.0, 1.5 and 2.0 as illustrated in [Figs. 5](#PositiveShearSurfaceContourAR1_0) to [7](#PositiveShearSurfaceContourAR2_0) for (positive) shear buckling, respectively. The design space is a tetrahedron shape identical to [Fig. 1(c) from project 2](/Design-Portfolio/Project_2-Lamination-parameter-design-space/README.md#New3DSpace_NoPts), the surface contours start from the left surface, which is the $\xi_{10} - \xi_{11}$ plane with $\xi_{11}$ = 1 on the left. These reveal the bounds on buckling performance for all hypothetical designs, as well as local optima away from the edges of the design space.
 
 <div id="fig-PositiveShearSurfaceContourAR1_0">
 <table style="border:1px solid black; border-collapse:collapse;">

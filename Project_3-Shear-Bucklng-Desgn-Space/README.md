@@ -2,7 +2,7 @@
 
 This project studies the lamination parameter design space of standard quad finite length plates for shear bucklng.
 
-- ## Cross section Contour
+## Cross section Contour
 
 Equations for shear loaded plates are obtained using the same procedure adopted for compression buckling.  However, the finite element analysis software ABAQUS must now be used for uncoupled as well as coupled designs to generate buckling factors. The plate axis system, positive shear load, positive fibre orientation with respect to the x-axis, and aspect ratio ($a/b$) are also defined in the thumbnail sketch in [Fig. 1](#Plate_axis_system).
 
@@ -14,8 +14,7 @@ Equations for shear loaded plates are obtained using the same procedure adopted 
 
 </div>
 
-For the uncoupled laminates, positive and negative shear give identical buckling load factors. The shear buckling factors are obtained by substituting the calculated coefficients into Eqn. \ref{eq:bucklingCFS}. In this case, $k_{xy}$ is defined by: 
-
+For the uncoupled laminates, positive and negative shear give identical buckling load factors. The shear buckling factors are obtained by substituting the calculated coefficients into [Eqn. 1 from Project 2](/Design-Portfolio/Project_2-Lamination-parameter-design-space/eqn-bucklingCFS). In this case, $k_{xy}$ is defined by: 
 
 <div id="eq-kxy">
 

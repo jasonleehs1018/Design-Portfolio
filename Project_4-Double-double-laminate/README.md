@@ -80,11 +80,17 @@ $$
 $$
 </div>
 
-where $\alpha$ and $\beta$ can be expressed in the form of a quadratic equation: 
+where $\alpha$ and $\beta$ can be expressed in the form of a quadratic equation:
+
+<div>
+$$
 \begin{equation}
 	\label{eq:BetaFinal}
 	\beta=-\frac{\xi_{10}+1-2\alpha^2}{4(\alpha-\xi_9)}+\sqrt{(\frac{\xi_{10}+1-2\alpha^2}{4(\alpha-\xi_9)})^3-\frac{2\alpha^2\xi_9-\alpha-\xi_{10}\alpha}{2(\alpha-\xi_9)}}
 \end{equation}
+$$
+</div>
+
 which leads to a solution for angle $\phi$ from  Eqn. \ref{eq:alpha&beta} (solved iteratively), then Eqns. \ref{eq:zetaphi} and \ref{eq:BetaFinal} are matched for the desired lamination parameters ($\xi_{9}$, $\xi_{10}$).  Finally, a solution for angle $\psi$ is obtained directly from Eqn. \ref{eq:alpha&beta}, once the iterative process has converged. 
 
 Stacking sequences, lamination parameters and angles $\phi$ and $\psi$ from a previous study \cite{York2018dd} are listed in  Table \ref{Table:SSofa-f}. The angles were derived from Eqns. \ref{eq:zetaphi} – \ref{eq:BetaFinal} for ($\xi_{9}$, $\xi_{10}$ = (0, 0).

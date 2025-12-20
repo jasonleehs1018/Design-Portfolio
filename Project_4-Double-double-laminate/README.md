@@ -70,6 +70,7 @@ This stacking sequence is selected from the 24-ply laminate database, since it p
 For the DD designs, a new design methodology is adopted \cite{York2018dd}. A technique to match the bending stiffness between standard ply laminates (with 0°, \textpm45° and 90° fibre directions) and DD laminates (with $\pm\phi°$ and $\pm\psi°$ fibre directions) is used. The conventional fibre directions, 0°, 90° and \textpm45° are replaced with $\pm\phi_\gamma$ and $\pm\psi_{1-\gamma}$ pairs, where $\gamma$ represents the proportion of $\pm\phi$, and ($1-\gamma$) represents the proportion of $\pm\psi$.  For extension stiffness matching, these proportions correspond to the $\pm\phi$ and $\pm\psi$ ply percentages. For bending stiffness matching, the proportions correspond to the relative contribution to bending stiffness of $\pm\phi$ and $\pm\psi$ plies in the laminate. The formulation of stiffness matching was explained in section \ref{subsec:DD}, only a short recap is provideed here. The relative contribution to bending stiffness of the $\pm\phi$ ply sub-laminate in terms of lamination parameters is given by:
 
 <div id="eq:zetaphi">
+
 $$
 \begin{align}
 	\zeta_{\pm\phi}&=(\xi_{9}-\beta)(\alpha-\beta) \\  
@@ -78,6 +79,7 @@ $$
 	\tag{Eqn. 2}
 \end{align}
 $$
+
 </div>
 
 where $\alpha$ and $\beta$ can be expressed in the form of a quadratic equation:

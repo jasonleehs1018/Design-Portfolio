@@ -5,12 +5,12 @@ laminates with double-angle, as opposed to standard angle-ply configurations.
 
 ## Introducton
 
-‘Double angle-ply laminates’. Conventional laminates usually incorporate just 4 ply-angles (quad laminates), namely, 0\textdegree, 90\textdegree \space and $\pm$45\textdegree, which has limited design space. The design of conventional laminates in industry typically follows a number of rules \cite{Bailie1997,york&almeida2018bt}: (i) mid-plane symmetric to prevent thermal warping; (ii) balanced to prevent any mechanical couplings, (iii) the 10 percent rule, which means that each of the 4 plies must take up at least 10\% of the total number of plies and (iv) ply contiguity of no more than 3 plies, to reduce delamination.
+‘Double angle-ply laminates’. Conventional laminates usually incorporate just 4 ply-angles (quad laminates), namely, 0°, 90° \space and $\pm$45°, which has limited design space. The design of conventional laminates in industry typically follows a number of rules \cite{Bailie1997,york&almeida2018bt}: (i) mid-plane symmetric to prevent thermal warping; (ii) balanced to prevent any mechanical couplings, (iii) the 10 percent rule, which means that each of the 4 plies must take up at least 10\% of the total number of plies and (iv) ply contiguity of no more than 3 plies, to reduce delamination.
 
-A new layup method of composite laminate was introduced by Tsai in 2017, called double angle-ply, or double-double (DD) laminates  \cite{Tsai2017book}. A DD laminate is a novel idea for designing laminates involving two pairs of sub-laminates. These replace conventional fixed ply angles (i.e. 0\textdegree, 90\textdegree, ±45\textdegree), in which the two pairs of fibre angles can theoretically be arbitrary. DD laminates offers great potential for improvements over standard quad laminates, as listed below:
+A new layup method of composite laminate was introduced by Tsai in 2017, called double angle-ply, or double-double (DD) laminates  \cite{Tsai2017book}. A DD laminate is a novel idea for designing laminates involving two pairs of sub-laminates. These replace conventional fixed ply angles (i.e. 0°, 90°, ±45°), in which the two pairs of fibre angles can theoretically be arbitrary. DD laminates offers great potential for improvements over standard quad laminates, as listed below:
 
 - DD laminates have been shown to offer potential improvements in first ply failure strength \cite{Tsai2017keynote}
-- Rather than being limited to 4 fixed angles for standard quad designs, $\phi$ and $\psi$ in DD laminates can be any arbitrary angle between 0\textdegree to 90\textdegree. This offers a significantly larger design space compared to standard ply laminates.
+- Rather than being limited to 4 fixed angles for standard quad designs, $\phi$ and $\psi$ in DD laminates can be any arbitrary angle between 0° to 90°. This offers a significantly larger design space compared to standard ply laminates.
 - Ease of manufacturability: DD plies enhance the compatibility between the sub-laminates, which reduces the chance of wrinkle defects during the forming process, hence a higher production rate and lowering the requirement of manufacturing knockdown factors \cite{Nielsen2017}.
 - As $\phi$ and $\psi$ can be arbitrary angles, unlike the set angles found in quads, the fibre potential is allowed to be utilised fully with optimised combinations. Less layers are therefore needed to obtain the same performance as standard laminates of the same mass, which means reductions in the weight of the resulting structure \cite{Vermes2021}.
 - Mid-plane symmetric is not required with DD laminates because $\phi$ and $\psi$ always comes with a positive and negative pair and always repeats, which allows DD laminates to be homogenised more quickly than standard quad laminates \cite{Vermes2021-2,tsai2021dd}. A homogenised laminate refers to a laminate that has repeated properties throughout its thickness.
@@ -27,17 +27,19 @@ Double angle ply laminates utilize the same design techniques as standard lamina
 
 Aero-elastic tailoring of composite wings is expected to lead to a valuable drag reduction mechanism in conventional swept back wings \cite{Jutte2014}, by reducing any fluctuation away from the optimized static cruise configuration, i.e., reducing the magnitude of wing-twist as it bends.  Drag reduction can be achieved by introducing passive <em>Bend-Twist</em> coupling behaviour (a so-called passive-adaptive wing), to maintain a constant angle of attack across the wing, irrespective of the magnitude of the bending deflection \cite{York2018pawing}. This has been demonstrated for a number of competing laminate tailoring techniques. To create a <em>Bend-Twist</em> coupled behaviour Extension-Shear coupled properties are usually required and achieved by including off-axis fibre orientations in the layup. Off-axis alignment ($\beta$) refers to an angle away from the x-y axes, where the latter are defined by the direction of loading, as illustrated in Fig. \ref{figure:OffAxisAlignmentr}. The focus of the previous chapters has, thus far, been restricted to buckling behaviour. The effect of such tailoring on laminate first ply failure performance is now also considered to examine the feasibility of this tailoring method. This is assessed by combining buckling predictions with material strength constraints.
 
-\begin{figure}[H]
-		\includegraphics[width=0.2\linewidth]{Ch4-DD/OffAxisAlignment.PNG}
-		\captionsetup{justification=raggedright,singlelinecheck=false}
-		\caption{\label{figure:OffAxisAlignmentr}Illustration of the off-axis alignment on the x-y axis.} 
-\end{figure}
+<div align="center" id="Fig-OffAxisAlignment">
+
+<img src="OffAxisAlignment.PNG"><br>
+
+<em><strong>Figure 1.</strong> Illustration of the off-axis alignment on the x-y axis.</em>
+
+</div>
 
 Studies on buckling optimisation of composite laminates subject to material strength constraints are summarised elsewhere  \cite{gurdal1999}. Their purpose is to reduce the feasible design region and obtain stacking sequences for specific design applications. Material strength constraints are applied either through a maximum limit on laminate strain or via individual ply stresses \cite{York2006}. This includes methods for determining optimal stacking sequences to maximise buckling load \cite{Deveci2016}. This includes methods for determining optimal stacking sequences to maximise buckling load \cite{Lopez2009}.
 
 Very few studies have previously been conducted on the assessment of buckling, subject to material strength constraints, for off-axis aligned laminates possessing <em>Extension-Shear</em> coupling behaviour \cite{Stodleck2017_OffAxis}. The objective of this study is therefore to explore the available design space for a number of design solutions, including both DD and standard laminates. Off-axis orientation (with respect to the loading direction) is applied to both types of laminate to introduce Extension-Shear coupling, and also to standard designs that already possess an Extension-Shear coupling without the requirement for off-axis alignment.  Laminate designs are matched for buckling load, with off-axis alignments that give maximum <em>Extension-Shear</em> coupling, and material strength assessment is then made. 
 
-The introduction of passive <em>Bend-Twist</em> coupling at the wing-box level has been demonstrated \cite{Jutte2014} Shear coupling at the laminate level, i.e., in the wing skins. However, there is a limited design space for standard ply laminates with <em>Extension-Shearing</em> coupling \cite{York2015es} (with 0\textdegree, $\pm$45\textdegree and 90\textdegree ply orientations).  By contrast, a substantial design space exists for laminates that possess both <em>Extension-Shearing and Bending-Twisting</em> coupling \cite{York2017a}, yet care must be exercised since the presence of Bend-Twist coupling leads to a significant reduction in buckling load \cite{York2017bt}.
+The introduction of passive <em>Bend-Twist</em> coupling at the wing-box level has been demonstrated \cite{Jutte2014} Shear coupling at the laminate level, i.e., in the wing skins. However, there is a limited design space for standard ply laminates with <em>Extension-Shearing</em> coupling \cite{York2015es} (with 0°, $\pm$45° and 90° ply orientations).  By contrast, a substantial design space exists for laminates that possess both <em>Extension-Shearing and Bending-Twisting</em> coupling \cite{York2017a}, yet care must be exercised since the presence of Bend-Twist coupling leads to a significant reduction in buckling load \cite{York2017bt}.
 
 DD laminates have been shown to offer potential improvements in material strength \cite{Tsai2017keynote}, together with ease of manufacturability \cite{Nielsen2017}, when compared to standard ply laminates.  However, little consideration has been given to bending stiffness. 
 
@@ -46,31 +48,41 @@ The normal practice of choosing the extensional stiffness first, typically by ap
 ## Methodology
 
 The development of a passive adaptive <em>Bend-Twist</em> coupled wing requires Extension-Shear coupled laminate skins \cite{York2018pawing}, these can be achieved in several ways. The following types of laminates are used for the design process:
-\begin{enumerate}[label=\textnormal{\arabic*.}]
-	\item off-axis fibre alignment ($\beta$) of otherwise balanced and symmetric laminates with standard ply orientations  (0\textdegree, \textpm45\textdegree and 90\textdegree)
-	\item Off-axis orientation of double angle-ply (DD) ($\pm\phi^\circ$ and $\pm\psi^\circ$) laminates, with otherwise <em>Uncoupled</em> properties
-	\item <em>Extension-Shear</em> coupled (only) laminates with standard ply orientations
-\end{enumerate}
+
+- off-axis fibre alignment ($\beta$) of otherwise balanced and symmetric laminates with standard ply orientations  (0°, \textpm45° and 90°)
+- Off-axis orientation of double angle-ply (DD) ($\pm\phi°$ and $\pm\psi°$) laminates, with otherwise <em>Uncoupled</em> properties
+- <em>Extension-Shear</em> coupled (only) laminates with standard ply orientations
 
 A non-symmetric isotropic laminate configuration with standard ply orientations is also used as a datum to compare against the coupled designs, as this laminate is fully isotropic, i.e. $\xi_{1-12}$ = 0 and has a classic compressive buckling factor of 4.0. 
-\begin{equation}
-	 [45/90/0/\text{-}45/0/\text{-}45/90/\text{-}45/45/0/45/90/45/90/\text{-}45/90/0/45/0/\text{-}45/0/\text{-}45/45/90]\textsubscript{T}
-\end{equation}
-where the subscript T represents a complete laminate stacking sequence, as mentioned in Chapter \ref{Chapter:Introduction}.
+
+<div>
+$$
+[45/90/0/\text{-}45/0/\text{-}45/90/\text{-}45/45/0/45/90/45/90/\text{-}45/90/0/45/0/\text{-}45/0/\text{-}45/45/90]<sub>T</sub>
+$$
+</div>
+
+where the subscript T represents a complete laminate stacking sequence.
 
 The designs are fixed to 24-plies, which represents the minimum ply number grouping for $\pi/4$ bending isotropy \cite{Vannnucci_ISO2002,york2020}.
 
 The balanced and symmetric design has the stacking sequence:
-\begin{equation}
-	[\text{-}45/45/0_3/45/0/\text{-}45/0/90/0/90]\textsubscript{S}
-\end{equation}
 
-This stacking sequence is selected from the 24-ply laminate database, since it produces the highest <em>Extension-Shear</em> coupling, measured as $A_{16}$/$A_{11}$ = 21.9\% at off-axis orientation of $\beta$= 37.3\textdegree.  Note that the application of off-axis alignment also introduces the non-zero lamination parameters, $\xi_3$ and $\xi_4$, giving ($\xi_1$, $\xi_2$, $\xi_3$, $\xi_4$) = (0.09, -0.29, 0.32, 0.17).  Without off-axis alignment, the lamination parameters ($\xi_1$, $\xi_2$) = (0.33, 0.33).  The lamination parameter and extensional stiffnesses, $A_{ij}$, are related through Eqn. \ref{eq:ABDfromLP} from Chapter \ref{Chapter:Introduction}. 
+<div>
+$$
+	[\text{-}45/45/0_3/45/0/\text{-}45/0/90/0/90]<sub>S</sub>
+$$
+</div>
 
-For the DD designs, a new design methodology is adopted \cite{York2018dd}. A technique to match the bending stiffness between standard ply laminates (with 0\textdegree, \textpm45\textdegree and 90\textdegree fibre directions) and DD laminates (with $\pm\phi^\circ$ and $\pm\psi^\circ$ fibre directions) is used. The conventional fibre directions, 0\textdegree, 90\textdegree and \textpm45\textdegree are replaced with $\pm\phi_\gamma$ and $\pm\psi_{1-\gamma}$ pairs, where $\gamma$ represents the proportion of $\pm\phi$, and ($1-\gamma$) represents the proportion of $\pm\psi$.  For extension stiffness matching, these proportions correspond to the $\pm\phi$ and $\pm\psi$ ply percentages. For bending stiffness matching, the proportions correspond to the relative contribution to bending stiffness of $\pm\phi$ and $\pm\psi$ plies in the laminate. The formulation of stiffness matching was explained in section \ref{subsec:DD}, only a short recap is provideed here. The relative contribution to bending stiffness of the $\pm\phi$ ply sub-laminate in terms of lamination parameters is given by:
+This stacking sequence is selected from the 24-ply laminate database, since it produces the highest <em>Extension-Shear</em> coupling, measured as $A_{16}$/$A_{11}$ = 21.9\% at off-axis orientation of $\beta$= 37.3°.  Note that the application of off-axis alignment also introduces the non-zero lamination parameters, $\xi_3$ and $\xi_4$, giving ($\xi_1$, $\xi_2$, $\xi_3$, $\xi_4$) = (0.09, -0.29, 0.32, 0.17).  Without off-axis alignment, the lamination parameters ($\xi_1$, $\xi_2$) = (0.33, 0.33).  The lamination parameter and extensional stiffnesses, $A_{ij}$, are related through Eqn. \ref{eq:ABDfromLP} from Chapter \ref{Chapter:Introduction}. 
+
+For the DD designs, a new design methodology is adopted \cite{York2018dd}. A technique to match the bending stiffness between standard ply laminates (with 0°, \textpm45° and 90° fibre directions) and DD laminates (with $\pm\phi°$ and $\pm\psi°$ fibre directions) is used. The conventional fibre directions, 0°, 90° and \textpm45° are replaced with $\pm\phi_\gamma$ and $\pm\psi_{1-\gamma}$ pairs, where $\gamma$ represents the proportion of $\pm\phi$, and ($1-\gamma$) represents the proportion of $\pm\psi$.  For extension stiffness matching, these proportions correspond to the $\pm\phi$ and $\pm\psi$ ply percentages. For bending stiffness matching, the proportions correspond to the relative contribution to bending stiffness of $\pm\phi$ and $\pm\psi$ plies in the laminate. The formulation of stiffness matching was explained in section \ref{subsec:DD}, only a short recap is provideed here. The relative contribution to bending stiffness of the $\pm\phi$ ply sub-laminate in terms of lamination parameters is given by:
+<div id="eq:zetaphi">
+$$
 \begin{align}
-	\zeta_{\pm\phi}&=(\xi_{9}-\beta)(\alpha-\beta) \label{eq:zetaphi}\\
-	\alpha&=\cos2\phi \;\; \beta=\cos2\psi \label{eq:alpha&beta}
+	\zeta_{\pm\phi}&=(\xi_{9}-\beta)(\alpha-\beta) \\  
+	\tag{Eqn. 1}
+	\alpha&=\cos2\phi \;\; \beta=\cos2\psi \\  
+	\tag{Eqn. 2}
 \end{align}
 where $\alpha$ and $\beta$ can be expressed in the form of a quadratic equation: 
 \begin{equation}
@@ -85,14 +97,14 @@ Stacking sequences, lamination parameters and angles $\phi$ and $\psi$ from a pr
 	\caption{\label{Table:SSofa-f}Stacking sequences for fully uncoupled double angle-ply laminates with 24 layers.  The listed angles ($\phi$, $\psi$) produce bending isotropy.}
 	\begin{tabular}{m{0.05\textwidth}>{\centering}m{0.6\textwidth}>{\centering}m{0.12\textwidth}>{\centering\arraybackslash}m{0.12\textwidth}}
 		\hline 
-		Design \centering & Stacking Sequence & $\psi^\circ$, $\phi^\circ$ & $\xi_1$, $\xi_2$ \\
+		Design \centering & Stacking Sequence & $\psi°$, $\phi°$ & $\xi_1$, $\xi_2$ \\
 		\hline \\
-		\textcolor{red}{\textbf{\textit{a}}} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 63.78, 17.44 & -0.13, -0.06 \\
-		\textcolor{lime}{\textbf{\textit{b}}} \centering& [$\psi$/-$\psi$/-$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 65.08, 19.58 & -0.17, -0.04 \\
-		\textcolor{violet}{\textbf{\textit{c}}} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 68.08, 23.04 & -0.25, 0.01 \\
-		\textcolor{blue}{\textbf{\textit{d}}} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 74.28, 27.06 & -0.37, 0.20 \\
-		\textcolor{brown}{\textbf{\textit{e}}} \centering & [$\psi$/-$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\psi$/-$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 70.46, 24.95 & 0.17, -0.05 \\
-		\textcolor{green}{\textbf{\textit{f}}} \centering & [$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 78.64, 28.59 & 0.05, -0.04 \\
+		\textcolor{red}{\textbf{<em>{a}</em>} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 63.78, 17.44 & -0.13, -0.06 \\
+		\textcolor{lime}{\textbf{<em>{b}</em>} \centering& [$\psi$/-$\psi$/-$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 65.08, 19.58 & -0.17, -0.04 \\
+		\textcolor{violet}{\textbf{<em>{c}</em>} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 68.08, 23.04 & -0.25, 0.01 \\
+		\textcolor{blue}{\textbf{<em>{d}</em>} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 74.28, 27.06 & -0.37, 0.20 \\
+		\textcolor{brown}{\textbf{<em>{e}</em>} \centering & [$\psi$/-$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\psi$/-$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 70.46, 24.95 & 0.17, -0.05 \\
+		\textcolor{green}{\textbf{<em>{f}</em>} \centering & [$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 78.64, 28.59 & 0.05, -0.04 \\
 		\hline
 	\end{tabular}
 \end{table}

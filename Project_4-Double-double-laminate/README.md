@@ -63,11 +63,7 @@ The designs are fixed to 24-plies, which represents the minimum ply number group
 
 The balanced and symmetric design has the stacking sequence:
 
-<div>
-$$
-[ \text{-}45/45/0_3/45/0/\text{-}45/0/90/0/90 ]<sub>S</sub>
-$$
-</div>
+[-45/45/0_3/45/0/-45/0/90/0/90]<sub>S</sub>
 
 This stacking sequence is selected from the 24-ply laminate database, since it produces the highest <em>Extension-Shear</em> coupling, measured as $A_{16}$/$A_{11}$ = 21.9\% at off-axis orientation of $\beta$= 37.3°.  Note that the application of off-axis alignment also introduces the non-zero lamination parameters, $\xi_3$ and $\xi_4$, giving ($\xi_1$, $\xi_2$, $\xi_3$, $\xi_4$) = (0.09, -0.29, 0.32, 0.17).  Without off-axis alignment, the lamination parameters ($\xi_1$, $\xi_2$) = (0.33, 0.33).  The lamination parameter and extensional stiffnesses, $A_{ij}$, are related through Eqn. \ref{eq:ABDfromLP} from Chapter \ref{Chapter:Introduction}. 
 

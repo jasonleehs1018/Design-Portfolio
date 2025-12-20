@@ -73,7 +73,7 @@ The balanced and symmetric design has the stacking sequence:
 
 <div>
 $$
-	[\text{-}45/45/0_3/45/0/\text{-}45/0/90/0/90]<sub>S</sub>
+[\text{-}45/45/0_3/45/0/\text{-}45/0/90/0/90]<sub>S</sub>
 $$
 </div>
 

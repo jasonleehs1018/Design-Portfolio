@@ -183,3 +183,6 @@ where $\sigma_{1T}$, $\sigma_{1C}$, $\sigma_{2T}$ and $\sigma_{2C}$ represent th
 The stiffness matching approach is now extended to simultaneously match both first ply failure and buckling load constraints, for a chosen DD laminate with maximised  <em>Extension-Shear</em> coupling. 
 
 The results presented are based on compression buckling load, $N_x$, of a rectangular, simply supported plate with fixed aspect ratios, $a/b$, which for the uncoupled designs adopted here, allows the use of the closed form buckling solution given by Eqn. \ref{eq:bucklingCFS}. The procedure involves simultaneously matching the load for both buckling and first ply failure, from which the physical plate dimensions $a$ and $b$ can be determined.
+
+## Results
+

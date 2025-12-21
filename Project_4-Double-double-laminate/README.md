@@ -117,6 +117,7 @@ was derived using an algorithm developed previously \cite{York2015es}.  The desi
 <div>
 $$
 	N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]
+	\tag{Eqn. 3}
 $$
 </div>
 
@@ -132,24 +133,37 @@ $$
 	\xi_9&=\frac{\zeta_{\phi}\cos2\theta_{\phi}+\zeta_{\psi}\cos2\theta_{\psi}}{\zeta}, \qquad
 	\xi_{10}=\frac{\zeta_{\phi}\cos4\theta_{\phi}+\zeta_{\psi}\cos4\theta_{\psi}}{\zeta} \\
 	\xi_{11}&=\frac{\zeta_{\phi}\sin2\theta_{\phi}+\zeta_{\psi}\sin2\theta_{\psi}}{\zeta}, \qquad
-	\xi_{12}=\frac{\zeta_{\phi}\sin4\theta_{\phi}+\zeta_{\psi}\sin4\theta_{\psi}}{\zeta}	\notag 
+	\xi_{12}=\frac{\zeta_{\phi}\sin4\theta_{\phi}+\zeta_{\psi}\sin4\theta_{\psi}}{\zeta}
 \end{align}
+\tag{Eqn. 4}
 $$
 </div>
+
 where $\zeta=n^3$.
 
 The Tsai-Wu failure criteria \ref{eq:TW} is used for the strength assessment and is defined by: 
-\begin{equation}
-	F_{1}\sigma_1+2F_{2}\sigma_2+F_{11}\sigma_1^2+F_{22}\sigma_2^2+F_{66}\tau_{12}^2-\sqrt{F_{11}F_{22}}\sigma_1\sigma_2 = 1 \\				
-\end{equation}	
+
+<div>
+$$
+	F_{1}\sigma_1+2F_{2}\sigma_2+F_{11}\sigma_1^2+F_{22}\sigma_2^2+F_{66}\tau_{12}^2-\sqrt{F_{11}F_{22}}\sigma_1\sigma_2 = 1 			
+	\tag{Eqn. 5}
+$$
+</div>
+
 where
+
+<div>
+$$
 \begin{align}
 	F_{1} &= \frac{1}{\sigma_1^T}+\frac{1}{\sigma_1^C}, \qquad
 	F_{2} = \frac{1}{\sigma_2^T}\frac{1}{\sigma_2^C} \\
 	F_{11} &= -\frac{1}{\sigma_1^T\sigma_1^C}, \qquad
-	F_{22} = -\frac{1}{\sigma_2^T\sigma_2^C}	, \qquad
+	F_{22} = -\frac{1}{\sigma_2^T\sigma_2^C}, \qquad
 	F_{66} = (\frac{1}{\tau_{12}^F})^2 \notag	
 \end{align}
+\tag{Eqn. 6}
+$$
+</div>
 
 Individual terms correspond to the strength data listed in Table \ref{Table:T300-5208EngineeringProperties} for the T300/5208 graphite/epoxy material adopted in this study. 
 \begin{table}[H]

@@ -214,40 +214,40 @@ $$
 $$
 </div>
 
-Figure \ref{figure:LaminateDXi1-2} and \ref{figure:LaminateDXi9-10} represent the lamination parameter design spaces, for extensional (\ref{figure:LaminateDXi1-2}) and bending stiffness (\ref{figure:LaminateDXi9-10}), for DD laminate design case \textcolor{blue}{\textbf{\textit{d}}}.  The latter was chosen for illustration in Fig. \ref{figure:LaminateDDsignSpace&Contour} as it was found to have the lowest first ply failure (FPF) load (i.e. 605.3 N/mm) among all the standard and DD laminate designs, in which the FPF load is used as the input load for all the laminate design analyses. Referring to Fig. \ref{figure:LaminateDDsignSpace&Contour}, the fine grey lines indicate isolines along which the percentage of $\psi$ and $\phi$ ply orientations in the laminate layup are constant (the percentage values are given in Fig. \ref{figure:LaminateDXi1-2} in green font colour for the psi ply angle and brown font colour for the phi ply angle). The red bold lines indicate values of the laminate parameters that predict constant buckling factors for a square plate (i.e. $k_x$ = 4.0, the classical value for a square plate manufactured from an isotropic material such as aluminium or a QI laminate) superimposed on the design spaces, varying from 0° at the top right to 90° at the top left and ±45° at the bottom of the design space, as shown in Fig. \ref{figure:LaminateDXi1-2} that are in grey font colour. The dashed guidance line is used to read off the values of the $\psi$ and $\phi$ ply angles for the DD design indicated by the blue point (laminate design \textcolor{blue}{\textbf{\textit{d}}}) by using its intersection values with the bold purple line. In the example shown in Fig. \ref{figure:LaminateDXi1-2}, the values of $\psi$ and $\phi$ are 74.28 and 27.06, as listed in Table \ref{Table:SSofa-f}. Note that for any given point in the graphs, the dashed guidance line must be recalculated using the method outlined in Section \ref{sec:4.2}. 
+Figure \ref{figure:LaminateDXi1-2} and \ref{figure:LaminateDXi9-10} represent the lamination parameter design spaces, for extensional (\ref{figure:LaminateDXi1-2}) and bending stiffness (\ref{figure:LaminateDXi9-10}), for DD laminate design case <span style="color:blue;"><strong><em>d</em></strong></span>.  The latter was chosen for illustration in Fig. \ref{figure:LaminateDDsignSpace&Contour} as it was found to have the lowest first ply failure (FPF) load (i.e. 605.3 N/mm) among all the standard and DD laminate designs, in which the FPF load is used as the input load for all the laminate design analyses. Referring to Fig. \ref{figure:LaminateDDsignSpace&Contour}, the fine grey lines indicate isolines along which the percentage of $\psi$ and $\phi$ ply orientations in the laminate layup are constant (the percentage values are given in [Fig. 2(a)](#figure:LaminateDXi1-2) in green font colour for the psi ply angle and brown font colour for the phi ply angle). The red bold lines indicate values of the laminate parameters that predict constant buckling factors for a square plate (i.e. $k_x$ = 4.0, the classical value for a square plate manufactured from an isotropic material such as aluminium or a QI laminate) superimposed on the design spaces, varying from 0° at the top right to 90° at the top left and ±45° at the bottom of the design space, as shown in [Fig. 2(a)](#figure:LaminateDXi1-2) that are in grey font colour. The dashed guidance line is used to read off the values of the $\psi$ and $\phi$ ply angles for the DD design indicated by the blue point (laminate design <span style="color:blue;"><strong><em>d</em></strong></span>) by using its intersection values with the bold purple line. In the example shown in [Fig. 2(a)](#figure:LaminateDXi1-2), the values of $\psi$ and $\phi$ are 74.28 and 27.06, as listed in [Table 1](#Table:SSofa-f). Note that for any given point in the graphs, the dashed guidance line must be recalculated using the method outlined in Section \ref{sec:4.2}. 
 
-The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed onto the bending stiffness design spaces of laminate design \textcolor{blue}{\textbf{\textit{d}}} on Fig. \ref{figure:LaminateDAR1CompressionContour} and \ref{figure:LaminateDAR1_5CompressionContour}, respectively.
+The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed onto the bending stiffness design spaces of laminate design <span style="color:blue;"><strong><em>d</em></strong></span> on [Fig. 2(c)](#figure:LaminateDAR1CompressionContour) and [Fig. 2(d)](#figure:LaminateDAR1_5CompressionContour), respectively.
 
 <div id="figure:LaminateDDsignSpace&Contour">
 
 <table style="border:1px solid black; border-collapse:collapse;">
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="figure:LaminateDDsignSpace&Contour-a"></a>
+      <a id="figure:LaminateDXi1-2"></a>
       <img src="LaminateDXi1-2.PNG" width="280"><br>
       <em>(a)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="figure:LaminateDDsignSpace&Contour-b"></a>
+      <a id="figure:LaminateDXi9-10"></a>
       <img src="LaminateDXi9-10.PNG" width="280"><br>
       <em>(b)</em>
     </td>
   </tr>
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="figure:LaminateDDsignSpace&Contour-c"></a>
+      <a id="figure:LaminateDAR1CompressionContour"></a>
       <img src="LaminateDAR1CompressionContour.PNG" width="280"><br>
       <em>(c)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="figure:LaminateDDsignSpace&Contour-d"></a>
+      <a id="figure:LaminateDAR1_5CompressionContour"></a>
       <img src="LaminateDAR1_5CompressionContour.PNG" width="280"><br>
       <em>(d)</em>
     </td>
   </tr>
 </table>
 
-<em><strong>Figure 4.2.</strong> Lamination parameter design spaces for laminate <span style="color:blue;"><strong><em>d</em></strong></span> from Table 4.1 corresponding to (a) extension stiffness and (b) bending stiffness, with lines of constant compression buckling factor $k_z = 4.0$. Compression buckling contour maps for aspect ratio (c) $a/b = 1.0$ and (d) $a/b = 2.0$.</em>
+<em><strong>Figure 2.</strong> Lamination parameter design spaces for laminate <span style="color:blue;"><strong><em>d</em></strong></span> from [Table 1](#Table:SSofa-f) corresponding to (a) extension stiffness and (b) bending stiffness, with lines of constant compression buckling factor $k_z = 4.0$. Compression buckling contour maps for aspect ratio (c) $a/b = 1.0$ and (d) $a/b = 2.0$.</em>
 
 </div>
 
@@ -275,7 +275,7 @@ The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed on
 		\caption{\label{figure:LaminateDAR1_5CompressionContour}}
 	\end{subfigure}
 	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{figure:LaminateDDsignSpace&Contour}Lamination parameter design spaces for laminate \textcolor{blue}{\textbf{\textit{d}}} from Table \ref{Table:SSofa-f} corresponding to (a) extension stiffness and; (b) bending stiffness, with the lines of constant compression buckling factor $k_x$ = 4.0.  Compression buckling contour maps for aspect ratio (c) $a/b$ = 1.0 and; (d) $a/b$ = 1.5.} 
+	\caption{\label{figure:LaminateDDsignSpace&Contour}Lamination parameter design spaces for laminate <span style="color:blue;"><strong><em>d</em></strong></span> from [Table 1](#Table:SSofa-f) corresponding to (a) extension stiffness and; (b) bending stiffness, with the lines of constant compression buckling factor $k_x$ = 4.0.  Compression buckling contour maps for aspect ratio (c) $a/b$ = 1.0 and; (d) $a/b$ = 1.5.} 
 \end{figure}
 \begin{figure}[H]
 	\begin{subfigure}{.4\linewidth}
@@ -289,6 +289,6 @@ The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed on
 		\caption{\label{figure:LaminateDXi9-10+Kx4}}
 	\end{subfigure}
 	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{figure:LaminateD+Kx4}Feasible design space for (a) extension stiffness and; (b) bending stiffness, for the angles switched DD laminate \textcolor{blue}{\textbf{\textit{d}}} with bold lines that pass through the blud points representing constant compression buckling factor, $k_x$ = 4.0.} 
+	\caption{\label{figure:LaminateD+Kx4}Feasible design space for (a) extension stiffness and; (b) bending stiffness, for the angles switched DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> with bold lines that pass through the blud points representing constant compression buckling factor, $k_x$ = 4.0.} 
 \end{figure}
-Figure \ref{figure:LaminateD+Kx4} represents the extension and bending stiffness design spaces with a superimposed compression buckling line of $k_x$ = 4.0 for the angles switched DD laminate design \textcolor{blue}{\textbf{\textit{d}}}.  Figure \ref{figure:LaminateDXi1-2}, \ref{figure:LaminateDXi9-10} and Figure \ref{figure:LaminateD+Kx4} illustrate that it is possible to design double angle-ply laminates with the classical buckling factor of 4.0.
+Figure \ref{figure:LaminateD+Kx4} represents the extension and bending stiffness design spaces with a superimposed compression buckling line of $k_x$ = 4.0 for the angles switched DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>.  Figure \ref{figure:LaminateDXi1-2}, \ref{figure:LaminateDXi9-10} and Figure \ref{figure:LaminateD+Kx4} illustrate that it is possible to design double angle-ply laminates with the classical buckling factor of 4.0.

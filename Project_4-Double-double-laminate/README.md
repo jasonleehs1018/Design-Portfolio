@@ -262,7 +262,7 @@ The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed on
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:LaminateDXi9-10+Kx4"></a>
-      <img src="LLaminateDXi9-10+Kx4.png" width="280"><br>
+      <img src="LaminateDXi9-10+Kx4.png" width="280"><br>
       <em>(b)</em>
     </td>
   </tr>

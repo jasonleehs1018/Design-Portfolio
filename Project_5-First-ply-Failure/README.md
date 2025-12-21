@@ -1,9 +1,8 @@
 # Project 5 — First-ply Failure of a Composite Plate
 
-This project evaluates failure initiation in a composite laminate under uniaxial loading using classical failure theories.
+This project follows Project 4 and evaluates the first-ply failure of the 6 DD laminate designs.
 
-## Contents
-- Geometry setup
+## Geometry setup
   - Plate dimensions: 300 mm × 300 mm
   - Shell modelling (S8R5 elements)
   - Number of ply: 24
@@ -33,7 +32,8 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 - Loading & Boundary conditions
   - Axial compression 
   - Simply supported
-- Failure Criteria
+
+## Failure Criteria
   1. Max stress  
   The maximum stress criterion predicts the failure of a laminate by looking into the stresses individually, interactions between the tension and compressive stresses are ignored. 
 
@@ -165,3 +165,146 @@ This project evaluates failure initiation in a composite laminate under uniaxial
 - Results  
   * Failure Index Plots    
   ![FPFcompare](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_5-First-ply-Failure/FPFComparison.png?raw=true)
+
+
+The compressive load ($N_x$), given by Eqn. \ref{eq:bucklingCFS}, corresponding to the minimum first ply failure after off-axis orientation, is used to normalise all the polar plots that follow. 
+
+The first ply failure strength across the lamination parameter design spaces for extensional stiffness DD laminate design \textcolor{blue}{\textbf{\textit{d}}} is presented as a bubble plot in Figure \ref{figure:LaminateDBubblePlot}, which will be used later on to show the potential improvements for other designs. The size of the bubble is proportional to the FPF strength value, which is normalised against the FPF load of $\phi$ and $\psi$ = 0\textdegree \ degree (5027 N/mm), i.e. a unidirectional laminate. This means that the stronger the design is in terms of FPF, the larger the bubble is. The full-size bubble (= 1.0) of the 0\textdegree \ laminate (i.e. with $\xi_{1}$, $\xi_{2}$ = (1, 1) in the top right corner of Figure \label{figure:LaminateDBubblePlot} is shown for comparison. Figure \ref{figure:LaminateD3DlinePlot} represents a conversion of the bubble to a 3-D plot for an alternative method of illustrating the data, where the lines in the z direction represent the FPF strength of the point with the length proportional to the magnitude. Maximum first ply failure strength using Tsai-Wu failure criterion occurs at ($\psi$, $\phi$) = (\textpm6\textdegree, \textpm6\textdegree), approximately 3.5\% higher than 0\textdegree. Figure \ref{figure:6FPFCriteriaComparison} shows a plot of the FPF strength for various failure criteria (Tsai-Wu, Tsai-Hill, Maximum Stress, Maximum Strain Puck and Puppo-Evensen) with ($\psi$, $\phi$) ranged from 0\textdegree \ to 12\textdegree \ to investigate the the prediction of Tsai-Wu model that the ply orientation with highest FPF strength does not occur at 0\textdegree but elsewhere. Only the Tsai-Wu failure criterion shows an increase in strength from 2\textdegree to 8\textdegree while all the other criteria have a decreasing trend, showing that the Tsai-Wu failure criterion gives a different prediction to the other criteria. This is important since the observation suggests that uni-directional laminate is not the strongest in terms of FPF strength according to Tsai-Wu failure criterion, where 0\textdegree laminates is usually expected to be the strongest under compressive loading. Since different failure criteria predict failure differently, experimental tests are needed to verify which failure criterion gives the best prediction for the laminate designs. 
+\begin{figure}[H]
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDBubblePlot.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:LaminateDBubblePlot}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/LaminateD3DlinePlot.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:LaminateD3DlinePlot}}
+	\end{subfigure}
+
+	\begin{subfigure}{.7\linewidth}
+	\includegraphics[width=\linewidth]{Ch4-DD/6FPFCriteriaComparison.PNG}
+	\captionsetup{justification=centering,singlelinecheck=false}
+	\caption{\label{figure:6FPFCriteriaComparison}} 
+	\end{subfigure}
+	\captionsetup{justification=raggedright,singlelinecheck=false}
+	\caption{\label{figure:Bubble+3D+FPFCriteriaCompare}Illustration of: (a) a bubble plot with comparison of a full size bubble at ($\xi_1$, $\xi_2$) = (1, 1); (b) a 3-D conversion of the bubble plot for laminate \textcolor{blue}{\textbf{\textit{d}}} and (c) comparisons between 6 failure criteria with $\psi$, and $\phi$ ranging from 0\textdegree to 12\textdegree.} 
+\end{figure}
+
+Figure \ref{figure:BubbleXi1-2_NormalAngle_a-d} and \ref{figure:BubbleXi1-2_SwitchedAngle_a-d} represent bubble plots of the first ply failure strength of DD laminates \textcolor{red}{\textbf{\textit{a}}} to \textcolor{blue}{\textbf{\textit{d}}}, in 10\textdegree increments across the design space for both normal and switched angles, while Fig. \ref{figure:BubbleXi1-2_NormalAngle_e-f} and \ref{figure:BubbleXi1-2_SwitchedAngle_e-f} represent the bubble plots for laminate \textcolor{brown}{\textbf{\textit{e}}} and \textcolor{green}{\textbf{\textit{f}}}. The black bold  lines in the design spaces representing $k_x$ = 4.0 is superimposed on Figs. \ref{figure:BubbleXi1-2_NormalAngle_a-d} to \ref{figure:BubbleXi1-2_SwitchedAngle_e-f}. Figures \ref{figure:PlyPercentageBubble-Normal} and \ref{figure:PlyPercentageBubble-Switched} show bubble plots of standard ply angles with the 10\% rule applied and onto which the 6 DD laminate designs are superimposed for comparisons. The Tsai-Wu failure criterion is used to assess uniaxial compression strength, which is proportional to bubble area and is normalized with respect to the 0° ply laminate,which has the highest failure strength of 1. Only the results for DD laminates \textcolor{red}{\textbf{\textit{a}}} to \textcolor{blue}{\textbf{\textit{d}}} are given in Figs. \ref{figure:BubbleXi1-2_NormalAngle_a-d} and \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}. The location of typical aircraft wing skin designs is also plotted on the lamination design space of Figs. \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}, \ref{figure:BubbleXi1-2_NormalAngle_e-f}, \ref{figure:PlyPercentageBubble-Normal} and \ref{figure:PlyPercentageBubble-Switched} for comparison with the DD laminates. The colour of the bubbles corresponds to the colours of the DD Designs \textcolor{red}{\textbf{\textit{a}}}, \textcolor{lime}{\textbf{\textit{b}}}, \textcolor{violet}{\textbf{\textit{c}}}, \textcolor{blue}{\textbf{\textit{d}}}, \textcolor{brown}{\textbf{\textit{e}}} and \textcolor{green}{\textbf{\textit{f}}}. 
+\begin{figure}[H]
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BubbleXi1-2_NormalAngle_a-d.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BubbleXi1-2_NormalAngle_a-d}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BubbleXi1-2_SwitchedAngle_a-d.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BubbleXi1-2_SwitchedAngle_a-d}}
+	\end{subfigure}
+	
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BubbleXi1-2_NormalAngle_e-f.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BubbleXi1-2_NormalAngle_e-f}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BubbleXi1-2_SwitchedAngle_e-f.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BubbleXi1-2_SwitchedAngle_e-f}}
+	\end{subfigure}
+
+	\begin{subfigure}{.4\linewidth}
+	\includegraphics[width=\linewidth]{Ch4-DD/PlyPercentageBubble-Normal.PNG}
+	\captionsetup{justification=centering,singlelinecheck=false}
+	\caption{\label{figure:PlyPercentageBubble-Normal}}
+\end{subfigure}
+\begin{subfigure}{.4\linewidth}
+	\includegraphics[width=\linewidth]{Ch4-DD/PlyPercentageBubble-Switched.PNG}
+	\captionsetup{justification=centering,singlelinecheck=false}
+	\caption{\label{figure:PlyPercentageBubble-Switched}}
+\end{subfigure}
+	\captionsetup{justification=raggedright,singlelinecheck=false}
+	\caption{\label{figure:LaminateDDsignSpace&Contour}Strength comparisons for fully uncoupled Standard laminates (satisfying 10\% rule) and DD laminates for stacking sequences \textcolor{red}{\textbf{\textit{a}}} to \textcolor{blue}{\textbf{\textit{d}}} with angles: (a) as listed in Table \ref{Table:SSofa-f}; (b) switched; stacking sequences \textcolor{brown}{\textbf{\textit{e}}} and \textcolor{green}{\textbf{\textit{f}}} with angles: (c) as listed in Table \ref{Table:SSofa-f}; (d) switched. Standard laminates are superimposed on designs \textcolor{red}{\textbf{\textit{a}}} to \textcolor{green}{\textbf{\textit{f}}} with angles: (e) listed in Table \ref{Table:SSofa-f} and; (f) switched.  Strength values are indicated by bubble area, normalized against maximum (100\%) strength for 0\textdegree ply laminate shown at ($\xi_1$, $\xi_2$) = (1, 1).} 
+\end{figure}
+
+
+Figure \ref{figure:BubbleXi1-2_NormalAngle_a-d} and \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}) illustrate the potential to optimize laminates for FPF strength without degrading the buckling load, by choosing designs along the buckling line indicated in bold in Fig. \ref{figure:LaminateD+Kx4}.  This implies that the strength of composite laminates can be improved without a reduction in buckling load.  The equivalent line of constant buckling factor, $k_x$ = 4.0, is plotted in Figs. \ref{figure:BubbleXi1-2_NormalAngle_a-d} and \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}, revealing that the line on Fig. \ref{figure:BubbleXi1-2_SwitchedAngle_a-d} is very close to the typical location of aircraft wing skin configuration. From Fig. \ref{figure:BendingStiffnessDesignSpace-Normal-e}, it can be seen that the designs \textcolor{brown}{\textbf{\textit{e}}} and \textcolor{green}{\textbf{\textit{f}}}, with ($\xi_1$, $\xi_2$) = (0.17, -0.05) and (0.05, -0.04) respectively, have higher failure strength than designs \textcolor{red}{\textbf{\textit{a}}} to \textcolor{blue}{\textbf{\textit{d}}}, but with angles switched using Eqn. \ref{eq:AngleSwitched} in Fig. \ref{figure:BendingStiffnessDesignSpace-Normal-f}, design \textcolor{blue}{\textbf{\textit{d}}} has the highest strength compared to the other designs.
+
+Strength values are indicated by bubble area, normalized against maximum (100\%) strength for a 0\textdegree ply laminate shown at ($\xi_1$, $\xi_2$) = (1, 1). This was chosen to reflect the test procedure for determining laminate strength data. Laminate \textcolor{blue}{\textbf{\textit{d}}} has a normalised strength of 6.2\%, in Figure \ref{figure:BubbleXi1-2_NormalAngle_a-d}, and with angles switched has a normalised strength of 10.3\%, in Figure \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}.  
+
+Only 2 extensional stiffness design spaces are presented here for the 6 laminates, as laminates with the same ply percentages share the same extensional stiffness design space, i.e. \textcolor{red}{\textbf{\textit{a}}} to \textcolor{blue}{\textbf{\textit{d}}} and \textcolor{brown}{\textbf{\textit{e}}} and \textcolor{green}{\textbf{\textit{f}}}. In contrast, the bending stiffness design space is different for each design, which is shown in Figs. \ref{figure:BendingStiffnessDesignSpace-Normal} and \ref{figure:BendingStiffnessDesignSpace-Switched}, the former for normal angle and the latter for angle-switched designs.
+
+\begin{figure}[H]
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Normal-a.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Normal-a}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Normal-b.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Normal-b}}
+	\end{subfigure}
+	
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Normal-c.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Normal-c}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Normal-d.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Normal-d}}
+	\end{subfigure}
+	
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Normal-e.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Normal-e}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Normal-f.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Normal-f}}
+	\end{subfigure}
+	\captionsetup{justification=raggedright,singlelinecheck=false}
+	\caption{\label{figure:BendingStiffnessDesignSpace-Normal}The bending stiffness design space for the laminates with normal angle configurations (a): \textcolor{red}{\textbf{\textit{a}}}; (b): \textcolor{lime}{\textbf{\textit{b}}}; (c): \textcolor{violet}{\textbf{\textit{c}}}; (d): \textcolor{blue}{\textbf{\textit{d}}}; (e): \textcolor{brown}{\textbf{\textit{e}}} and (f): \textcolor{green}{\textbf{\textit{f}}}.} 
+\end{figure}
+\begin{figure}[H]
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Switched-a.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Switched-a}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Switched-b.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Switched-b}}
+	\end{subfigure}
+	
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Switched-c.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Switched-c}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Switched-d.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Switched-d}}
+	\end{subfigure}
+	
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Switched-e.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Switched-e}}
+	\end{subfigure}
+	\begin{subfigure}{.4\linewidth}
+		\includegraphics[width=\linewidth]{Ch4-DD/BendingStiffnessDesignSpace-Switched-f.PNG}
+		\captionsetup{justification=centering,singlelinecheck=false}
+		\caption{\label{figure:BendingStiffnessDesignSpace-Switched-f}}
+	\end{subfigure}
+	\captionsetup{justification=raggedright,singlelinecheck=false}
+	\caption{\label{figure:BendingStiffnessDesignSpace-Switched}The bending stiffness design space for the laminate with angle switched configurations (a): \textcolor{red}{\textbf{\textit{a}}}; (b): \textcolor{lime}{\textbf{\textit{b}}}; (c): \textcolor{violet}{\textbf{\textit{c}}}; (d): \textcolor{blue}{\textbf{\textit{d}}}; (e): \textcolor{brown}{\textbf{\textit{e}}} and (f): \textcolor{green}{\textbf{\textit{f}}}.} 
+\end{figure}

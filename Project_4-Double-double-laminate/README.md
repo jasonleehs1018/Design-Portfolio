@@ -105,7 +105,7 @@ Stacking sequences, lamination parameters and angles $\phi$ and $\psi$ from a pr
   | d | [ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 74.28, 27.06 |  
   | e | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 70.46, 24.95 |  
   | f | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 78.64, 28.59 |  
-
+<em><strong>Table 1.</strong> Stacking sequences for fully uncoupled double angle-ply laminates with 24 layers.  The listed angles ($\phi$, $\psi$) produce bending isotropy.</em>
 </div>
 
 The <em>Extension-Shearing</em> coupled laminate with standard ply orientations: 
@@ -165,21 +165,19 @@ $$
 $$
 </div>
 
-Individual terms correspond to the strength data listed in Table \ref{Table:T300-5208EngineeringProperties} for the T300/5208 graphite/epoxy material adopted in this study. 
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=centering,singlelinecheck=false}
-	\caption{\label{Table:T300-5208EngineeringProperties}Engineering properties of T300/5208 graphite/epoxy.}
-	\begin{tabular}{cccc}
-		\hline
-		$E_1$ (GPa) & 181.0 & $\sigma_1^T$ & 1500 \\
-		$E_2$ (GPa) & 10.3 & $\sigma_1^C$ & -1500 \\
-		$G_{12}$ (GPa) & 7,17 & $\sigma_2^T$ & 40 \\
-		$\nu_{12}$ & 0.28 & $\sigma_2^C$ & -246 \\
-		& & $\tau_{12}$ & 68 \\
-		\hline
-	\end{tabular}
-\end{table}
+Individual terms correspond to the strength data listed in [Table 2](#Table:T300-5208EngineeringProperties} for the T300/5208 graphite/epoxy material adopted in this study. 
+
+<div id="Table:T300-5208EngineeringProperties">
+  | Property | Value | Strength type | Value |  
+  |:---:|:---:|:---:|:---:|  
+  | $E_1$ (GPa) | 181.0 | $\sigma_1^T$ | 1500 |  
+  | $E_2$ (GPa) | 10.3 | $\sigma_1^C$ | -1500 |  
+  | $G_{12}$ (GPa) | 7,17 | $\sigma_2^T$ | 40 |  
+  | $\nu_{12}$ | 0.28 | $\sigma_2^C$ | -246 |  
+  | | | $\tau_{12}$ | 68 |  
+  <em><strong>Table 2.</strong> Engineering properties of T300/5208 graphite/epoxy.</em>
+</div>
+
 where $\sigma_{1T}$, $\sigma_{1C}$, $\sigma_{2T}$ and $\sigma_{2C}$ represent the allowable le tensile and compression stress values in the principal coordinate system, and $\tau_{12F}$ represents the allowable in-plane shear stress value.
 
 The stiffness matching approach is now extended to simultaneously match both first ply failure and buckling load constraints, for a chosen DD laminate with maximised  <em>Extension-Shear</em> coupling. 

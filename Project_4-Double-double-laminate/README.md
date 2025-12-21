@@ -169,13 +169,14 @@ $$
 Individual terms correspond to the strength data listed in [Table 2](#Table:T300-5208EngineeringProperties} for the T300/5208 graphite/epoxy material adopted in this study. 
 
 <div id="Table:T300-5208EngineeringProperties">
-  | Property | Value | Strength type | Value |  
-  |:---:|:---:|:---:|:---:|  
-  | $E_1$ (GPa) | 181.0 | $\sigma_1^T$ | 1500 |  
-  | $E_2$ (GPa) | 10.3 | $\sigma_1^C$ | -1500 |  
-  | $G_{12}$ (GPa) | 7,17 | $\sigma_2^T$ | 40 |  
-  | $\nu_{12}$ | 0.28 | $\sigma_2^C$ | -246 |  
-  | | | $\tau_{12}$ | 68 |  
+
+| Property | Value | Strength type | Value |  
+|:---:|:---:|:---:|:---:|  
+| $E_1$ (GPa) | 181.0 | $\sigma_1^T$ | 1500 |  
+| $E_2$ (GPa) | 10.3 | $\sigma_1^C$ | -1500 |  
+| $G_{12}$ (GPa) | 7,17 | $\sigma_2^T$ | 40 |  
+| $\nu_{12}$ | 0.28 | $\sigma_2^C$ | -246 |  
+| | | $\tau_{12}$ | 68 |  
 
  <em><strong>Table 2.</strong> Engineering properties of T300/5208 graphite/epoxy.</em>
 </div>

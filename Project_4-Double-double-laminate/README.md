@@ -247,48 +247,27 @@ The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed on
   </tr>
 </table>
 
-<em><strong>Figure 2.</strong> Lamination parameter design spaces for laminate <span style="color:blue;"><strong><em>d</em></strong></span> from [Table 1](#Table:SSofa-f) corresponding to (a) extension stiffness and (b) bending stiffness, with lines of constant compression buckling factor $k_z = 4.0$. Compression buckling contour maps for aspect ratio (c) $a/b = 1.0$ and (d) $a/b = 2.0$.</em>
+<em><strong>Figure 2.</strong> Lamination parameter design spaces for laminate <span style="color:blue;"><strong><em>d</em></strong></span> from [Table 1](#Table:SSofa-f) corresponding to (a) extension stiffness and; (b) bending stiffness, with the lines of constant compression buckling factor $k_x$ = 4.0.  Compression buckling contour maps for aspect ratio (c) $a/b$ = 1.0 and; (d) $a/b$ = 1.5.</em>
 
 </div>
 
+<div id="figure:LaminateD+Kx4">
 
-\begin{figure}[H]
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDXi1-2.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:LaminateDXi1-2}}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDXi9-10.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:LaminateDXi9-10}}
-	\end{subfigure}
+<table style="border:1px solid black; border-collapse:collapse;">
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:LaminateDXi1-2+Kx4"></a>
+      <img src="LaminateDXi1-2+Kx4.png" width="280"><br>
+      <em>(a)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:LaminateDXi9-10+Kx4"></a>
+      <img src="LLaminateDXi9-10+Kx4.png" width="280"><br>
+      <em>(b)</em>
+    </td>
+  </tr>
+</table>
 
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDAR1CompressionContour.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:LaminateDAR1CompressionContour}}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDAR1_5CompressionContour.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:LaminateDAR1_5CompressionContour}}
-	\end{subfigure}
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{figure:LaminateDDsignSpace&Contour}Lamination parameter design spaces for laminate <span style="color:blue;"><strong><em>d</em></strong></span> from [Table 1](#Table:SSofa-f) corresponding to (a) extension stiffness and; (b) bending stiffness, with the lines of constant compression buckling factor $k_x$ = 4.0.  Compression buckling contour maps for aspect ratio (c) $a/b$ = 1.0 and; (d) $a/b$ = 1.5.} 
-\end{figure}
-\begin{figure}[H]
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDXi1-2+Kx4.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:LaminateDXi1-2+Kx4}}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/LaminateDXi9-10+Kx4.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:LaminateDXi9-10+Kx4}}
-	\end{subfigure}
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{figure:LaminateD+Kx4}Feasible design space for (a) extension stiffness and; (b) bending stiffness, for the angles switched DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> with bold lines that pass through the blud points representing constant compression buckling factor, $k_x$ = 4.0.} 
-\end{figure}
-Figure \ref{figure:LaminateD+Kx4} represents the extension and bending stiffness design spaces with a superimposed compression buckling line of $k_x$ = 4.0 for the angles switched DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>.  Figure \ref{figure:LaminateDXi1-2}, \ref{figure:LaminateDXi9-10} and Figure \ref{figure:LaminateD+Kx4} illustrate that it is possible to design double angle-ply laminates with the classical buckling factor of 4.0.
+<em><strong>Figure 3.</strong> Feasible design space for (a) extension stiffness and; (b) bending stiffness, for the angles switched DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> with bold lines that pass through the blud points representing constant compression buckling factor, $k_x$ = 4.0.</em>
+
+[Figure 3](#figure:LaminateD+Kx4) represents the extension and bending stiffness design spaces with a superimposed compression buckling line of $k_x$ = 4.0 for the angles switched DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>.  [Figure 3(a)](#figure:LaminateDXi1-2), [Figure 3(b)](#figure:LaminateDXi9-10) and [Figure 3](#figure:LaminateD+Kx4) illustrate that it is possible to design double angle-ply laminates with the classical buckling factor of 4.0.

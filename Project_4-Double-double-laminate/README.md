@@ -94,41 +94,48 @@ $$
 which leads to a solution for angle $\phi$ from  [Eqn. 2](#eq:alpha&beta) (solved iteratively), then [Eqns. 1](#eq:zetaphi) and [2](#eq:BetaFinal) are matched for the desired lamination parameters ($\xi_{9}$, $\xi_{10}$).  Finally, a solution for angle $\psi$ is obtained directly from [Eqn. 2](#eq:alpha&beta), once the iterative process has converged. 
 
 Stacking sequences, lamination parameters and angles $\phi$ and $\psi$ from a previous study \cite{York2018dd} are listed in  Table \ref{Table:SSofa-f}. The angles were derived from [Eqn. 1](#eq:zetaphi) – [2](#eq:BetaFinal) for ($\xi_{9}$, $\xi_{10}$ = (0, 0).
-\begin{table}[H]
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{Table:SSofa-f}Stacking sequences for fully uncoupled double angle-ply laminates with 24 layers.  The listed angles ($\phi$, $\psi$) produce bending isotropy.}
-	\begin{tabular}{m{0.05\textwidth}>{\centering}m{0.6\textwidth}>{\centering}m{0.12\textwidth}>{\centering\arraybackslash}m{0.12\textwidth}}
-		\hline 
-		Design \centering & Stacking Sequence & $\psi°$, $\phi°$ & $\xi_1$, $\xi_2$ \\
-		\hline \\
-		\textcolor{red}{\textbf{<em>{a}</em>} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 63.78, 17.44 & -0.13, -0.06 \\
-		\textcolor{lime}{\textbf{<em>{b}</em>} \centering& [$\psi$/-$\psi$/-$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 65.08, 19.58 & -0.17, -0.04 \\
-		\textcolor{violet}{\textbf{<em>{c}</em>} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 68.08, 23.04 & -0.25, 0.01 \\
-		\textcolor{blue}{\textbf{<em>{d}</em>} \centering & [$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\phi$/$\phi$/-$\psi$/$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 74.28, 27.06 & -0.37, 0.20 \\
-		\textcolor{brown}{\textbf{<em>{e}</em>} \centering & [$\psi$/-$\psi$/$\phi$/-$\phi$/-$\phi$/$\phi$/$\psi$/-$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 70.46, 24.95 & 0.17, -0.05 \\
-		\textcolor{green}{\textbf{<em>{f}</em>} \centering & [$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$/-$\phi$/$\phi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/$\psi$/-$\psi$/-$\phi$/$\phi$/$\psi$/-$\psi$/$\phi$/-$\phi$/$\psi$/-$\psi$]\textsubscript{T} & 78.64, 28.59 & 0.05, -0.04 \\
-		\hline
-	\end{tabular}
-\end{table}
+
+<div id="tbl-stacking-sequences">
+
+  | Design | Stacking Sequence |  $\psi°$,  $\phi°$ |  
+  |:---:|:---:|:---:|  
+  | a | [  $\psi$/  $\psi$/ $-\phi$/  $\phi$/  $\phi$/ $-\phi$/  $\phi$/ $-\phi$/ $-\phi$/  $\phi$/ $-\psi$/  $\psi$/ $-\psi$/  $\psi$/  $\phi$/ $-\phi$/ $-\phi$/  $\phi$/ $-\phi$/  $\phi$/  $\phi$/ $-\phi$/  $\psi$/ $-\psi$]<sub>T</sub> | 63.78, 17.44 |  
+  | b | [ $\psi$/- $\psi$/- $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 65.08, 19.58 |  
+  | c | [ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 68.08, 23.04 |  
+  | d | [ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 74.28, 27.06 |  
+  | e | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 70.46, 24.95 |  
+  | f | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 78.64, 28.59 |  
+
+</div>
+
 The <em>Extension-Shearing</em> coupled laminate with standard ply orientations: 
-\begin{equation}
-	[\text{-}45/0/45/90/90/0/45/45/\text{-}45/45/90/45/45/90/45/\text{-}45/45/90/45/0/45/0/90/\text{-}45]\textsubscript{T}
-\end{equation}
-was derived using an algorithm developed previously \cite{York2015es}.  The design has a maximum $A_{16}/A_{11}$ of 16.7\%, without off-axis alignment, $\beta$, and shares the same compression buckling load, N\textsubscript{x}, as the isotropic plate, as can be readily confirmed from the closed form solution of Eqn. \ref{eq:bucklingCFS} in Chapter \ref{Chapter:Introduction}, given that the design is fully uncoupled in bending, i.e., $D_{16}=D_{26}=0$. For convenience, the equation is provided here again: 
-\begin{equation*}
+
+[-45/0/45/90/90/0/45/45/-45/45/90/45/45/90/45/-45/45/90/45/0/45/0/90/-45]<sub>T</sub>
+
+was derived using an algorithm developed previously \cite{York2015es}.  The design has a maximum $A_{16}/A_{11}$ of 16.7\%, without off-axis alignment, $\beta$, and shares the same compression buckling load, N\textsubscript{x}, as the isotropic plate, as can be readily confirmed from the closed form solution, given that the design is fully uncoupled in bending, i.e., $D_{16}=D_{26}=0$. For convenience, the equation is provided here again: 
+
+<div>
+$$
 	N_x = \pi^2 [D_{11} (\frac{m}{a})^2 + 2(D_{11} + 2D_{66})(\frac{n^2}{b^2}) +D_{22}(\frac{n^4}{b^4})(\frac{a}{m})^2]
-\end{equation*}
+$$
+</div>
+
 where $a$ and $b$ are the length and width of the laminate, $m$ is the number of half-waves of the buckling mode along the plate length and $D_{ij}$ are the elements of the bending stiffness matrix [D]. The lamination parameter is generally given by Eqn. \ref{eq:ABDfromLP} in Chapter \ref{Chapter:Introduction}, ), though for double angle-plies, the equation is adjusted slightly to:
+
+<div>
+$$
 \begin{align}
-	\xi_1&=\frac{n_\phi\cos2\theta_{\phi}+n_{\psi}\cos2\theta_{\psi}}{n} \;\;
-	\xi_2=\frac{n_{\phi}\cos4\theta_{\phi}+n_{\psi}\cos4\theta_{\psi}}{n}	\notag \\
-	\xi_3&=\frac{n_{\phi}\sin2\theta_{\phi}+n_{\psi}\sin2\theta_{\psi}}{n} \;\;
-	\xi_4=\frac{n_{\phi}\sin4\theta_{\phi}+n_{\psi}\sin4\theta_{\psi}}{n}	\\
-	\xi_9&=\frac{\zeta_{\phi}\cos2\theta_{\phi}+\zeta_{\psi}\cos2\theta_{\psi}}{\zeta} \;\;
-	\xi_{10}=\frac{\zeta_{\phi}\cos4\theta_{\phi}+\zeta_{\psi}\cos4\theta_{\psi}}{\zeta}	\notag \\
-	\xi_{11}&=\frac{\zeta_{\phi}\sin2\theta_{\phi}+\zeta_{\psi}\sin2\theta_{\psi}}{\zeta} \;\;
+	\xi_1 &= \frac{n_\phi\cos2\theta_{\phi}+n_{\psi}\cos2\theta_{\psi}}{n}, \qquad
+	\xi_2=\frac{n_{\phi}\cos4\theta_{\phi}+n_{\psi}\cos4\theta_{\psi}}{n} \\
+	\xi_3&=\frac{n_{\phi}\sin2\theta_{\phi}+n_{\psi}\sin2\theta_{\psi}}{n}, \qquad
+	\xi_4=\frac{n_{\phi}\sin4\theta_{\phi}+n_{\psi}\sin4\theta_{\psi}}{n} \\
+	\xi_9&=\frac{\zeta_{\phi}\cos2\theta_{\phi}+\zeta_{\psi}\cos2\theta_{\psi}}{\zeta}, \qquad
+	\xi_{10}=\frac{\zeta_{\phi}\cos4\theta_{\phi}+\zeta_{\psi}\cos4\theta_{\psi}}{\zeta} \\
+	\xi_{11}&=\frac{\zeta_{\phi}\sin2\theta_{\phi}+\zeta_{\psi}\sin2\theta_{\psi}}{\zeta}, \qquad
 	\xi_{12}=\frac{\zeta_{\phi}\sin4\theta_{\phi}+\zeta_{\psi}\sin4\theta_{\psi}}{\zeta}	\notag 
 \end{align}
+$$
+</div>
 where $\zeta=n^3$.
 
 The Tsai-Wu failure criteria \ref{eq:TW} is used for the strength assessment and is defined by: 
@@ -137,10 +144,10 @@ The Tsai-Wu failure criteria \ref{eq:TW} is used for the strength assessment and
 \end{equation}	
 where
 \begin{align}
-	F_{1} &= \frac{1}{\sigma_1^T}+\frac{1}{\sigma_1^C} \;\;
+	F_{1} &= \frac{1}{\sigma_1^T}+\frac{1}{\sigma_1^C}, \qquad
 	F_{2} = \frac{1}{\sigma_2^T}\frac{1}{\sigma_2^C} \\
-	F_{11} &= -\frac{1}{\sigma_1^T\sigma_1^C} \;\;
-	F_{22} = -\frac{1}{\sigma_2^T\sigma_2^C}	\;\;
+	F_{11} &= -\frac{1}{\sigma_1^T\sigma_1^C}, \qquad
+	F_{22} = -\frac{1}{\sigma_2^T\sigma_2^C}	, \qquad
 	F_{66} = (\frac{1}{\tau_{12}^F})^2 \notag	
 \end{align}
 

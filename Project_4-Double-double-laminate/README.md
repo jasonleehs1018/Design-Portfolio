@@ -269,5 +269,6 @@ The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed on
 </table>
 
 <em><strong>Figure 3.</strong> Feasible design space for (a) extension stiffness and; (b) bending stiffness, for the angles switched DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> with bold lines that pass through the blud points representing constant compression buckling factor, $k_x$ = 4.0.</em>
+</div>
 
 [Figure 3](#figure:LaminateD+Kx4) represents the extension and bending stiffness design spaces with a superimposed compression buckling line of $k_x$ = 4.0 for the angles switched DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>.  [Figure 3(a)](#figure:LaminateDXi1-2), [Figure 3(b)](#figure:LaminateDXi9-10) and [Figure 3](#figure:LaminateD+Kx4) illustrate that it is possible to design double angle-ply laminates with the classical buckling factor of 4.0.

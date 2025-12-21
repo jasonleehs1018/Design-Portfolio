@@ -218,29 +218,29 @@ Figure \ref{figure:LaminateDXi1-2} and \ref{figure:LaminateDXi9-10} represent th
 
 The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed onto the bending stiffness design spaces of laminate design \textcolor{blue}{\textbf{\textit{d}}} on Fig. \ref{figure:LaminateDAR1CompressionContour} and \ref{figure:LaminateDAR1_5CompressionContour}, respectively.
 
-<div id="fig-4-2">
+<div id="figure:LaminateDDsignSpace&Contour">
 
 <table style="border:1px solid black; border-collapse:collapse;">
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="fig-4-2-a"></a>
+      <a id="figure:LaminateDDsignSpace&Contour-a"></a>
       <img src="LaminateDXi1-2.PNG" width="280"><br>
       <em>(a)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="fig-4-2-b"></a>
+      <a id="figure:LaminateDDsignSpace&Contour-b"></a>
       <img src="LaminateDXi9-10.PNG" width="280"><br>
       <em>(b)</em>
     </td>
   </tr>
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="fig-4-2-c"></a>
+      <a id="figure:LaminateDDsignSpace&Contour-c"></a>
       <img src="LaminateDAR1CompressionContour.PNG" width="280"><br>
       <em>(c)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="fig-4-2-d"></a>
+      <a id="figure:LaminateDDsignSpace&Contour-d"></a>
       <img src="LaminateDAR1_5CompressionContour.PNG" width="280"><br>
       <em>(d)</em>
     </td>

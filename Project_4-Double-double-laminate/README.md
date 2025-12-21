@@ -49,7 +49,7 @@ The normal practice of choosing the extensional stiffness first, typically by ap
 
 The development of a passive adaptive <em>Bend-Twist</em> coupled wing requires Extension-Shear coupled laminate skins \cite{York2018pawing}, these can be achieved in several ways. The following types of laminates are used for the design process:
 
-- off-axis fibre alignment ($\beta$) of otherwise balanced and symmetric laminates with standard ply orientations  (0°, \textpm45° and 90°)
+- off-axis fibre alignment ($\beta$) of otherwise balanced and symmetric laminates with standard ply orientations  (0°, ±45° and 90°)
 - Off-axis orientation of double angle-ply (DD) ($\pm\phi°$ and $\pm\psi°$) laminates, with otherwise <em>Uncoupled</em> properties
 - <em>Extension-Shear</em> coupled (only) laminates with standard ply orientations
 
@@ -67,7 +67,7 @@ The balanced and symmetric design has the stacking sequence:
 
 This stacking sequence is selected from the 24-ply laminate database, since it produces the highest <em>Extension-Shear</em> coupling, measured as $A_{16}$/$A_{11}$ = 21.9\% at off-axis orientation of $\beta$= 37.3°.  Note that the application of off-axis alignment also introduces the non-zero lamination parameters, $\xi_3$ and $\xi_4$, giving ($\xi_1$, $\xi_2$, $\xi_3$, $\xi_4$) = (0.09, -0.29, 0.32, 0.17).  Without off-axis alignment, the lamination parameters ($\xi_1$, $\xi_2$) = (0.33, 0.33). 
 
-For the DD designs, a new design methodology is adopted \cite{York2018dd}. A technique to match the bending stiffness between standard ply laminates (with 0°, \textpm45° and 90° fibre directions) and DD laminates (with $\pm\phi°$ and $\pm\psi°$ fibre directions) is used. The conventional fibre directions, 0°, 90° and \textpm45° are replaced with $\pm\phi_\gamma$ and $\pm\psi_{1-\gamma}$ pairs, where $\gamma$ represents the proportion of $\pm\phi$, and ($1-\gamma$) represents the proportion of $\pm\psi$.  For extension stiffness matching, these proportions correspond to the $\pm\phi$ and $\pm\psi$ ply percentages. For bending stiffness matching, the proportions correspond to the relative contribution to bending stiffness of $\pm\phi$ and $\pm\psi$ plies in the laminate. The formulation of stiffness matching  recap is provideed here. The relative contribution to bending stiffness of the $\pm\phi$ ply sub-laminate in terms of lamination parameters is given by:
+For the DD designs, a new design methodology is adopted \cite{York2018dd}. A technique to match the bending stiffness between standard ply laminates (with 0°, ±45° and 90° fibre directions) and DD laminates (with $\pm\phi°$ and $\pm\psi°$ fibre directions) is used. The conventional fibre directions, 0°, 90° and ±45° are replaced with $\pm\phi_\gamma$ and $\pm\psi_{1-\gamma}$ pairs, where $\gamma$ represents the proportion of $\pm\phi$, and ($1-\gamma$) represents the proportion of $\pm\psi$.  For extension stiffness matching, these proportions correspond to the $\pm\phi$ and $\pm\psi$ ply percentages. For bending stiffness matching, the proportions correspond to the relative contribution to bending stiffness of $\pm\phi$ and $\pm\psi$ plies in the laminate. The formulation of stiffness matching  recap is provideed here. The relative contribution to bending stiffness of the $\pm\phi$ ply sub-laminate in terms of lamination parameters is given by:
 
 <div id="eq:zetaphi">
 $$
@@ -93,18 +93,18 @@ $$
 
 which leads to a solution for angle $\phi$ from  [Eqn. 2](#eq:alpha&beta) (solved iteratively), then [Eqns. 1](#eq:zetaphi) and [2](#eq:BetaFinal) are matched for the desired lamination parameters ($\xi_{9}$, $\xi_{10}$).  Finally, a solution for angle $\psi$ is obtained directly from [Eqn. 2](#eq:alpha&beta), once the iterative process has converged. 
 
-Stacking sequences, lamination parameters and angles $\phi$ and $\psi$ from a previous study \cite{York2018dd} are listed in  Table \ref{Table:SSofa-f}. The angles were derived from [Eqn. 1](#eq:zetaphi) – [2](#eq:BetaFinal) for ($\xi_{9}$, $\xi_{10}$ = (0, 0).
+Stacking sequences, lamination parameters and angles $\phi$ and $\psi$ from a previous study \cite{York2018dd} are listed in [Table 1](#Table:SSofa-f). The angles were derived from [Eqn. 1](#eq:zetaphi) – [2](#eq:BetaFinal) for ($\xi_{9}$, $\xi_{10}$ = (0, 0).
 
-<div id="tbl-stacking-sequences">
+<div id="Table:SSofa-f">
 
   | Design | Stacking Sequence |  $\psi°$,  $\phi°$ |  
   |:---:|:---:|:---:|  
   | <span style="color:red;"><strong><em>a</em></strong></span> | [  $\psi$/  $\psi$/ $-\phi$/  $\phi$/  $\phi$/ $-\phi$/  $\phi$/ $-\phi$/ $-\phi$/  $\phi$/ $-\psi$/  $\psi$/ $-\psi$/  $\psi$/  $\phi$/ $-\phi$/ $-\phi$/  $\phi$/ $-\phi$/  $\phi$/  $\phi$/ $-\phi$/  $\psi$/ $-\psi$]<sub>T</sub> | 63.78, 17.44 |  
-  | <span style="color:lime;"><strong><em>b</em></strong></span> | [ $\psi$/- $\psi$/- $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 65.08, 19.58 |  
+  | <span style="color:green;"><strong><em>b</em></strong></span> | [ $\psi$/- $\psi$/- $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 65.08, 19.58 |  
   | <span style="color:violet;"><strong><em>c</em></strong></span> | [ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 68.08, 23.04 |  
   | <span style="color:blue;"><strong><em>d</em></strong></span> | [ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 74.28, 27.06 |  
   | <span style="color:brown;"><strong><em>e</em></strong></span> | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 70.46, 24.95 |  
-  | <span style="color:green;"><strong><em>f</em></strong></span> | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 78.64, 28.59 |  
+  | <span style="color:lime;"><strong><em>f</em></strong></span> | [ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/ $\psi$/- $\psi$/- $\phi$/ $\phi$/ $\psi$/- $\psi$/ $\phi$/- $\phi$/ $\psi$/- $\psi$]<sub>T</sub> | 78.64, 28.59 |  
 
 <em><strong>Table 1.</strong> Stacking sequences for fully uncoupled double angle-ply laminates with 24 layers.  The listed angles ($\phi$, $\psi$) produce bending isotropy.</em>
 </div>
@@ -189,27 +189,32 @@ The results presented are based on compression buckling load, $N_x$, of a rectan
 
 ## Design spaces of double angle-ply laminate designs
 
-Only six laminate designs for fully uncoupled DD laminates with 24 layers produce bending isotropy, these are listed in Table \ref{Table:SSofa-f}. These six DD laminate designs share two unique sets of extension stiffness properties, hence there are only two points on the lamination parameter design spaces for extensional stiffness. Designs <span style="color:red;"><strong><em>a</em></strong></span>, 
-<span style="color:lime;"><strong><em>b</em></strong></span>,
+Only six laminate designs for fully uncoupled DD laminates with 24 layers produce bending isotropy, these are listed in [Table 1](#Table:SSofa-f). These six DD laminate designs share two unique sets of extension stiffness properties, hence there are only two points on the lamination parameter design spaces for extensional stiffness. Designs <span style="color:red;"><strong><em>a</em></strong></span>, 
+<span style="color:green;"><strong><em>b</em></strong></span>,
 <span style="color:violet;"><strong><em>c</em></strong></span>
 and
 <span style="color:blue;"><strong><em>d</em></strong></span>
 share one of the unique points, and
 <span style="color:brown;"><strong><em>e</em></strong></span>
 and
-<span style="color:green;"><strong><em>f</em></strong></span>
+<span style="color:lime;"><strong><em>f</em></strong></span>
 share the other.
-  
 	
-The DD laminate designs (listed in Table \ref{Table:SSofa-f}) are far from the in-plane lamination parameters ($\xi_1$, $\xi_2$) for typical aircraft components. For example, a Spar (0, -0.6), a Skin (0.32, 0.12) and a Stiffener (0.5, 0.4), which correspond to the following ply percentages for 0\textdegree, \textpm45\textdegree and 90\textdegree ply orientations: Spar (10/80/10), Skin (44/44/12) and Stiffener (60/30/10). However, if the angles are switched, where the outer plies of the laminates become $\phi$ rather than $\psi$ the design space becomes a mirror image of the design space that was generated before switching the angles, and the new solutions are found to be in close proximity to a typical Skin component, for which buckling load and FPF strength constraints coincide at some point along a wing structure.
+The DD laminate designs (listed in [Table 1](#Table:SSofa-f)) are far from the in-plane lamination parameters ($\xi_1$, $\xi_2$) for typical aircraft components. For example, a Spar (0, -0.6), a Skin (0.32, 0.12) and a Stiffener (0.5, 0.4), which correspond to the following ply percentages for 0°, ±45° and 90° ply orientations: Spar (10/80/10), Skin (44/44/12) and Stiffener (60/30/10). However, if the angles are switched, where the outer plies of the laminates become $\phi$ rather than $\psi$ the design space becomes a mirror image of the design space that was generated before switching the angles, and the new solutions are found to be in close proximity to a typical Skin component, for which buckling load and FPF strength constraints coincide at some point along a wing structure.
 
-The results are therefore reported with the $\phi$ and $\psi$ in the DD laminate design stacking sequence switched.  However, for bending isotropy to be maintained in the designs reported in Table \ref{Table:SSofa-f}, the values of $\phi$ and $\psi$ must be modified as follows:
-\begin{align}
-	\label{eq:AngleSwitched}
+The results are therefore reported with the $\phi$ and $\psi$ in the DD laminate design stacking sequence switched.  However, for bending isotropy to be maintained in the designs reported in [Table 1](#Table:SSofa-f), the values of $\phi$ and $\psi$ must be modified as follows:
+
+<div id="eq:AngleSwitched">
+$$
+\begn{align}
 	\phi_{\text{swithced}}&=90^\circ-\psi \\
-	\psi_{\text{switched}}&=90^\circ-\phi \notag
+	\psi_{\text{switched}}&=90^\circ-\phi
+	\tag{Eqn. 7}
 \end{align}
-Figure \ref{figure:LaminateDXi1-2} and \ref{figure:LaminateDXi9-10} represent the lamination parameter design spaces, for extensional (\ref{figure:LaminateDXi1-2}) and bending stiffness (\ref{figure:LaminateDXi9-10}), for DD laminate design case \textcolor{blue}{\textbf{\textit{d}}}.  The latter was chosen for illustration in Fig. \ref{figure:LaminateDDsignSpace&Contour} as it was found to have the lowest first ply failure (FPF) load (i.e. 605.3 N/mm) among all the standard and DD laminate designs, in which the FPF load is used as the input load for all the laminate design analyses. Referring to Fig. \ref{figure:LaminateDDsignSpace&Contour}, the fine grey lines indicate isolines along which the percentage of $\psi$ and $\phi$ ply orientations in the laminate layup are constant (the percentage values are given in Fig. \ref{figure:LaminateDXi1-2} in green font colour for the psi ply angle and brown font colour for the phi ply angle). The red bold lines indicate values of the laminate parameters that predict constant buckling factors for a square plate (i.e. $k_x$ = 4.0, the classical value for a square plate manufactured from an isotropic material such as aluminium or a QI laminate) superimposed on the design spaces, varying from 0\textdegree at the top right to 90\textdegree at the top left and \textpm45\textdegree at the bottom of the design space, as shown in Fig. \ref{figure:LaminateDXi1-2} that are in grey font colour. The dashed guidance line is used to read off the values of the $\psi$ and $\phi$ ply angles for the DD design indicated by the blue point (laminate design \textcolor{blue}{\textbf{\textit{d}}}) by using its intersection values with the bold purple line. In the example shown in Fig. \ref{figure:LaminateDXi1-2}, the values of $\psi$ and $\phi$ are 74.28 and 27.06, as listed in Table \ref{Table:SSofa-f}. Note that for any given point in the graphs, the dashed guidance line must be recalculated using the method outlined in Section \ref{sec:4.2}. 
+$$
+</div>
+
+Figure \ref{figure:LaminateDXi1-2} and \ref{figure:LaminateDXi9-10} represent the lamination parameter design spaces, for extensional (\ref{figure:LaminateDXi1-2}) and bending stiffness (\ref{figure:LaminateDXi9-10}), for DD laminate design case \textcolor{blue}{\textbf{\textit{d}}}.  The latter was chosen for illustration in Fig. \ref{figure:LaminateDDsignSpace&Contour} as it was found to have the lowest first ply failure (FPF) load (i.e. 605.3 N/mm) among all the standard and DD laminate designs, in which the FPF load is used as the input load for all the laminate design analyses. Referring to Fig. \ref{figure:LaminateDDsignSpace&Contour}, the fine grey lines indicate isolines along which the percentage of $\psi$ and $\phi$ ply orientations in the laminate layup are constant (the percentage values are given in Fig. \ref{figure:LaminateDXi1-2} in green font colour for the psi ply angle and brown font colour for the phi ply angle). The red bold lines indicate values of the laminate parameters that predict constant buckling factors for a square plate (i.e. $k_x$ = 4.0, the classical value for a square plate manufactured from an isotropic material such as aluminium or a QI laminate) superimposed on the design spaces, varying from 0° at the top right to 90° at the top left and ±45° at the bottom of the design space, as shown in Fig. \ref{figure:LaminateDXi1-2} that are in grey font colour. The dashed guidance line is used to read off the values of the $\psi$ and $\phi$ ply angles for the DD design indicated by the blue point (laminate design \textcolor{blue}{\textbf{\textit{d}}}) by using its intersection values with the bold purple line. In the example shown in Fig. \ref{figure:LaminateDXi1-2}, the values of $\psi$ and $\phi$ are 74.28 and 27.06, as listed in Table \ref{Table:SSofa-f}. Note that for any given point in the graphs, the dashed guidance line must be recalculated using the method outlined in Section \ref{sec:4.2}. 
 
 The overall compression for aspect ratio ($a/b$) = 1 and 1.5 are superimposed onto the bending stiffness design spaces of laminate design \textcolor{blue}{\textbf{\textit{d}}} on Fig. \ref{figure:LaminateDAR1CompressionContour} and \ref{figure:LaminateDAR1_5CompressionContour}, respectively.
 \begin{figure}[H]

@@ -188,7 +188,17 @@ The results presented are based on compression buckling load, $N_x$, of a rectan
 
 ## Design spaces of double angle-ply laminate designs
 
-Only six laminate designs for fully uncoupled DD laminates with 24 layers produce bending isotropy, these are listed in Table \ref{Table:SSofa-f}. These six DD laminate designs share two unique sets of extension stiffness properties, hence there are only two points on the lamination parameter design spaces for extensional stiffness. Designs \textcolor{red}{\textbf{\textit{a}}}, \textcolor{lime}{\textbf{\textit{b}}}, \textcolor{violet}{\textbf{\textit{c}}} and \textcolor{blue}{\textbf{\textit{d}}} share one of the unique points and \textcolor{brown}{\textbf{\textit{e}}} and \textcolor{green}{\textbf{\textit{f}}} share the other.  
+Only six laminate designs for fully uncoupled DD laminates with 24 layers produce bending isotropy, these are listed in Table \ref{Table:SSofa-f}. These six DD laminate designs share two unique sets of extension stiffness properties, hence there are only two points on the lamination parameter design spaces for extensional stiffness. Designs <span style="color:red;"><strong><em>a</em></strong></span>, 
+<span style="color:lime;"><strong><em>b</em></strong></span>,
+<span style="color:violet;"><strong><em>c</em></strong></span>
+and
+<span style="color:blue;"><strong><em>d</em></strong></span>
+share one of the unique points, and
+<span style="color:brown;"><strong><em>e</em></strong></span>
+and
+<span style="color:green;"><strong><em>f</em></strong></span>
+share the other.
+  
 	
 The DD laminate designs (listed in Table \ref{Table:SSofa-f}) are far from the in-plane lamination parameters ($\xi_1$, $\xi_2$) for typical aircraft components. For example, a Spar (0, -0.6), a Skin (0.32, 0.12) and a Stiffener (0.5, 0.4), which correspond to the following ply percentages for 0\textdegree, \textpm45\textdegree and 90\textdegree ply orientations: Spar (10/80/10), Skin (44/44/12) and Stiffener (60/30/10). However, if the angles are switched, where the outer plies of the laminates become $\phi$ rather than $\psi$ the design space becomes a mirror image of the design space that was generated before switching the angles, and the new solutions are found to be in close proximity to a typical Skin component, for which buckling load and FPF strength constraints coincide at some point along a wing structure.
 

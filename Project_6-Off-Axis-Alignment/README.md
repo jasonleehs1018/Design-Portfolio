@@ -145,8 +145,7 @@ Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the hi
     </td>
 </table>
 
-<em><strong>Figure 2.</strong>
-(a) Illustration of the extensional stiffness design spaces of the 6 DD laminate designs with and without off-axis alignment, and bubbles indicating the normalized FPF strength
+<em><strong>Figure 2.</strong> Illustration of the extensional stiffness design spaces of the 6 DD laminate designs with and without off-axis alignment, and bubbles indicating the normalized FPF strength
 </em>
 
 </div>

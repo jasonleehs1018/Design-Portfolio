@@ -60,37 +60,60 @@ The measured values of the manufactured laminates are shown in Table \ref{Table:
 | ISO-2 | 150 | 23.99 | 3.38 | 81.07 |
 | ISO-3 | 150 | 24.02 | 3.35 | 80.45 |
 
-<em><strong>Table 4.5.</strong> Measured dimensions of manufactured laminate designs.</em>
+<em><strong>Table 2.</strong> Measured dimensions of manufactured laminate designs.</em>
 
 </div>
+
 Examples of the laminates after failure are shown in Fig. \ref{figure:failedSample}.
 
-\begin{figure}[H]
-	\begin{subfigure}{.75\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/Failure-After.jpg}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:Failure-After}}
-	\end{subfigure}
-	\end{figure}
-	\begin{figure}[ht]\ContinuedFloat
-	\begin{subfigure}{.5\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/Failure-Sample.jpg}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:Failure-Sample}}
-	\end{subfigure}
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{figure:failedSample}Samples after failure for (a) all \textit{E-S} laminates and (b) a zoomed in capture of one of the laminates after failure.} 
-\end{figure}
+<div id="fig-4-15">
+
+<table style="border:1px solid black; border-collapse:collapse;">
+  <tr>
+    <td align="center" style="border:1px solid black; padding:8px;">
+      <a id="figure:Failure-After"></a>
+      <img src="Failure-After.png" width="700"><br>
+      <em>(a)</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="border:1px solid black; padding:8px;">
+      <a id="figure:Failure-Sample"></a>
+      <img src="Failure-Sample.png" width="420"><br>
+      <em>(b)</em>
+    </td>
+  </tr>
+</table>
+
+<em><strong>Figure 3.</strong>
+Samples after failure for (a) all <em>E-S</em> laminates and (b) a zoomed in capture of one of the laminates after failure.
+</em>
+
+</div>
 
 The resulting compressive stress is given as:
-\begin{equation}
-	\sigma_i = \frac{P_i}{A}			
-\end{equation}
-where P\textsubscript{i}} represents the compressive load at a particular point. 
+
+<div>
+
+$$
+	\sigma_i = \frac{P_i}{A}
+    \tag{Eqn. 1}			
+$$
+
+</div>
+
+where P<sub>i</sub> represents the compressive load at a particular point. 
+
 Finally, the chord modulus of elasticity, E\textsubscript{chord}, is given as:
-\begin{equation}
+
+<div>
+
+$$
 	E = \frac{\delta\sigma}{\delta\epsilon}			
-\end{equation}
+    \tag{Eqn. 2}			
+$$
+
+</div>
 
 A range of strain from 1000 to 3000 $\mu$ strain  is used for modulus calculations, which is recommended by ASTM standards \cite{ASTM-D3410}. Strain gauges were attached to the front and back surfaces of the test specimens, one on each surface. A compression load was applied until the specimens failed. The resulting failure strength, maximum stress, strain and modulus obtained using both the measured dimension and design dimensions are summarised in Tables \ref{Table:ExpCal-Measured} and \ref{Table:ExpCal-Designed}. The resulting stress-strain graphs of the specimens are presented in Fig. \ref{figure:StressStrainExp}. 
 While FPF predictions are made using Tsai-Wu failure criteria for comparisons, which are given in Table \ref{Table:FPFPredictionForComText}, since the engineering properties of the SE 84LV material is not given by the material supplier, T300/5208 is used for the prediction and the predictions are used to compare to the test results.

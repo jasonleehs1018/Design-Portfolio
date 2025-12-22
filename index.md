@@ -21,6 +21,9 @@ Comparison of stiffness and buckling of DD laminates.
 ### 🔹 [Project 5 – First Ply Failure](Project_5-First-ply-Failure/README.md)
 Tsai–Hill, Tsai–Wu, and first-ply failure predictions.
 
+### 🔹 [Project 6 – Off-axis Alignment](Project_6-Off-Axis-Alignment/README.md)
+Off-axis Alignment.
+
 ---
 
 ## 📄 About this portfolio

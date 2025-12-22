@@ -207,8 +207,8 @@ The results are therefore reported with the $\phi$ and $\psi$ in the DD laminate
 <div id="eq:AngleSwitched">
 $$
 \begn{align}
-	\phi_{\text{swithced}}&=90^\circ-\psi \\
-	\psi_{\text{switched}}&=90^\circ-\phi
+	\phi_{\text{swithced}}&=90°-\psi \\
+	\psi_{\text{switched}}&=90°-\phi
 	\tag{Eqn. 7}
 \end{align}
 $$

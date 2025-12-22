@@ -118,11 +118,11 @@ $$
 A range of strain from 1000 to 3000 $\mu$ strain  is used for modulus calculations, which is recommended by ASTM standards \cite{ASTM-D3410}. Strain gauges were attached to the front and back surfaces of the test specimens, one on each surface. A compression load was applied until the specimens failed. The resulting failure strength, maximum stress, strain and modulus obtained using both the measured dimension and design dimensions are summarised in Tables \ref{Table:ExpCal-Measured} and \ref{Table:ExpCal-Designed}. The resulting stress-strain graphs of the specimens are presented in Fig. \ref{figure:StressStrainExp}. 
 While FPF predictions are made using Tsai-Wu failure criteria for comparisons, which are given in Table \ref{Table:FPFPredictionForComText}, since the engineering properties of the SE 84LV material is not given by the material supplier, T300/5208 is used for the prediction and the predictions are used to compare to the test results.
 
-<div id="tbl-4-6">
+<div id="Table:ExpCal-Measured">
 
 <table>
   <caption style="caption-side: top; text-align: left;">
-    <em><strong>Table 4.6.</strong> Resulted failure strength, maximum stress, strain and modulus obtained from using measured dimensions.</em>
+    <em><strong>Table 1.</strong> Resulted failure strength, maximum stress, strain and modulus obtained from using measured dimensions.</em>
   </caption>
 
   <!-- ===== Block 1: Pmax and sigma_max ===== -->
@@ -264,32 +264,150 @@ While FPF predictions are made using Tsai-Wu failure criteria for comparisons, w
 
 </div>
 
+<div id="Table:ExpCal-Designed">
 
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{Table:ExpCal-Measured}Resulted failure strength, maximum stress, strain and modulus obtained from using measured dimensions.}
-	\begin{tabular}{ccccccccccc}
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		Property & & \multicolumn{4}{c}{P\textsubscript{max} (kN)} & & \multicolumn{4}{c}{$\sigma$\textsubscript{max} (kN)} \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		Sample & & Iso & DD & ES & BS & & ISO & DD & ES & BS \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		1 &  & 22.70 & 28.56 & 22.83 & 30.72 & & & 351.30 & 281.15 & 378.66 \\
-		2 &  & 29.32 & 29.73 & 24.58 & 23.32 &  & 361.68 & 364.36 & 302.56 & 284.62 \\
-		3 &  & 31.06 & 21.95 & 22.42 & 26.22 &  & 386.08 & 258.17 & 269.99 & 314.85 \\
-		Average &  & 30.19 & 26.75 & 23.28 & 26.75 &  & 373.88 & 324.61 & 284.57 & 326.04 \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		Property &  & \multicolumn{4}{c}{$\epsilon$\textsuperscript{u}\textsubscript{av} (\%)} &  & \multicolumn{4}{c}{E (GPa)} \\
-		\cline{1-1} \cline{3-6} \cline{8-11}  
-		Sample &  & ISO & DD & ES & BS &  & ISO & DD & ES & BS \\
-		1 &  &  & 0.86 & 0.62 & 1.05 &  &  & 42.99 & 38.66 & 40.13 \\
-		2 &  & 0.74 & 1.01 & 0.81 & 0.87 &  & 51.19 & 39.07 & 38.72 & 39.67 \\
-		3 &  & 0.70 & 0.68 & 0.75 & 0.87 &  & 48.88 & 40.78 & 37.85 & 36.40 \\
-		Average &  & 0.72 & 0.85 & 0.73 & 0.93 &  & 50.03 & 40.95 & 38.41 & 38.74 \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-	\end{tabular}
-\end{table}
+<table>
+  <caption style="caption-side: top; text-align: left;">
+    <em><strong>Table 2.</strong> Resulted failure strength, maximum stress, strain and modulus obtained from using designed dimensions.</em>
+  </caption>
+
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align:center;">Sample</th>
+      <th colspan="4" style="text-align:center;">P<sub>max</sub> (kN)</th>
+      <th colspan="4" style="text-align:center;">σ<sub>max</sub> (MPa)</th>
+    </tr>
+    <tr>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">1</td>
+      <td style="text-align:center;">22.70</td>
+      <td style="text-align:center;">28.56</td>
+      <td style="text-align:center;">22.83</td>
+      <td style="text-align:center;">30.72</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">346.24</td>
+      <td style="text-align:center;">276.69</td>
+      <td style="text-align:center;">372.41</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">2</td>
+      <td style="text-align:center;">29.32</td>
+      <td style="text-align:center;">29.73</td>
+      <td style="text-align:center;">24.58</td>
+      <td style="text-align:center;">23.32</td>
+      <td style="text-align:center;">355.41</td>
+      <td style="text-align:center;">360.38</td>
+      <td style="text-align:center;">297.93</td>
+      <td style="text-align:center;">282.67</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">3</td>
+      <td style="text-align:center;">31.06</td>
+      <td style="text-align:center;">21.95</td>
+      <td style="text-align:center;">22.42</td>
+      <td style="text-align:center;">26.22</td>
+      <td style="text-align:center;">376.48</td>
+      <td style="text-align:center;">266.07</td>
+      <td style="text-align:center;">271.78</td>
+      <td style="text-align:center;">317.79</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;"><strong>Average</strong></td>
+      <td style="text-align:center;"><strong>330.19</strong></td>
+      <td style="text-align:center;"><strong>26.75</strong></td>
+      <td style="text-align:center;"><strong>23.28</strong></td>
+      <td style="text-align:center;"><strong>26.75</strong></td>
+      <td style="text-align:center;"><strong>365.95</strong></td>
+      <td style="text-align:center;"><strong>324.23</strong></td>
+      <td style="text-align:center;"><strong>282.13</strong></td>
+      <td style="text-align:center;"><strong>324.29</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align:center;">Sample</th>
+      <th colspan="4" style="text-align:center;">ε<sup>u</sup> av (%)</th>
+      <th colspan="4" style="text-align:center;">E (GPa)</th>
+    </tr>
+    <tr>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">1</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">0.86</td>
+      <td style="text-align:center;">0.62</td>
+      <td style="text-align:center;">1.05</td>
+      <td style="text-align:center;">42.99</td>
+      <td style="text-align:center;">38.66</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">40.13</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">2</td>
+      <td style="text-align:center;">0.74</td>
+      <td style="text-align:center;">1.01</td>
+      <td style="text-align:center;">0.81</td>
+      <td style="text-align:center;">0.87</td>
+      <td style="text-align:center;">51.19</td>
+      <td style="text-align:center;">39.07</td>
+      <td style="text-align:center;">38.72</td>
+      <td style="text-align:center;">39.67</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">3</td>
+      <td style="text-align:center;">0.70</td>
+      <td style="text-align:center;">0.68</td>
+      <td style="text-align:center;">0.75</td>
+      <td style="text-align:center;">0.87</td>
+      <td style="text-align:center;">48.88</td>
+      <td style="text-align:center;">40.78</td>
+      <td style="text-align:center;">37.85</td>
+      <td style="text-align:center;">36.40</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;"><strong>Average</strong></td>
+      <td style="text-align:center;"><strong>0.72</strong></td>
+      <td style="text-align:center;"><strong>0.85</strong></td>
+      <td style="text-align:center;"><strong>0.73</strong></td>
+      <td style="text-align:center;"><strong>0.93</strong></td>
+      <td style="text-align:center;"><strong>50.04</strong></td>
+      <td style="text-align:center;"><strong>40.95</strong></td>
+      <td style="text-align:center;"><strong>38.41</strong></td>
+      <td style="text-align:center;"><strong>38.74</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
 
 \begin{table}[H]
 	\centering
@@ -316,6 +434,38 @@ While FPF predictions are made using Tsai-Wu failure criteria for comparisons, w
 		\cline{1-1} \cline{3-6} \cline{8-11} 
 	\end{tabular}
 \end{table}
+
+<div id="tbl-4-8">
+
+<table>
+  <caption style="caption-side: top; text-align: left;">
+    <em><strong>Table 3.</strong> First ply failure load predictions of the fully isotropic, DD design <span style="color:blue;"><strong><em>d</em></strong></span> (β = −46.1°), <em>E–S</em> coupled and balanced and symmetric designs (β = 37.3°) under compressive load.</em>
+  </caption>
+
+  <thead>
+    <tr>
+      <th colspan="4" style="text-align:center;">FPF Strength Prediction (N)</th>
+    </tr>
+    <tr>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span> (β = −46.1°)</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS (β = 37.3°)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">22,780</td>
+      <td style="text-align:center;">19,977</td>
+      <td style="text-align:center;">18,059</td>
+      <td style="text-align:center;">19,279</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
 
 \begin{table}[H]
 	\centering

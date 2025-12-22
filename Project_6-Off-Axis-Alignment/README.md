@@ -85,37 +85,58 @@ Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the hi
 
 [Figure 2](#figure:DesignSpacewithBeta-Normal) shows the design spaces of the 6 DD laminates. The initial graphs in this figure are plotted with the off-axis alignment of each laminate orientated to give the max value of $A_{16}/A_{11}$ applied (as indicated in the top row of the Figure) the subsequent graphs in [Fig. 2](#figure:DesignSpacewithBeta-Normal)  are without off-axis alignment. [Figure 3](#figure:DesignSpacewithBeta-Switched) presents the similar design spaces for the angle switched version. $\phi$ and $\psi$ are swept from 0° \xspace to 90° \xspace to investigate the effect of off-axis alignment on both the design space and the material strength. The design space shrinks as $\beta$ increases from 0° to 45° and expands from 45° to 90°.
 
-\begin{landscape}
-	\begin{figure}[H]
-		\begin{subfigure}{\linewidth}
-			\centering
-			\includegraphics[scale=1]{Ch4-DD/DesignSpaceNoBeta-a_d.PNG} 
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpaceNoBeta-a_d}Laminate <span style="color:red;"><strong><em>a</em></strong></span> - <span style="color:blue;"><strong><em>d</em></strong></span> without off-axis alignment $\beta$}
-		\end{subfigure}
-		
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-a.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-a}Laminate <span style="color:red;"><strong><em>a</em></strong></span> (Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$)}
-		\end{subfigure}
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-b.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-b}Laminate <span style="color:green;"><strong><em>b</em></strong></span> (Max $A_{16}/A_{11}=10.4\%$ at $\beta=33.8°$)}
-		\end{subfigure}
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-c.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-c}Laminate <span style="color:violet;"><strong><em>c</em></strong></span> (Max $A_{16}/A_{11}=14.4\%$ at $\beta=38.3°$)}
-		\end{subfigure}
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-d.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-d}Laminate <span style="color:blue;"><strong><em>d</em></strong></span> (Max $A_{16}/A_{11}=22.1\%$ at $\beta=46.1°$)}
-		\end{subfigure}
-	\end{figure}
-	
+<div id="fig-offset-alignment">
+
+<table style="border:1px solid black; border-collapse:collapse;">
+  <!-- Top row: single centered figure -->
+  <tr>
+    <td colspan="4" align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpaceNoBeta-a_d"></a>
+      <img src="DesignSpaceNoBeta-a_d.png" width="320"><br>
+      <em>(a) Laminate <span style="color:red;"><strong><em>a</em></strong></span> - <span style="color:blue;"><strong><em>d</em></strong></span> without off-axis alignment $\beta$</em>
+    </td>
+  </tr>
+
+  <!-- Bottom row: four figures -->
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-a"></a>
+      <img src="DesignSpacewithBeta-a.png" width="200"><br>
+      <em>(b) Laminate <span style="color:red;"><strong><em>a</em></strong></span> (Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-b"></a>
+      <img src="DesignSpacewithBeta-b.png" width="200"><br>
+      <em>(c) Laminate <span style="color:green;"><strong><em>b</em></strong></span> (Max $A_{16}/A_{11}=10.4\%$ at $\beta=33.8°$)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-c"></a>
+      <img src="DesignSpacewithBeta-c.png" width="200"><br>
+      <em>(d) Laminate <span style="color:violet;"><strong><em>c</em></strong></span> (Max $A_{16}/A_{11}=14.4\%$ at $\beta=38.3°$)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-d"></a>
+      <img src="iDesignSpacewithBeta-d.png" width="200"><br>
+      <em>(e) Laminate <span style="color:blue;"><strong><em>d</em></strong></span> (Max $A_{16}/A_{11}=22.1\%$ at $\beta=46.1°$)</em>
+    </td>
+  </tr>
+</table>
+
+<em><strong>Figure 2.</strong>
+(a) Laminate
+<span style="color:blue;"><strong><em>a–d</em></strong></span>
+without off-axis alignment $\beta$.
+(b)–(e) Laminates
+<span style="color:blue;"><strong><em>a</em></strong></span>,
+<span style="color:lime;"><strong><em>b</em></strong></span>,
+<span style="color:violet;"><strong><em>c</em></strong></span>,
+and
+<span style="color:brown;"><strong><em>d</em></strong></span>
+at their respective maximum $A_{11}$ values.
+</em>
+
+</div>
+
 	\begin{figure}[H]\ContinuedFloat
 		\begin{subfigure}{\linewidth}
 			\centering

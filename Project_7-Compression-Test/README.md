@@ -40,35 +40,30 @@ The compression test was conducted as follows:
 
 The measured values of the manufactured laminates are shown in Table \ref{Table:ExpSpecimenDimensions}, where DD, ES, BS and ISO represent the double angle-ply, \textit{Extension-Shear coupled}, balance and symmetric and fully isotropic designs. 
 
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{Table:ExpSpecimenDimensions}Measured dimensions of manufactured laminate designs.}
-	\begin{tabular}{cccccc}
-		\cline{1-1} \cline{3-6} 
-		Specimen & & $l$ (mm) & $w$ (mm) & $t$ (mm) & $A$ (mm\textsuperscript{2})\\
-		\cline{1-1} \cline{3-6} 
-		DD-1 & & 150 & 24.72 & 3.29 & 81.31 \\
-		DD-2 & & 150 & 24.00 & 3.40 & 81.60 \\
-		DD-3 & & 150 & 24.97 & 3.41 & 85.02 \\
-		\cline{1-1} \cline{3-6}
-		ES-1 & & 150 & 23.95 & 3.39 & 81.19 \\
-		ES-2 & & 150 & 24.04 & 3.38 & 81.24 \\
-		ES-3 & & 150 & 24.57 & 3.38 & 83.05 \\
-		\cline{1-1} \cline{3-6} 
-		BS-1 & & 150 & 23.94 & 3.39 & 81.14 \\
-		BS-2 & & 150 & 24.17 & 3.39 & 81.94 \\
-		BS-3 & & 150 & 24.42 & 3.41 & 85.27 \\
-		\cline{1-1} \cline{3-6} 
-		ISO-1 & & 150 & 24.64 & 3.27 & 80.48 \\
-		ISO-2 & & 150 & 23.99 & 3.38 & 81.07 \\
-		ISO-3 & & 150 & 24.02 & 3.35 & 80.45 \\
-		\cline{1-1} \cline{3-6} 
-	\end{tabular}
-\end{table}
+<div id="Table:ExpSpecimenDimensions">
 
-\pagebreak
-{Examples of the laminates after failure are shown in Fig. \ref{figure:failedSample}.
+| Specimen | <em>l</em> (mm) | <em>w</em> (mm) | <em>t</em> (mm) | <em>A</em> (mm<sup>2</sup>) |
+|:--------:|:--------------:|:--------------:|:--------------:|:--------------------------:|
+| DD-1 | 150 | 24.72 | 3.29 | 81.31 |
+| DD-2 | 150 | 24.00 | 3.40 | 81.60 |
+| DD-3 | 150 | 24.97 | 3.41 | 85.02 |
+| **—** | **—** | **—** | **—** | **—** |
+| ES-1 | 150 | 23.95 | 3.39 | 81.19 |
+| ES-2 | 150 | 24.04 | 3.38 | 81.24 |
+| ES-3 | 150 | 24.57 | 3.38 | 83.05 |
+| **—** | **—** | **—** | **—** | **—** |
+| BS-1 | 150 | 23.94 | 3.39 | 81.14 |
+| BS-2 | 150 | 24.17 | 3.39 | 81.94 |
+| BS-3 | 150 | 24.42 | 3.41 | 85.27 |
+| **—** | **—** | **—** | **—** | **—** |
+| ISO-1 | 150 | 24.64 | 3.27 | 80.48 |
+| ISO-2 | 150 | 23.99 | 3.38 | 81.07 |
+| ISO-3 | 150 | 24.02 | 3.35 | 80.45 |
+
+<em><strong>Table 4.5.</strong> Measured dimensions of manufactured laminate designs.</em>
+
+</div>
+Examples of the laminates after failure are shown in Fig. \ref{figure:failedSample}.
 
 \begin{figure}[H]
 	\begin{subfigure}{.75\linewidth}

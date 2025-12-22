@@ -163,9 +163,6 @@ This project follows Project 4 and evaluates the first-ply failure of the 6 DD l
 
 
 - Results  
-  * Failure Index Plots    
-  ![FPFcompare](https://github.com/jasonleehs1018/Design-Portfolio/blob/main/Project_5-First-ply-Failure/FPFComparison.png?raw=true)
-
 
 The compressive load ($N_x$), given by the closed form buckling equation from Project Eqn. \ref{eq:bucklingCFS}, corresponding to the minimum first ply failure after off-axis orientation, is used to normalise all the polar plots that follow. 
 
@@ -177,7 +174,7 @@ The first ply failure strength across the lamination parameter design spaces for
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:LaminateDBubblePlot"></a>
-      <img src="LaminateDBubblePlot" width="280"><br>
+      <img src="LaminateDBubblePlot.png" width="280"><br>
       <em>(a)</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
@@ -186,12 +183,64 @@ The first ply failure strength across the lamination parameter design spaces for
       <em>(b)</em>
     </td>
   </tr>
+    <tr>
+    <td colspan="2" align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:6FPFCriteriaComparison"></a>
+      <img src="FPFComparison.png" width="600"><br>
+      <em>(c)</em>
+    </td>
+  </tr>
 </table>
 
-<em><strong>Figure 3.</strong> Feasible design space for (a) extension stiffness and; (b) bending stiffness, for the angles switched DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> with bold lines that pass through the blud points representing constant compression buckling factor, $k_x$ = 4.0.</em>
+<em><strong>Figure 1.</strong> Illustration of: (a) a bubble plot with comparison of a full size bubble at ($\xi_1$, $\xi_2$) = (1, 1); (b) a 3-D conversion of the bubble plot for laminate <span style="color:blue;"><strong><em>d</em></strong></span> and (c) comparisons between 6 failure criteria with $\psi$, and $\phi$ ranging from 0\textdegree to 12\textdegree.</em>
 </div>
 
 Figure \ref{figure:BubbleXi1-2_NormalAngle_a-d} and \ref{figure:BubbleXi1-2_SwitchedAngle_a-d} represent bubble plots of the first ply failure strength of DD laminates <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:blue;"><strong><em>d</em></strong></span>, in 10\textdegree increments across the design space for both normal and switched angles, while Fig. \ref{figure:BubbleXi1-2_NormalAngle_e-f} and \ref{figure:BubbleXi1-2_SwitchedAngle_e-f} represent the bubble plots for laminate <span style="color:brown;"><strong><em>e</em></strong></span> and <span style="color:lime;"><strong><em>f</em></strong></span>. The black bold  lines in the design spaces representing $k_x$ = 4.0 is superimposed on Figs. \ref{figure:BubbleXi1-2_NormalAngle_a-d} to \ref{figure:BubbleXi1-2_SwitchedAngle_e-f}. Figures \ref{figure:PlyPercentageBubble-Normal} and \ref{figure:PlyPercentageBubble-Switched} show bubble plots of standard ply angles with the 10\% rule applied and onto which the 6 DD laminate designs are superimposed for comparisons. The Tsai-Wu failure criterion is used to assess uniaxial compression strength, which is proportional to bubble area and is normalized with respect to the 0° ply laminate,which has the highest failure strength of 1. Only the results for DD laminates <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:blue;"><strong><em>d</em></strong></span> are given in Figs. \ref{figure:BubbleXi1-2_NormalAngle_a-d} and \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}. The location of typical aircraft wing skin designs is also plotted on the lamination design space of Figs. \ref{figure:BubbleXi1-2_SwitchedAngle_a-d}, \ref{figure:BubbleXi1-2_NormalAngle_e-f}, \ref{figure:PlyPercentageBubble-Normal} and \ref{figure:PlyPercentageBubble-Switched} for comparison with the DD laminates. The colour of the bubbles corresponds to the colours of the DD Designs <span style="color:red;"><strong><em>a</em></strong></span>, \textcolor{lime}{\textbf{\textit{b}}}, \textcolor{violet}{\textbf{\textit{c}}}, <span style="color:blue;"><strong><em>d</em></strong></span>, <span style="color:brown;"><strong><em>e</em></strong></span> and <span style="color:lime;"><strong><em>f</em></strong></span>. 
+
+<div id="figure:LaminateDDsignSpace&Contour">
+
+<table style="border:1px solid black; border-collapse:collapse;">
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:BubbleXi1-2_NormalAngle_a-d"></a>
+      <img src="BubbleXi1-2_NormalAngle_a-d.png" width="280"><br>
+      <em>(a)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:BubbleXi1-2_SwitchedAngle_a-d"></a>
+      <img src="BubbleXi1-2_SwitchedAngle_a-d.png" width="280"><br>
+      <em>(b)</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:BubbleXi1-2_NormalAngle_e-f"></a>
+      <img src="BubbleXi1-2_NormalAngle_e-f.png" width="280"><br>
+      <em>(c)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:BubbleXi1-2_SwitchedAngle_e-f"></a>
+      <img src="BubbleXi1-2_SwitchedAngle_e-f.png" width="280"><br>
+      <em>(d)</em>
+    </td>
+  </tr>
+    <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:PlyPercentageBubble-Normal"></a>
+      <img src="PlyPercentageBubble-Normal.png" width="280"><br>
+      <em>(c)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:PlyPercentageBubble-Switched"></a>
+      <img src="PlyPercentageBubble-Switched.png" width="280"><br>
+      <em>(d)</em>
+    </td>
+  </tr>
+</table>
+
+<em><strong>Figure 2.</strong> Strength comparisons for fully uncoupled Standard laminates (satisfying 10\% rule) and DD laminates for stacking sequences <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:blue;"><strong><em>d</em></strong></span> with angles: (a) as listed in Table \ref{Table:SSofa-f}; (b) switched; stacking sequences <span style="color:brown;"><strong><em>e</em></strong></span> and <span style="color:lime;"><strong><em>f</em></strong></span> with angles: (c) as listed in Table \ref{Table:SSofa-f}; (d) switched. Standard laminates are superimposed on designs <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:lime;"><strong><em>f</em></strong></span> with angles: (e) listed in Table \ref{Table:SSofa-f} and; (f) switched.  Strength values are indicated by bubble area, normalized against maximum (100\%) strength for 0\textdegree ply laminate shown at ($\xi_1$, $\xi_2$) = (1, 1).</em>
+
+</div>
 
 \begin{figure}[H]
 	\begin{subfigure}{.4\linewidth}

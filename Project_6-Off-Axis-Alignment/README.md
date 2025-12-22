@@ -116,23 +116,37 @@ Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the hi
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:DesignSpacewithBeta-d"></a>
-      <img src="iDesignSpacewithBeta-d.png" width="200"><br>
+      <img src="DesignSpacewithBeta-d.png" width="200"><br>
       <em>(e) Laminate <span style="color:blue;"><strong><em>d</em></strong></span> (Max $A_{16}/A_{11}=22.1\%$ at $\beta=46.1°$)</em>
     </td>
   </tr>
+
+  <tr>
+    <td colspan="4" align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpaceNoBeta-e-f"></a>
+      <img src="DesignSpaceNoBeta-e-f.png" width="320"><br>
+      <em>(f) Laminate <span style="color:brown;"><strong><em>e</em></strong></span> - <span style="color:lime;"><strong><em>f</em></strong></span> without off-axis alignment $\beta$</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="4" align="center" style="border:1px solid black; padding:10px;">
+      <a id="figure:DesignSpaceNoBeta-e"></a>
+      <img src="DesignSpacewithBeta-e.png" width="320"><br>
+      <em>(f)</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border:1px solid black; padding:10px;">
+      <a id="figure:DesignSpaceNoBeta-f"></a>
+      <img src="DesignSpaceNoBeta-f.png" width="220"><br>
+      <em>(g)</em>
+    </td>
 </table>
 
 <em><strong>Figure 2.</strong>
-(a) Laminate
-<span style="color:blue;"><strong><em>a–d</em></strong></span>
-without off-axis alignment $\beta$.
-(b)–(e) Laminates
-<span style="color:blue;"><strong><em>a</em></strong></span>,
-<span style="color:lime;"><strong><em>b</em></strong></span>,
-<span style="color:violet;"><strong><em>c</em></strong></span>,
-and
-<span style="color:brown;"><strong><em>d</em></strong></span>
-at their respective maximum $A_{11}$ values.
+(a) Illustration of the extensional stiffness design spaces of the 6 DD laminate designs with and without off-axis alignment, and bubbles indicating the normalized FPF strength
 </em>
 
 </div>

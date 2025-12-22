@@ -85,7 +85,7 @@ Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the hi
 
 [Figure 2](#figure:DesignSpacewithBeta-Normal) shows the design spaces of the 6 DD laminates. The initial graphs in this figure are plotted with the off-axis alignment of each laminate orientated to give the max value of $A_{16}/A_{11}$ applied (as indicated in the top row of the Figure) the subsequent graphs in [Fig. 2](#figure:DesignSpacewithBeta-Normal)  are without off-axis alignment. [Figure 3](#figure:DesignSpacewithBeta-Switched) presents the similar design spaces for the angle switched version. $\phi$ and $\psi$ are swept from 0° \xspace to 90° \xspace to investigate the effect of off-axis alignment on both the design space and the material strength. The design space shrinks as $\beta$ increases from 0° to 45° and expands from 45° to 90°.
 
-<div id="fig-offset-alignment">
+<div id="figure:DesignSpacewithBeta-Normal">
 
 <table style="border:1px solid black; border-collapse:collapse;">
   <!-- Top row: single centered figure -->
@@ -150,85 +150,69 @@ Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the hi
 
 </div>
 
-	\begin{figure}[H]\ContinuedFloat
-		\begin{subfigure}{\linewidth}
-			\centering
-			\includegraphics[scale=1]{Ch4-DD/DesignSpaceNoBeta-e-f.PNG} 
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpaceNoBeta-e-f}Laminate <span style="color:brown;"><strong><em>e</em></strong></span> - <span style="color:lime;"><strong><em>f</em></strong></span> without off-axis alignment $\beta$}
-		\end{subfigure}
-		
-		\begin{subfigure}{.5\linewidth}
-			\centering
-			\includegraphics[width=.5\linewidth]{Ch4-DD/DesignSpacewithBeta-e.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-e}Laminate <span style="color:brown;"><strong><em>e</em></strong></span> (Max $A_{16}/A_{11}=10.3\%$ at $\beta=56.2°$)}
-		\end{subfigure}
-		\begin{subfigure}{.5\linewidth}
-			\centering
-			\includegraphics[width=.5\linewidth]{Ch4-DD/DesignSpacewithBeta-f.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-f}Laminate <span style="color:lime;"><strong><em>f</em></strong></span> (Max $A_{16}/A_{11}=3.6\%$ at $\beta=59.1°$)}
-		\end{subfigure}
-		\captionsetup{justification=raggedright,singlelinecheck=false}
-		\caption{\label{figure:DesignSpacewithBeta-Normal}Illustration of the extensional stiffness design spaces of the 6 DD laminate designs with and without off-axis alignment, and bubbles indicating the normalized FPF strength}
-	\end{figure}
-\end{landscape}
-\begin{landscape}
-	\begin{figure}[H]
-		\begin{subfigure}{\linewidth}
-			\centering
-			\includegraphics[scale=1]{Ch4-DD/DesignSpaceNoBeta-Switched-a-d.PNG} 
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpaceNoBeta-Switched-a-d}Laminate <span style="color:red;"><strong><em>a</em></strong></span> - <span style="color:blue;"><strong><em>d</em></strong></span> without off-axis alignment $\beta$}
-		\end{subfigure}
-		
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-Switched-a.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-Switched-a}Laminate <span style="color:red;"><strong><em>a</em></strong></span> (Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$)}
-		\end{subfigure}
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-Switched-b.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-Switched-b}Laminate <span style="color:green;"><strong><em>b</em></strong></span> (Max $A_{16}/A_{11}=10.4\%$ at $\beta=33.8°$)}
-		\end{subfigure}
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-Switched-c.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-Switched-c}Laminate <span style="color:violet;"><strong><em>c</em></strong></span> (Max $A_{16}/A_{11}=14.4\%$ at $\beta=38.3°$)}
-		\end{subfigure}
-		\begin{subfigure}{.24\linewidth}
-			\includegraphics[width=\linewidth]{Ch4-DD/DesignSpacewithBeta-Switched-d.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-Switched-d}Laminate <span style="color:blue;"><strong><em>d</em></strong></span> (Max $A_{16}/A_{11}=22.1\%$ at $\beta=46.1°$)}
-		\end{subfigure}
-	\end{figure}
-	
-	\begin{figure}[H]\ContinuedFloat
-		\begin{subfigure}{\linewidth}
-			\centering
-			\includegraphics[scale=1]{Ch4-DD/DesignSpaceNoBeta-Switched-e-f.PNG} 
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpaceNoBeta-Switched-e-f}Laminate <span style="color:brown;"><strong><em>e</em></strong></span> - <span style="color:lime;"><strong><em>f</em></strong></span> without off-axis alignment $\beta$}
-		\end{subfigure}
-		
-		\begin{subfigure}{.5\linewidth}
-			\centering
-			\includegraphics[width=.5\linewidth]{Ch4-DD/DesignSpacewithBeta-Switched-e.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-Switched-e}Laminate <span style="color:brown;"><strong><em>e</em></strong></span> (Max $A_{16}/A_{11}=10.3\%$ at $\beta=56.2°$)}
-		\end{subfigure}
-		\begin{subfigure}{.5\linewidth}
-			\centering
-			\includegraphics[width=.5\linewidth]{Ch4-DD/DesignSpacewithBeta-Switched-f.PNG}
-			\captionsetup{justification=centering,singlelinecheck=false}
-			\caption{\label{figure:DesignSpacewithBeta-Switched-f}Laminate <span style="color:lime;"><strong><em>f</em></strong></span> (Max $A_{16}/A_{11}=3.6\%$ at $\beta=59.1°$)}
-		\end{subfigure}
-		\captionsetup{justification=raggedright,singlelinecheck=false}
-		\caption{\label{figure:DesignSpacewithBeta-Switched}Illustration of the extension stiffness design spaces of the 6 angle switched DD laminate designs with and without off-axis alignment, and bubbles indicating the normalized FPF strength}
-	\end{figure}
-\end{landscape}
+<div id="figure:DesignSpacewithBeta-Switched">
+
+<table style="border:1px solid black; border-collapse:collapse;">
+  <!-- Top row: single centered figure -->
+  <tr>
+    <td colspan="4" align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpaceNoBeta-Switched-a-d"></a>
+      <img src="DesignSpaceNoBeta-Switched-a-d.png" width="320"><br>
+      <em>(a) Laminate <span style="color:red;"><strong><em>a</em></strong></span> - <span style="color:blue;"><strong><em>d</em></strong></span> without off-axis alignment $\beta$</em>
+    </td>
+  </tr>
+
+  <!-- Bottom row: four figures -->
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-Switched-a"></a>
+      <img src="DesignSpacewithBeta--Switcheda.png" width="200"><br>
+      <em>(b) Laminate <span style="color:red;"><strong><em>a</em></strong></span> (Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-Switched-b"></a>
+      <img src="DesignSpacewithBeta-Switched-b.png" width="200"><br>
+      <em>(c) Laminate <span style="color:green;"><strong><em>b</em></strong></span> (Max $A_{16}/A_{11}=10.4\%$ at $\beta=33.8°$)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-Switched-c"></a>
+      <img src="DesignSpacewithBeta-Switched-c.png" width="200"><br>
+      <em>(d) Laminate <span style="color:violet;"><strong><em>c</em></strong></span> (Max $A_{16}/A_{11}=14.4\%$ at $\beta=38.3°$)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpacewithBeta-Switched-d"></a>
+      <img src="DesignSpacewithBeta-Switched-d.png" width="200"><br>
+      <em>(e) Laminate <span style="color:blue;"><strong><em>d</em></strong></span> (Max $A_{16}/A_{11}=22.1\%$ at $\beta=46.1°$)</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="4" align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:DesignSpaceNoBeta-Switched-e-f"></a>
+      <img src="DesignSpaceNoBeta-Switched-e-f.png" width="320"><br>
+      <em>(f) Laminate <span style="color:brown;"><strong><em>e</em></strong></span> - <span style="color:lime;"><strong><em>f</em></strong></span> without off-axis alignment $\beta$</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="4" align="center" style="border:1px solid black; padding:10px;">
+      <a id="figure:DesignSpaceNoBeta-Switched-e"></a>
+      <img src="DesignSpacewithBeta-Switched-e.png" width="320"><br>
+      <em>(f)</em>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" style="border:1px solid black; padding:10px;">
+      <a id="figure:DesignSpaceNoBeta-Switched-f"></a>
+      <img src="DesignSpaceNoBeta-Switched-f.png" width="220"><br>
+      <em>(g)</em>
+    </td>
+</table>
+
+<em><strong>Figure 2.</strong> Illustration of the extension stiffness design spaces of the 6 angle switched DD laminate designs with and without off-axis alignment, and bubbles indicating the normalized FPF strength</em>
+
+</div>
 
 Figure \ref{figure:PolarPlotVs0-Normal} shows a series of polar plots showing the normalised first ply failure load,  using the FPF load of a 24-ply unidirectional laminate containing all 0° laminate with FPF strength of 5027N. In mathematical representation, is given as $N_x$/$N_{X_{0°}}$.
 

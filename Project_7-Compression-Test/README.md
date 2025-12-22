@@ -118,6 +118,153 @@ $$
 A range of strain from 1000 to 3000 $\mu$ strain  is used for modulus calculations, which is recommended by ASTM standards \cite{ASTM-D3410}. Strain gauges were attached to the front and back surfaces of the test specimens, one on each surface. A compression load was applied until the specimens failed. The resulting failure strength, maximum stress, strain and modulus obtained using both the measured dimension and design dimensions are summarised in Tables \ref{Table:ExpCal-Measured} and \ref{Table:ExpCal-Designed}. The resulting stress-strain graphs of the specimens are presented in Fig. \ref{figure:StressStrainExp}. 
 While FPF predictions are made using Tsai-Wu failure criteria for comparisons, which are given in Table \ref{Table:FPFPredictionForComText}, since the engineering properties of the SE 84LV material is not given by the material supplier, T300/5208 is used for the prediction and the predictions are used to compare to the test results.
 
+<div id="tbl-4-6">
+
+<table>
+  <caption style="caption-side: top; text-align: left;">
+    <em><strong>Table 4.6.</strong> Resulted failure strength, maximum stress, strain and modulus obtained from using measured dimensions.</em>
+  </caption>
+
+  <!-- ===== Block 1: Pmax and sigma_max ===== -->
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align:center;">Sample</th>
+      <th colspan="4" style="text-align:center;">P<sub>max</sub> (kN)</th>
+      <th colspan="4" style="text-align:center;">σ<sub>max</sub> (MPa)</th>
+    </tr>
+    <tr>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">1</td>
+      <td style="text-align:center;">22.70</td>
+      <td style="text-align:center;">28.56</td>
+      <td style="text-align:center;">22.83</td>
+      <td style="text-align:center;">30.72</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">351.30</td>
+      <td style="text-align:center;">281.15</td>
+      <td style="text-align:center;">378.66</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">2</td>
+      <td style="text-align:center;">29.32</td>
+      <td style="text-align:center;">29.73</td>
+      <td style="text-align:center;">24.58</td>
+      <td style="text-align:center;">23.32</td>
+      <td style="text-align:center;">361.68</td>
+      <td style="text-align:center;">364.36</td>
+      <td style="text-align:center;">302.56</td>
+      <td style="text-align:center;">284.62</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">3</td>
+      <td style="text-align:center;">31.06</td>
+      <td style="text-align:center;">21.95</td>
+      <td style="text-align:center;">22.42</td>
+      <td style="text-align:center;">26.22</td>
+      <td style="text-align:center;">386.08</td>
+      <td style="text-align:center;">258.17</td>
+      <td style="text-align:center;">269.99</td>
+      <td style="text-align:center;">314.85</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;"><strong>Average</strong></td>
+      <td style="text-align:center;"><strong>30.19</strong></td>
+      <td style="text-align:center;"><strong>26.75</strong></td>
+      <td style="text-align:center;"><strong>23.28</strong></td>
+      <td style="text-align:center;"><strong>26.75</strong></td>
+      <td style="text-align:center;"><strong>373.88</strong></td>
+      <td style="text-align:center;"><strong>324.61</strong></td>
+      <td style="text-align:center;"><strong>284.57</strong></td>
+      <td style="text-align:center;"><strong>326.04</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table>
+  <!-- ===== Block 2: eps^u and E ===== -->
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align:center;">Sample</th>
+      <th colspan="4" style="text-align:center;">ε<sup>u</sup> (%)</th>
+      <th colspan="4" style="text-align:center;">E (GPa)</th>
+    </tr>
+    <tr>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+      <th style="text-align:center;">ISO</th>
+      <th style="text-align:center;">DD</th>
+      <th style="text-align:center;">ES</th>
+      <th style="text-align:center;">BS</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="text-align:center;">1</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">0.86</td>
+      <td style="text-align:center;">0.62</td>
+      <td style="text-align:center;">1.05</td>
+      <td style="text-align:center;">42.99</td>
+      <td style="text-align:center;">38.66</td>
+      <td style="text-align:center;"></td>
+      <td style="text-align:center;">40.13</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">2</td>
+      <td style="text-align:center;">0.74</td>
+      <td style="text-align:center;">1.01</td>
+      <td style="text-align:center;">0.81</td>
+      <td style="text-align:center;">0.87</td>
+      <td style="text-align:center;">51.19</td>
+      <td style="text-align:center;">39.07</td>
+      <td style="text-align:center;">38.72</td>
+      <td style="text-align:center;">39.67</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">3</td>
+      <td style="text-align:center;">0.70</td>
+      <td style="text-align:center;">0.68</td>
+      <td style="text-align:center;">0.75</td>
+      <td style="text-align:center;">0.87</td>
+      <td style="text-align:center;">48.88</td>
+      <td style="text-align:center;">40.78</td>
+      <td style="text-align:center;">37.85</td>
+      <td style="text-align:center;">36.40</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;"><strong>Average</strong></td>
+      <td style="text-align:center;"><strong>0.72</strong></td>
+      <td style="text-align:center;"><strong>0.85</strong></td>
+      <td style="text-align:center;"><strong>0.73</strong></td>
+      <td style="text-align:center;"><strong>0.93</strong></td>
+      <td style="text-align:center;"><strong>50.03</strong></td>
+      <td style="text-align:center;"><strong>40.95</strong></td>
+      <td style="text-align:center;"><strong>38.41</strong></td>
+      <td style="text-align:center;"><strong>38.74</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
 \begin{table}[H]
 	\centering
 	\captionsetup{justification=raggedright,singlelinecheck=false}

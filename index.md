@@ -24,6 +24,9 @@ Tsai–Hill, Tsai–Wu, and first-ply failure predictions.
 ### 🔹 [Project 6 – Off-axis Alignment](Project_6-Off-Axis-Alignment/README.md)
 Off-axis Alignment.
 
+### 🔹 [Project 7 – Compression Test](Project_7-Compression-Test/README.md)
+Off-axis Alignment.
+
 ---
 
 ## 📄 About this portfolio

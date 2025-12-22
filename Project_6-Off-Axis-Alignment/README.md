@@ -3,7 +3,7 @@ The project aim to explore the effect of off-axis alignmennt on first ply failur
 
 ## Introducton
 
-Off-axis alignments from 0\textdegree to 360\textdegree are introduced to the laminate designs listed above, and the resulting first ply failure performance, predicted using the Tsai-Wu failure criterion, is presented using polar plots. Fig. \ref{figure:PolarPlots} represents polar plots of first ply failure with applied off-axis orientation, including the 6 DD laminates, balanced and symmetric, isotropic and Extension-Shear coupled only laminates. All the designs are normalized against DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> which has the lowest first ply failure load. The point on each figure, denoted by the value of $\beta$, gives the maximum value of $A_{16}$/$A_{11}$.
+Off-axis alignments from 0° to 360° are introduced to the laminate designs listed above, and the resulting first ply failure performance, predicted using the Tsai-Wu failure criterion, is presented using polar plots. Fig. \ref{figure:PolarPlots} represents polar plots of first ply failure with applied off-axis orientation, including the 6 DD laminates, balanced and symmetric, isotropic and Extension-Shear coupled only laminates. All the designs are normalized against DD laminate <span style="color:blue;"><strong><em>d</em></strong></span> which has the lowest first ply failure load. The point on each figure, denoted by the value of $\beta$, gives the maximum value of $A_{16}$/$A_{11}$.
 
 <div id="figure:BendingStiffnessDesignSpace-Switched">
 
@@ -12,139 +12,78 @@ Off-axis alignments from 0\textdegree to 360\textdegree are introduced to the la
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PolarPlot-Iso.png"></a>
       <img src="PolarPlot-Iso.png" width="280"><br>
-      <em>(a)</em>
+      <em>(a) Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-a.png"></a>
       <img src="PloarPlot-a.png" width="280"><br>
-      <em>(b)</em>
+      <em>(b) Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$</em>
     </td>
   </tr>
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-b.png"></a>
       <img src="PloarPlot-b.png" width="280"><br>
-      <em>(c)</em>
+      <em>(c) Max $A_{16}/A_{11}=-10.4\%$ at $\beta=33.8°$</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-c.png"></a>
       <img src="PloarPlot-c.png" width="280"><br>
-      <em>(d)</em>
+      <em>(d) Max $A_{16}/A_{11}=-14.4\%$ at $\beta=38.3°$</em>
     </td>
   </tr>
     <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-d"></a>
       <img src="PloarPlot-d.png" width="280"><br>
-      <em>(c)</em>
+      <em>(e) Max $A_{16}/A_{11}=-22.1\%$ at $\beta=46.1°$</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-e"></a>
       <img src="PloarPlot-e.png" width="280"><br>
-      <em>(d)</em>
+      <em>(f) Max $A_{16}/A_{11}=10.3\%$ at $\beta=56.2°$</em>
     </td>
   </tr>
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-f"></a>
       <img src="PloarPlot-f.png" width="280"><br>
-      <em>(c)</em>
+      <em>(g) Max $A_{16}/A_{11}=3.6\%$ at $\beta=59.1°$</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
       <a id="figure:PloarPlot-a-f"></a>
       <img src="PloarPlot-a-f.png" width="280"><br>
-      <em>(d)</em>
+      <em>(h) Laminates <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:lime;"><strong><em>f</em></strong></span> out envelopes</em>
     </td>
-  </tr>
   </tr>
   <tr>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="figure:PloarPlot-f"></a>
-      <img src="PloarPlot-f.png" width="280"><br>
-      <em>(c)</em>
+      <a id="figure:PloarPlot-Balanced&Symmetric"></a>
+      <img src="PloarPlot-Balanced&Symmetric.png" width="280"><br>
+      <em>(i) $A_{16}/A_{11}=16.3\%$ at $\beta=0°$ and Max $A_{16}/A_{11}=18.0\%$ at $\beta=170.1°$</em>
     </td>
     <td align="center" style="border:1px solid black; padding:6px;">
-      <a id="figure:PloarPlot-a-f"></a>
-      <img src="PloarPlot-a-f.png" width="280"><br>
-      <em>(d)</em>
+      <a id="figure:PloarPlot-ES"></a>
+      <img src="PloarPlot-ES.png" width="280"><br>
+      <em>(j) Laminate <span style="color:blue;"><strong><em>d</em></strong></span> and <em>E-S</em> coupled outer envelopes}</em>
     </td>
-  </tr>s
+  </tr>
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:PloarPlot-d&ES"></a>
+      <img src="PloarPlot-d&ES.png" width="280"><br>
+      <em>(k) Superimposed laminate <span style="color:blue;"><strong><em>d</em></strong></span> and <em>E-S</em> coupled design</em>
+    </td>
+  </tr>
 </table>
 
-<em><strong>Figure 4.</strong> Max $A_{16}/A_{11}=10.3\%$ at $\beta=56.2°$}</em>
+<em><strong>Figure 1.</strong> Strength comparisons for off-axis orientation $\beta$ between a full envelope of 24 plies: (a) Isotropic laminate; DD laminate design: (b) <span style="color:red;"><strong><em>a</em></strong></span>; (c) <span style="color:green;"><strong><em>b</em></strong></span>; (d) <span style="color:violet;"><strong><em>c</em></strong></span>; (e) <span style="color:blue;"><strong><em>d</em></strong></span>; (f) <span style="color:brown;"><strong><em>e</em></strong></span> and (g) <span style="color:lime;"><strong><em>f</em></strong></span>; (h) superimposed laminates <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:lime;"><strong><em>f</em></strong></span>; (i) Balanced and symmetric; (j) <em>E-S</em> coupled (only) design and; (k) Superimposed laminate <span style="color:blue;"><strong><em>d</em></strong></span> and <em>E-S</em> coupled design, all subject to equal compressive force resultant ($N_x$).</em>
 
 </div>
 
-\begin{figure}[H]
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PolarPlot-Iso.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-Iso}Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-a.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-a}Max $A_{16}/A_{11}=8.3\%$ at $\beta=32.5°$}
-	\end{subfigure}
+Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the highest maximum $A_{16}$/$A_{11}$ among all the DD designs. The angles switched laminates gives the same maximum $A_{16}$/$A_{11}$ as their non-switched angles counter laminates. Normalised against the first ply failure load for laminate <span style="color:blue;"><strong><em>d</em></strong></span> (100\% at $\beta$ = ±7.1°), the balanced and symmetric design is at 37.5\% of its material strength constraint and the <em>Extension-Shear</em> coupled only laminate is at 79.3\% (at $\beta$ = 0°).  However, at off-axis alignment, corresponding to maximum $A_{16}$/$A_{11}$, laminate <span style="color:blue;"><strong><em>d</em></strong></span> and the balanced and symmetric designs are at 68.9\% (at $\beta$ = 46.1°) and 73.1\% (at $\beta$ = 37.3°) of their material strength constraint, respectively. This shows that the FPF of the laminate designs can be improved by implementing off-axis alignments.
 
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-b.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-b}Max $A_{16}/A_{11}=-10.4\%$ at $\beta=33.8°$}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-c.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-c}Max $A_{16}/A_{11}=-14.4\%$ at $\beta=38.3°$}
-	\end{subfigure}
-
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-d.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-d}Max $A_{16}/A_{11}=-22.1\%$ at $\beta=46.1°$}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-e.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-e}Max $A_{16}/A_{11}=10.3\%$ at $\beta=56.2°$}
-	\end{subfigure}
-\end{figure}
-
-\begin{figure}[H]\ContinuedFloat
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-f.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-f}Max $A_{16}/A_{11}=3.6\%$ at $\beta=59.1°$}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-a-f.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-a-f}Laminates <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:lime;"><strong><em>f</em></strong></span> out envelopes}
-	\end{subfigure}
-
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-Balanced&Symmetric.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-Balanced&Symmetric}$A_{16}/A_{11}=16.3\%$ at $\beta=0°$ and Max $A_{16}/A_{11}=18.0\%$ at $\beta=170.1°$}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-ES.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-ES}Laminate <span style="color:blue;"><strong><em>d</em></strong></span> and \textit{E-S coupled outer envelopes}}
-	\end{subfigure}
-	
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/PloarPlot-d&ES.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:PloarPlot-D&ES}}
-	\end{subfigure}
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{figure:PolarPlots}Strength comparisons for off-axis orientation $\beta$ between a full envelope of 24 plies: (a) Isotropic laminate; DD laminate design: (b) <span style="color:red;"><strong><em>a</em></strong></span>; (c) <span style="color:green;"><strong><em>b</em></strong></span>; (d) <span style="color:violet;"><strong><em>c</em></strong></span>; (e) <span style="color:blue;"><strong><em>d</em></strong></span>; (f) <span style="color:brown;"><strong><em>e</em></strong></span> and (g) <span style="color:lime;"><strong><em>f</em></strong></span>; (h) superimposed laminates <span style="color:red;"><strong><em>a</em></strong></span> to <span style="color:lime;"><strong><em>f</em></strong></span>; (i) Balanced and symmetric; (j) Extension-Shearing coupled (only) design and; (k) Superimposed laminate <span style="color:blue;"><strong><em>d</em></strong></span> and Extension-Shearing coupled design, all subject to equal compressive force resultant ($N_x$).} 
-\end{figure}
-
-Laminate <span style="color:blue;"><strong><em>d</em></strong></span> has the highest maximum $A_{16}$/$A_{11}$ among all the DD designs. The angles switched laminates gives the same maximum $A_{16}$/$A_{11}$ as their non-switched angles counter laminates. Normalised against the first ply failure load for laminate <span style="color:blue;"><strong><em>d</em></strong></span> (100\% at $\beta$ = \textpm7.1\textdegree), the balanced and symmetric design is at 37.5\% of its material strength constraint and the \textit{Extension-Shear} coupled only laminate is at 79.3\% (at $\beta$ = 0\textdegree).  However, at off-axis alignment, corresponding to maximum $A_{16}$/$A_{11}$, laminate <span style="color:blue;"><strong><em>d</em></strong></span> and the balanced and symmetric designs are at 68.9\% (at $\beta$ = 46.1\textdegree) and 73.1\% (at $\beta$ = 37.3\textdegree) of their material strength constraint, respectively. This shows that the FPF of the laminate designs can be improved by implementing off-axis alignments.
-
-Figure \ref{figure:DesignSpacewithBeta-Normal} shows the design spaces of the 6 DD laminates. The initial graphs in this figure are plotted with the off-axis alignment of each laminate orientated to give the max value of $A_{16}/A_{11}$ applied (as indicated in the top row of the Figure) the subsequent graphs in Fig. \ref{figure:DesignSpacewithBeta-Normal} are without off-axis alignment. Figure \ref{figure:DesignSpacewithBeta-Switched} presents the similar design spaces for the angle switched version. $\phi$ and $\psi$ are swept from 0\textdegree \xspace to 90\textdegree \xspace to investigate the effect of off-axis alignment on both the design space and the material strength. The design space shrinks as $\beta$ increases from 0\textdegree \xspace to 45\textdegree \xspace and expands from 45\textdegree \xspace to 90\textdegree.
+[Figure 2](#figure:DesignSpacewithBeta-Normal) shows the design spaces of the 6 DD laminates. The initial graphs in this figure are plotted with the off-axis alignment of each laminate orientated to give the max value of $A_{16}/A_{11}$ applied (as indicated in the top row of the Figure) the subsequent graphs in [Fig. 2](#figure:DesignSpacewithBeta-Normal)  are without off-axis alignment. [Figure 3](#figure:DesignSpacewithBeta-Switched) presents the similar design spaces for the angle switched version. $\phi$ and $\psi$ are swept from 0° \xspace to 90° \xspace to investigate the effect of off-axis alignment on both the design space and the material strength. The design space shrinks as $\beta$ increases from 0° to 45° and expands from 45° to 90°.
 
 \begin{landscape}
 	\begin{figure}[H]
@@ -257,7 +196,7 @@ Figure \ref{figure:DesignSpacewithBeta-Normal} shows the design spaces of the 6 
 	\end{figure}
 \end{landscape}
 
-Figure \ref{figure:PolarPlotVs0-Normal} shows a series of polar plots showing the normalised first ply failure load,  using the FPF load of a 24-ply unidirectional laminate containing all 0\textdegree laminate with FPF strength of 5027N. In mathematical representation, is given as $N_x$/$N_{X_{0°}}$.
+Figure \ref{figure:PolarPlotVs0-Normal} shows a series of polar plots showing the normalised first ply failure load,  using the FPF load of a 24-ply unidirectional laminate containing all 0° laminate with FPF strength of 5027N. In mathematical representation, is given as $N_x$/$N_{X_{0°}}$.
 
 \begin{figure}[H]
 	\begin{subfigure}{.4\linewidth}
@@ -291,9 +230,9 @@ Figure \ref{figure:PolarPlotVs0-Normal} shows a series of polar plots showing th
 	\caption{\label{figure:PolarPlotVs0-Normal}Strength comparisons for off-axis orientation $\beta$ between a full envelope of 24 ply: (a) Isotropic laminate; (b) DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>; (c) Balanced and symmetric; (d) \textit{E-S} coupled (only) design and; (e) Superimposed laminate <span style="color:blue;"><strong><em>d</em></strong></span> and \textit{E-S} coupled design, normalised to equal compressive force resultant ($N_x$) of 5027N.} 
 \end{figure}
 
-The FPF load ($N_x$) of a 0\textdegree laminate (5027N) is applied to all the designs as the input compressive load, and off-axis alignment is then introduced to calculate the Tsai-Wu FPF strength using Eqn. \ref{eq:TW}. As the FPF load for 0\textdegree off-axis alignment is the highest, all the Tsai-Wu values of the designs with off-axis alignment must be larger than 1.0. Therefore, the reciprocal values are used to generate the polar plots, meaning that 1.0 is the highest strength. 
+The FPF load ($N_x$) of a 0° laminate (5027N) is applied to all the designs as the input compressive load, and off-axis alignment is then introduced to calculate the Tsai-Wu FPF strength using Eqn. \ref{eq:TW}. As the FPF load for 0° off-axis alignment is the highest, all the Tsai-Wu values of the designs with off-axis alignment must be larger than 1.0. Therefore, the reciprocal values are used to generate the polar plots, meaning that 1.0 is the highest strength. 
 
-Normalising against the first ply failure load for a 0\textdegree \xspace ply laminate, the Isotropic laminate has 8.5\% of the FPF strength and the \textit{E-S} coupled only laminate has 5.5\% (at $\beta$ = 0\textdegree).  For off-axis alignment, corresponding to maximum $A_{16}/A_{11}$, laminate <span style="color:blue;"><strong><em>d</em></strong></span> and the balanced and symmetric designs are at 6.2\% (at $\beta$ = 46.1\textdegree) and 5.8\% (at $\beta$ = 37.3\textdegree) of the first ply failure strength, respectively.
+Normalising against the first ply failure load for a 0° \xspace ply laminate, the Isotropic laminate has 8.5\% of the FPF strength and the \textit{E-S} coupled only laminate has 5.5\% (at $\beta$ = 0°).  For off-axis alignment, corresponding to maximum $A_{16}/A_{11}$, laminate <span style="color:blue;"><strong><em>d</em></strong></span> and the balanced and symmetric designs are at 6.2\% (at $\beta$ = 46.1°) and 5.8\% (at $\beta$ = 37.3°) of the first ply failure strength, respectively.
 
 However, off-axis alignment introduces extra terms in both extensional and bending stiffness lamination parameters i.e. $\xi_{3,4}$ and $\xi_{11,12}$, changing the design space from 2-D to 4-D. The relationship between the lamination parameters and off-axis alignment for the DD designs is presented in Fig. \ref{figure:XivsBeta}. Note that for $\xi_{1-4}$ and $\xi_{9-12}$ with the same relationship against $\beta$ (laminate <span style="color:red;"><strong><em>a</em></strong></span>, <span style="color:green;"><strong><em>b</em></strong></span>, <span style="color:violet;"><strong><em>c</em></strong></span> and <span style="color:blue;"><strong><em>d</em></strong></span>), the laminate is considered as Quasi Homogenous, where $D_{ij}=A_{ij}H^2/12$.
 
@@ -368,7 +307,7 @@ However, off-axis alignment introduces extra terms in both extensional and bendi
 	\caption{\label{figure:XivsBeta}The relationship between the extensional $\xi_{1-4}$ and bending stiffness lamination parameters $\xi_{9-12}$ and $\beta$ for DD laminate designs: (a) <span style="color:red;"><strong><em>a</em></strong></span>; (b) <span style="color:green;"><strong><em>b</em></strong></span>; (c) <span style="color:violet;"><strong><em>c</em></strong></span>; (d) <span style="color:blue;"><strong><em>d</em></strong></span>; (e) <span style="color:brown;"><strong><em>e</em></strong></span> and (f) <span style="color:lime;"><strong><em>f</em></strong></span>.} 
 \end{figure}
 
-Figure \ref{figure:XivsBeta} demonstrated that the values of $\xi_{1-4}$ can increase up to almost \textpm0.4, while the values of $\xi_{9-12}$ ranged between \textpm0.0006. However, the the relationship between the lamination parameters and off-axis alignment and the influence are generally not understood, more thorough explanation is required. Therefore, Chapter \ref{Chapter:Coupling} will focus on the influence of the coupling terms and 4-D design spaces.
+Figure \ref{figure:XivsBeta} demonstrated that the values of $\xi_{1-4}$ can increase up to almost ±0.4, while the values of $\xi_{9-12}$ ranged between ±0.0006. However, the the relationship between the lamination parameters and off-axis alignment and the influence are generally not understood, more thorough explanation is required. Therefore, Chapter \ref{Chapter:Coupling} will focus on the influence of the coupling terms and 4-D design spaces.
 
 Table \ref{Table:Platewidth} presents the required laminate width, $b$, for coincident buckling and first ply failure under compression load of the DD laminate designs for aspect ratios $a/b$ = 1.0, 1.5, 2.0 and 2.5. The dimensions are typical of the width between stiffeners in a stiffened panel wing skin. Table \ref{Table:PlateThickness} shows the width-to-total thickness ratio, $b/H$, of the optimal designs in Table \ref{Table:Platewidth}. Note that results of a/b = 1 and 2 are shown in the same row as the two ratios share identical dimensions.
 

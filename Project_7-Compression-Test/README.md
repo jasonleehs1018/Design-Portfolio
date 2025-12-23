@@ -408,34 +408,7 @@ While FPF predictions are made using Tsai-Wu failure criteria for comparisons, w
 
 </div>
 
-
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{Table:ExpCal-Designed}Resulted failure strength, maximum stress, strain and modulus obtained from using designed dimensions.}
-	\begin{tabular}{ccccccccccc}
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		Property & & \multicolumn{4}{c}{P\textsubscript{max} (kN)} & & \multicolumn{4}{c}{$\sigma$\textsubscript{max} (kN)} \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		Sample & & Iso & DD & ES & BS & & ISO & DD & ES & BS \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		1 &  & 22.70 & 28.56 & 22.83 & 30.72 & &  & 346.24 & 276.69 & 372.41 \\
-		2 &  & 29.32 & 29.73 & 24.58 & 23.32 & & 355.41 & 360.38 & 297.93 & 282.67 \\
-		3 &  & 31.06 & 21.95 & 22.42 & 26.22 & & 376.48 & 266.07 & 271.78 & 317.79 \\
-		Average &  & 330.19 & 26.75 & 23.28 & 26.75 & & 365.95 & 324.23 & 282.13 & 324.29 \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-		Property &  & \multicolumn{4}{c}{$\epsilon$\textsuperscript{u}\textsubscript{av} (\%)} &  & \multicolumn{4}{c}{E (GPa)} \\
-		\cline{1-1} \cline{3-6} \cline{8-11}  
-		Sample &  & ISO & DD & ES & BS &  & ISO & DD & ES & BS \\
-		1 &  &  & 0.86 & 0.62 & 1.05 & & & 42.99 & 38.66 & 40.13 \\
-		2 &  & 0.74 & 1.01 & 0.81 & 0.87 & & 51.19 & 39.07 & 38.72 & 39.67 \\
-		3 &  & 0.70 & 0.68 & 0.75 & 0.87 & & 48.88 & 40.78 & 37.85 & 36.40 \\
-		Average &  & 0.72 & 0.85 & 0.73 & 0.93 & & 50.04 & 40.95 & 38.41 & 38.74 \\
-		\cline{1-1} \cline{3-6} \cline{8-11} 
-	\end{tabular}
-\end{table}
-
-<div id="tbl-4-8">
+<div id="Table:FPFPredictionForComText">
 
 <table>
   <caption style="caption-side: top; text-align: left;">
@@ -466,21 +439,6 @@ While FPF predictions are made using Tsai-Wu failure criteria for comparisons, w
 
 </div>
 
-
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=raggedright,singlelinecheck=false}
-	\caption{\label{Table:FPFPredictionForComText}First ply Failure load predictions of the fully isotropic, DD design \textcolor{blue}{\textbf{\textit{d}}} with $\beta$=-46.1\textdegree, \textit{E-S} coupled and balanced and symmetric designs $\beta$=37.3\textdegree under compressive load.}
-	\begin{tabular}{cccc}
-		\hline 
-		\multicolumn{4}{c}{FPF Strength Prediction (N)}\\
-		\hline 
-		ISO & DD laminate design \textcolor{blue}{\textbf{\textit{d}}} ($\beta$ = -46.1) & \textit{ES} & BS ($\beta$=37.3\textdegree) \\
-		\hline
-		22,780 & 19,977 & 18,059 & 19,279 \\ 
-		\hline
-	\end{tabular}
-\end{table}
 Note that one of the strain gauges for ES-1 specimens malfunctioned during the test and no strain gauges were installed for ISO-1. Therefore, the results for these 2 test samples are simply discarded. 
 
 \begin{figure}[H]

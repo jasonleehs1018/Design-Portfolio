@@ -151,17 +151,6 @@ This project follows Project 4 and evaluates the first-ply failure of the 6 DD l
 
   </div>
 
-- Design space
-
-  | (a) | (b) |
-  |:---:|:---:|
-  | <img src="images/a.png" width="320"> | <img src="images/b.png" width="320"> |
-  | (c) | (d) |
-  | <img src="images/c.png" width="320"> | <img src="images/d.png" width="320"> |
-  | (e) | (f) |
-  | <img src="images/e.png" width="320"> | <img src="images/f.png" width="320"> |
-
-
 - Results  
 
 The compressive load ($N_x$), given by the closed form buckling equation from Project Eqn. \ref{eq:bucklingCFS}, corresponding to the minimum first ply failure after off-axis orientation, is used to normalise all the polar plots that follow. 

@@ -3,7 +3,7 @@ The project aim to explore the effect of off-axis alignmennt on first ply failur
 
 ## Introducton
 
-The final section of this chapter involves compression tests. The main objective of the tests is to characterise the compression behaviour of the material including compression stiffness, evaluate predictions made in this chapter and investigate the failure strength of the laminate designs discussed in this chapter. Due to COVID-19, I was not able to perform the manufacture and test process myself, but Prof. Christopher York and Dr Periyasamy Manikandan kindly helped carry out the processes at the Singapore Institution of Technology. Double angle-ply laminate design, \textcolor{blue}{\textbf{\textit{d}}} with $\beta$ = -46.1\textdegree, isotropic, \textit{E-S} coupled and balanced and symmetric (BS) laminates with $\beta$ = 37.3\textdegree were manufactured, with 3 specimens tested for each design. The stacking sequences are listed in Chapter \ref{sec:4.2}. SE 84LV low temperature cure carbon fibre epoxy prepreg was used [14], the designed length, width and thickness of the laminates were: 150 mm, 25 mm and 3.30 mm, and a cross sectional area, $A$, of 82.5 mm\textsuperscript{2}. 
+The final section of this chapter involves compression tests. The main objective of the tests is to characterise the compression behaviour of the material including compression stiffness, evaluate predictions made in this chapter and investigate the failure strength of the laminate designs discussed in this chapter. Due to COVID-19, I was not able to perform the manufacture and test process myself, but Prof. Christopher York and Dr Periyasamy Manikandan kindly helped carry out the processes at the Singapore Institution of Technology. Double angle-ply laminate design, \textcolor{blue}{\textbf{\textit{d}}} with $\beta$ = -46.1\textdegree, isotropic, <em>E-S</em> coupled and balanced and symmetric (BS) laminates with $\beta$ = 37.3\textdegree were manufactured, with 3 specimens tested for each design. The stacking sequences are listed in Chapter \ref{sec:4.2}. SE 84LV low temperature cure carbon fibre epoxy prepreg was used [14], the designed length, width and thickness of the laminates were: 150 mm, 25 mm and 3.30 mm, and a cross sectional area, $A$, of 82.5 mm\textsuperscript{2}. 
 
 The unidirectional (UD) prepreg tape was rolled out and cut manually to the required fibre orientations and the plies were manually stacked according to the specified stacking sequences. To remove any voids or air gaps between plies during the lay-up process, debulking was performed in every 6 plies of stacking. Stacked laminates were then cured using an autoclave programmed to the recommendations given by the material supplier, where pressure and temperature are 1 bar and 80 \textcelsius.
 
@@ -115,8 +115,8 @@ $$
 
 </div>
 
-A range of strain from 1000 to 3000 $\mu$ strain  is used for modulus calculations, which is recommended by ASTM standards \cite{ASTM-D3410}. Strain gauges were attached to the front and back surfaces of the test specimens, one on each surface. A compression load was applied until the specimens failed. The resulting failure strength, maximum stress, strain and modulus obtained using both the measured dimension and design dimensions are summarised in Tables \ref{Table:ExpCal-Measured} and \ref{Table:ExpCal-Designed}. The resulting stress-strain graphs of the specimens are presented in Fig. \ref{figure:StressStrainExp}. 
-While FPF predictions are made using Tsai-Wu failure criteria for comparisons, which are given in Table \ref{Table:FPFPredictionForComText}, since the engineering properties of the SE 84LV material is not given by the material supplier, T300/5208 is used for the prediction and the predictions are used to compare to the test results.
+A range of strain from 1000 to 3000 $\mu$ strain  is used for modulus calculations, which is recommended by ASTM standards \cite{ASTM-D3410}. Strain gauges were attached to the front and back surfaces of the test specimens, one on each surface. A compression load was applied until the specimens failed. The resulting failure strength, maximum stress, strain and modulus obtained using both the measured dimension and design dimensions are summarised in [Tables 1](#Table:ExpCal-Measured) and [2](#1Table:ExpCal-Designed). The resulting stress-strain graphs of the specimens are presented in [Fig. 4](#figure:StressStrainExp). 
+While FPF predictions are made using Tsai-Wu failure criteria for comparisons, which are given in [Table 3](#Table:FPFPredictionForComText), since the engineering properties of the SE 84LV material is not given by the material supplier, T300/5208 is used for the prediction and the predictions are used to compare to the test results.
 
 <div id="Table:ExpCal-Measured">
 
@@ -441,33 +441,39 @@ While FPF predictions are made using Tsai-Wu failure criteria for comparisons, w
 
 Note that one of the strain gauges for ES-1 specimens malfunctioned during the test and no strain gauges were installed for ISO-1. Therefore, the results for these 2 test samples are simply discarded. 
 
-\begin{figure}[H]
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/StressStrain-Iso.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:StressStrain-Iso}}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/StressStrain-DD.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{figure:StressStrain-DD}}
-	\end{subfigure}
-	
-	\begin{subfigure}{.4\linewidth}
-		\includegraphics[width=\linewidth]{Ch4-DD/StressStrain-ES.PNG}
-		\captionsetup{justification=centering,singlelinecheck=false}
-		\caption{\label{StressStrain-ES}}
-	\end{subfigure}
-	\begin{subfigure}{.4\linewidth}
-	\includegraphics[width=\linewidth]{Ch4-DD/StressStrain-BS.PNG}
-	\captionsetup{justification=centering,singlelinecheck=false}
-	\caption{\label{StressStrain-BS}}
-	\end{subfigure}
-		\captionsetup{justification=raggedright,singlelinecheck=false}
-		\caption{\label{figure:StressStrainExp}Stress-strain curves of specimens for (a): Isotropic; (b): DD design \textcolor{blue}{\textbf{\textit{d}}}; (c): \textit{Extension-Shear} and; (d): Balanced and Symmetric laminates.} 
-\end{figure}
+<div id="figure:StressStrainExp">
 
-Table \ref{Table:FPFPredictionForComText} shows the numerical predictions of FPF for the 4 different designs. It can be seen that the isotropic design has the highest predicted FPF load, the \textit{E-S} coupled design has the lowest failure strength and the DD design has a similar performance as the balanced and symmetric design. The compression test results for the 4 designs in Tables \ref{Table:ExpCal-Measured} and \ref{Table:ExpCal-Designed} show a similar relationship but with higher values. The isotropic design has the highest failure load, while the \textit{E-S} design is the first to fail and the DD and balanced and symmetric designs lie in the middle with very similar failure strengths. Figure \ref{figure:StressStrainExp} presents the stress and strain relationships of the samples for the 4 different designs. The results show that \textit{E-S} coupled laminates have the most consistent results, but only 2 samples were available for comparison. The \textit{E-S} coupled design does not show any favourable improvement compared to the other designs, while DD laminate with off-axis alignment gives a similar failure strength as the balanced and symmetric design with standard fibre orientation. Laminate design \textcolor{blue}{\textbf{\textit{d}}} was chosen as the weakest without off-axis alignment, other DD designs (which have stronger FPF strength without off-axis alignment) with their beta that gives their responding maximum \textit{E-S} can be manufactured and tested. 
+<table style="border:1px solid black; border-collapse:collapse;">
+  <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:StressStrain-Iso"></a>
+      <img src="StressStrain-Iso.png" width="280"><br>
+      <em>(a)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:StressStrain-DD"></a>
+      <img src="StressStrain-DD.png" width="280"><br>
+      <em>(b)</em>
+    </td>
+  </tr>
+    <tr>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:StressStrain-ES"></a>
+      <img src="StressStrain-ES.png" width="280"><br>
+      <em>(a)</em>
+    </td>
+    <td align="center" style="border:1px solid black; padding:6px;">
+      <a id="figure:StressStrain-BS"></a>
+      <img src="StressStrain-BS.png" width="280"><br>
+      <em>(b)</em>
+    </td>
+  </tr>
+</table>
+
+<em><strong>Figure 4.</strong> Stress-strain curves of specimens for (a): Isotropic; (b): DD design \textcolor{blue}{\textbf{\textit{d}}}; (c): \textit{Extension-Shear} and; (d): Balanced and Symmetric laminates.</em>
+</div>
+
+[Table 3](#Table:FPFPredictionForComText) shows the numerical predictions of FPF for the 4 different designs. It can be seen that the isotropic design has the highest predicted FPF load, the <em>E-S</em> coupled design has the lowest failure strength and the DD design has a similar performance as the balanced and symmetric design. The compression test results for the 4 designs in [Tables 1](#Table:ExpCal-Measured) and [2](#Table:ExpCal-Designed) show a similar relationship but with higher values. The isotropic design has the highest failure load, while the <em>E-S</em> design is the first to fail and the DD and balanced and symmetric designs lie in the middle with very similar failure strengths. [Figure 4](#figure:StressStrainExp) presents the stress and strain relationships of the samples for the 4 different designs. The results show that <em>E-S</em> coupled laminates have the most consistent results, but only 2 samples were available for comparison. The <em>E-S</em> coupled design does not show any favourable improvement compared to the other designs, while DD laminate with off-axis alignment gives a similar failure strength as the balanced and symmetric design with standard fibre orientation. Laminate design \textcolor{blue}{\textbf{\textit{d}}} was chosen as the weakest without off-axis alignment, other DD designs (which have stronger FPF strength without off-axis alignment) with their beta that gives their responding maximum <em>E-S</em> can be manufactured and tested. 
 
 This is a preliminary experiment, only 3 specimens were manufactured and tested for each design, which cannot conclude the findings reliably, therefore more specimens should be manufactured and tested with 155 mm length that provides more accurate results. The failure load of the predictions is on average 3,000 N lower than the test results, the difference between the prediction and test results is due to the difference in material used for the predictions and actual test. For future experiment, the engineering properties should be characterised for better predictions and direct comparisons with the test. The difference in failure load can also be associated with the prediction tool, predictions were made with the Tsai-Wu failure criterion, but failure is predicted slightly differently according to the failure criteria, as discussed in Chapter \ref{Chapter:Introduction}. Therefore, predictions should be done with other failure criteria and compared to the experimental results to find out the criterion that has the closest fit to the test results. 
 

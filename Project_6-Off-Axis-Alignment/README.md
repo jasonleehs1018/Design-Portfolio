@@ -252,7 +252,7 @@ Figure \ref{figure:PolarPlotVs0-Normal} shows a series of polar plots showing th
   </tr>
 </table>
 
-<em><strong>Figure 4.</strong> Strength comparisons for off-axis orientation $\beta$ between a full envelope of 24 ply: (a) Isotropic laminate; (b) DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>; (c) Balanced and symmetric; (d) \textit{E-S} coupled (only) design and; (e) Superimposed laminate <span style="color:blue;"><strong><em>d</em></strong></span> and \textit{E-S} coupled design, normalised to equal compressive force resultant ($N_x$) of 5027N.</em>
+<em><strong>Figure 4.</strong> Strength comparisons for off-axis orientation $\beta$ between a full envelope of 24 ply: (a) Isotropic laminate; (b) DD laminate design <span style="color:blue;"><strong><em>d</em></strong></span>; (c) Balanced and symmetric; (d) <em>E-S</em> coupled (only) design and; (e) Superimposed laminate <span style="color:blue;"><strong><em>d</em></strong></span> and <em>E-S</em> coupled design, normalised to equal compressive force resultant ($N_x$) of 5027N.</em>
 
 </div>
 

@@ -69,7 +69,7 @@ This project studies the lamination parameter design space of standard quad fini
 
     For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4<sup>th</sup> order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in [Fig. 1(c)](#New3DSpace_NoPts), when $\xi_{11}$ = 0:
 
-    <div align="center" id="eq-bucklingfactor">
+    <div id="eq-bucklingfactor">
 
     $$
     \begin{aligned}
@@ -81,7 +81,7 @@ This project studies the lamination parameter design space of standard quad fini
     + c_{5}\xi_{10}^2 
     + c_{6}\xi_{9}\xi_{10} 
     + c_{7}\xi_{9}^{3} 
-    + c_{8}\xi_{10}^{3} 
+    + c_{8}\xi_{10}^{3} \\  
     &\quad
     + c_{9}\xi_{9}\xi_{10}^{2} 
     + c_{10}\xi_{9}^{2}\xi_{10} 

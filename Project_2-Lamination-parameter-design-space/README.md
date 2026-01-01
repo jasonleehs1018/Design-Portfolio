@@ -69,27 +69,27 @@ This project studies the lamination parameter design space of standard quad fini
 
     For orthotropic laminates, the following buckling equation, represented by a 2-dimensional, 4<sup>th</sup> order polynomial, can be solved estimated using buckling loads obtained from the exact closed form buckling solution at 15 equally spaced points across the lamination parameter design space, as illustrated by the example cross section in [Fig. 1(c)](#New3DSpace_NoPts), when $\xi_{11}$ = 0:
 
-    <div id="eq-bucklingfactor">
+    <div align="center" id="eq-bucklingfactor">
 
     $$
     \begin{aligned}
 	  k_x &= 
     c_{1} 
-    + c_{2}\xi_{9} 
-    + c_{3}\xi_{10} 
-    + c_{4}\xi_{9}^2 
-    + c_{5}\xi_{10}^2 
-    + c_{6}\xi_{9}\xi_{10} 
-    + c_{7}\xi_{9}^{3} 
-    + c_{8}\xi_{10}^{3} \\  
+    + c_{2} \xi_{9} 
+    + c_{3} \xi_{10} 
+    + c_{4} \xi_{9}^2 
+    + c_{5} \xi_{10}^2 
+    + c_{6} \xi_{9}\xi_{10} 
+    + c_{7} \xi_{9}^{3} 
+    + c_{8} \xi_{10}^{3} \\  
     &\quad
-    + c_{9}\xi_{9}\xi_{10}^{2} 
-    + c_{10}\xi_{9}^{2}\xi_{10} 
-    + c_{11}\xi_{9}^{4} 
+    + c_{9} \xi_{9} \xi_{10}^{2} 
+    + c_{10} \xi_{9}^{2} \xi_{10} 
+    + c_{11} \xi_{9}^{4} 
     + c_{12} \xi_{10}^{4} 
-    + c_{13}\xi_{9}\xi_{10}^{3} 
-    + c_{14}\xi_{9}^{2}\xi_{10}^{2} 
-    + c_{15}\xi_{9}^{3}\xi_{10} 
+    + c_{13} \xi_{9} \xi_{10}^{3} 
+    + c_{14} \xi_{9}^{2} \xi_{10}^{2} 
+    + c_{15} \xi_{9}^{3} \xi_{10} 
     \end{aligned}
     \tag{Eqn. 3}   
     $$

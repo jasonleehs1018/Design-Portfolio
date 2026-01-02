@@ -74,22 +74,10 @@ This project studies the lamination parameter design space of standard quad fini
     $$
     \begin{aligned}
 	  k_x &= 
-    c_{1} 
-    + c_{2} \xi_{9} 
-    + c_{3} \xi_{10} 
-    + c_{4} \xi_{9}^2 
-    + c_{5} \xi_{10}^2 
-    + c_{6} \xi_{9}\xi_{10} 
-    + c_{7} \xi_{9}^{3} 
-    + c_{8} \xi_{10}^{3} \\
+    c_{1} + c_{2} \xi_{9} + c_{3} \xi_{10} + c_{4} \xi_{9}^2 + c_{5} \xi_{10}^2 + c_{6} \xi_{9}\xi_{10} + c_{7} \xi_{9}^{3} + c_{8} \xi_{10}^{3} \\
     &\quad
-    + c_{9} \xi_{9} \xi_{10}^2
-    + c_{10} \xi_{9}^2 \xi_{10} 
-    + c_{11} \xi_{9}^4 
-    + c_{12} \xi_{10}^4
-    + c_{13} \xi_{9} \xi_{10}^3
-    + c_{14} \xi_{9}^2 \xi_{10}^2
-    + c_{15} \xi_{9}^3 \xi_{10} 
+    + c_{9} \xi_{9} \xi_{10}^2 + c_{10} \xi_{9}^2 \xi_{10} + c_{11} \xi_{9}^4 + c_{12} \xi_{10}^4
+    + c_{13} \xi_{9} \xi_{10}^3 + c_{14} \xi_{9}^2 \xi_{10}^2 + c_{15} \xi_{9}^3 \xi_{10} 
     \end{aligned}
     \tag{Eqn. 3}   
     $$
@@ -100,8 +88,7 @@ This project studies the lamination parameter design space of standard quad fini
 
     $$
     \begin{aligned}
-    k_x &=
-    c_1
+    k_x &= c_1 
     + c_2 \xi_9
     + c_3 \xi_{10}
     + c_4 \xi_9^2

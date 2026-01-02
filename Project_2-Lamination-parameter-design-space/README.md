@@ -202,6 +202,7 @@ This project studies the lamination parameter design space of standard quad fini
     
     k_1=c_{1} +c_{2}\xi_{9} +c_{3}\xi_{9}^2 +c_{4}\xi_{9}^3 +c_{5}\xi_{9}^4 
     \tag{Eqn. 4}
+    
     $$
 
     </div>

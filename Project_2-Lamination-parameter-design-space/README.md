@@ -83,13 +83,13 @@ This project studies the lamination parameter design space of standard quad fini
     + c_{7} \xi_{9}^{3} 
     + c_{8} \xi_{10}^{3} \\
     &\quad
-    + c_{9} \xi_{9} \xi_{10}^{2} 
-    + c_{10} \xi_{9}^{2} \xi_{10} 
-    + c_{11} \xi_{9}^{4} 
-    + c_{12} \xi_{10}^{4} 
-    + c_{13} \xi_{9} \xi_{10}^{3} 
-    + c_{14} \xi_{9}^{2} \xi_{10}^{2} 
-    + c_{15} \xi_{9}^{3} \xi_{10} 
+    + c_{9} \xi_{9} \xi_{10}^2
+    + c_{10} \xi_{9}^2 \xi_{10} 
+    + c_{11} \xi_{9}^4 
+    + c_{12} \xi_{10}^4
+    + c_{13} \xi_{9} \xi_{10}^3
+    + c_{14} \xi_{9}^2 \xi_{10}^2
+    + c_{15} \xi_{9}^3 \xi_{10} 
     \end{aligned}
     \tag{Eqn. 3}   
     $$
